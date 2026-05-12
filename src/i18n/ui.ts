@@ -330,6 +330,8 @@ export const ui = {
       "Reconstructive biedt een unieke weg naar leven vanuit je kern, je authenticiteit en je intuïtie. Het nodigt je uit om de constructies die je, vaak onbewust, hebt opgebouwd vanuit vroege indrukken in vraag te stellen, zodat de vrijheid die daarachter schuilgaat zichtbaar kan worden. Deze reis brengt je van overleven naar werkelijk leven—een proces van volwassenwording en heling. Je ontdekt hoe je verborgen krachten kunt aanboren en leert de kracht van je volwassen zelf belichamen.",
     "Prices.e4.text2":
       "Als individu kan je je hiervoor inschrijven. Meer uitleg volgt later.",
+    "Prices.e4.text3":
+      "Deze workshop wordt samen met Elke Busshots van Comiz georganiseerd:",
     "Prices.e5.title":
       "Adolescenten (korting voor adulescenten die zelf instaan voor de kosten)",
     "Prices.e5.li1": "Een sessie van 60 min 50 euro (incl BTW)",
