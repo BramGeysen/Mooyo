@@ -45,6 +45,10 @@ li,
   text-align: justify;
 }
 
+.text-align-start {
+  text-align: start;
+}
+
 .back-gray {
   background-color: var(--mooyo-gray);
 }
@@ -115,6 +119,13 @@ h4 {
   display: grid;
   grid-template-columns: 400px 400px;
   column-gap: 5rem;
+}
+
+.text-margin {
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .center {

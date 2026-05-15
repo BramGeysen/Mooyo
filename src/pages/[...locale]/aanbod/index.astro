@@ -12,9 +12,11 @@ export { getStaticPaths };
 
 <Layout title={t('aanbod.title')}>
 	<section class="forWho text-align-center back-red text-white">
-		<h1 set:html={t('aanbod.forwho.title')} />
-		<p set:html={t('aanbod.forwho.text')} />
-		<p class="bold">{t('aanbod.forwho.text2')}<p/>
+		<div class="text-margin">
+			<h1 set:html={t('aanbod.forwho.title')} />
+			<p set:html={t('aanbod.forwho.text')} />
+			<p class="bold">{t('aanbod.forwho.text2')}<p/>
+		</div>
 	</section>
 	<Prices color='white'/>
 	<section class="quotes back-red text-align-center center">
@@ -31,7 +33,7 @@ export { getStaticPaths };
         </div>
     </section>
 	<section class="methodieken back-gray text-black center">
-		<div class="container">
+		<div class="text-margin">
 			<h3 class=" text-align-center text-red">{t('methodieken.title')}</h3>
 			<p class="text-align-justify border-bottom" set:html={t('methodieken.text')}/>
 			<div class="col2">
@@ -82,14 +84,6 @@ export { getStaticPaths };
 		padding: 2rem;
 	}
 
-	.forWho p {
-		margin: 1rem 5rem;
-	}
-
-	.methodieken .container{
-		width: 60%;
-	}
-
 	.methodieken .border-bottom {
 		border-bottom: 1px solid var(--mooyo-red);
 		padding: 2rem;
@@ -99,6 +93,14 @@ export { getStaticPaths };
 		grid-template-columns: 1fr 1fr;
 	}
 
+
+	/* Responsive */
+
+	@media (max-width: 1200px){
+		.quotes{
+			display: none;
+		}
+	}
 
 	@media (max-width: 900px){
 		.methodieken .col2 {

@@ -61,8 +61,10 @@ const t = useTranslations(lang);
 		</div>
 	</section>
 	<section class="s4 back-red text-align-center text-white">
-		<p class="p2" set:html={t("index.s4.text1")} />
-		<p class="p2" set:html={t("index.s4.text2")} />
+		<div class="text-margin">
+			<p class="p2" set:html={t("index.s4.text1")} />
+			<p class="p2" set:html={t("index.s4.text2")} />
+		</div>
 	</section>
 	<section class="profile back-white">
 		<div class="img-container">
@@ -76,7 +78,7 @@ const t = useTranslations(lang);
 			<p class="text-red"><a href="mailto:bramgeysen@gmail.com" class="text-red">[bramgeysen@gmail.com]</a></p>
 		</div>
 	</section>
-	<Prices color='red' reconstructive={false} />
+	<Prices color='red'/>
 	<ContactSection color='gray'/>
 	<section class="s6 back-red text-white text-align-center bold">
 		<p>{t('index.s6.text1')}</p>
