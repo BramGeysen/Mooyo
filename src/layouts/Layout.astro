@@ -8,7 +8,8 @@ import { getLangFromUrl, useTranslatedPath, useTranslations } from '../i18n/util
 import Footer from '@components/Footer.astro';
 import BaseHead from '@components/head/BaseHead.astro';
 import ScrollToTop from '../components/ScrollToTop.astro';
-import GoogleTag from '@components/head/GoogleTag.astro';
+import GoogleTMHead from '@components/head/GoogleTMHead.astro';
+import GoogleTMBody from '@components/head/GoogleTMBody.astro';
 
 interface Props {
 	title: string;
@@ -27,7 +28,7 @@ const { title, description = "Standaard omschrijving voor Mooyo" } = Astro.props
 <!doctype html>
 <html lang={lang}>
 	<head>
-		 <GoogleTag/>
+		 <GoogleTMHead/>
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description}>
 		<BaseHead/>
@@ -36,9 +37,7 @@ const { title, description = "Standaard omschrijving voor Mooyo" } = Astro.props
 		<link rel="canonical" href={canonicalURL} />
 	</head>
 	<body>
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF2MPCM6"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
+		<GoogleTMBody/>
 		<header>
 			<LanguagePicker place='header'/>
 			<a href={translatePath('/')}>
