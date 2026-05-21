@@ -1,6 +1,6 @@
 # Mooyo
 
-Moyoo is a static web app buildt on astro. U can access the moodboard by `/moodboard`
+Moyoo is a static web app buildt on astro.
 
 ## 🧞 Commands
 
