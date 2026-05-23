@@ -41,7 +41,7 @@ export const ui = {
     "index.distance.station":
       "(op 3min wandelafstand van treinstation Leuven).",
     // Index section 1
-    "index.intro.text1": " Hart, Leven, Energie",
+    "index.intro.text1": " Hart, Leven, Ziel, Energie",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
     "index.intro.text3":
