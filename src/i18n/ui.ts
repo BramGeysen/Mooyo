@@ -32,8 +32,8 @@ export const ui = {
 
     // Layout
     "layout.header.subtitle": "hartgedragen begeleiding",
-    "layout.contact": "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.
-",
+    "layout.contact":
+      "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.",
 
     // Index
 
@@ -104,8 +104,7 @@ export const ui = {
 
     // Aanbod section 5
     "openHartCirkels.title": "Open hartcirkels",
-    "openHartCirkels.text":
-      "Voor meer informatie zie (verwachting eind juni):",
+    "openHartCirkels.text": "Voor meer informatie zie (verwachting eind juni):",
 
     // Aanbod section 6
     "aanbod.s6.text":
@@ -222,7 +221,8 @@ export const ui = {
     "pillars.adem.title2": "De kracht van het moment",
     "pillars.adem.list1":
       "Het leven aanvaarden zoals het nu is, niet zoals je het zou willen dat het is.",
-    "pillars.adem.list2": "De tijdelijkheid van het moment inzien, zonder weerstand, zonder vasthouden. ",
+    "pillars.adem.list2":
+      "De tijdelijkheid van het moment inzien, zonder weerstand, zonder vasthouden. ",
     "pillars.adem.list3":
       " Ademhaling is de poort tussen het bewuste en onbewuste: we kunnen de ademhaling bewust sturen en tegelijk werkt de ademhaling autonoom.",
     "pillars.adem.list4":
