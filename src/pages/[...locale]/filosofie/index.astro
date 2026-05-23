@@ -14,13 +14,13 @@ const t = useTranslations(lang);
 ---
 
 <Layout title={t("filosofie.title")}>
-    <section class="intro-pillars back-red text-align-center text-white">
+    <section class="intro-pillars back-red text-align-center text-white regular-font">
         <div class="text-margin">
             <p class="p2" set:html={t("intro-pillars.text1")}/>
-            <p class="bold" set:html={t("intro-pillars.text2")}/>
+            <p set:html={t("intro-pillars.text2")}/>
         </div>
     </section>
-    <section class="pillars back-gray text-align-center center text-gray">
+    <section class="pillars back-gray text-align-center center text-black">
         <div class="col2">
             <div>
                 <h3 class="text-red">{t('pillars.bewustzijn.title1')}</h3>
@@ -110,7 +110,7 @@ const t = useTranslations(lang);
     <section class="open-hart back-red text-white center regular-font">
         <div class="grid col3">
             <div>
-                <p class="title papyrus-font">{t('filosofie.open-hart.s1.col1.title')}</p>
+                <p class="title">{t('filosofie.open-hart.s1.col1.title')}</p>
                 <p>{t('filosofie.open-hart.s1.col1.text1')}</p>
                 <ul>
                     <li>{t('filosofie.open-hart.s1.col1.list1')}</li>
@@ -122,7 +122,7 @@ const t = useTranslations(lang);
             </div>
     
             <div>
-                <p class="title papyrus-font">{t('filosofie.open-hart.s1.col2.title')}</p>
+                <p class="title">{t('filosofie.open-hart.s1.col2.title')}</p>
                 <p>{t('filosofie.open-hart.s1.col2.text1')}</p>
                 <p>{t('filosofie.open-hart.s1.col2.text2')}</p>
                 <ul>
@@ -134,7 +134,7 @@ const t = useTranslations(lang);
             </div>
     
             <div>
-                <p class="title papyrus-font">{t('filosofie.open-hart.s1.col3.title')}</p>
+                <p class="title">{t('filosofie.open-hart.s1.col3.title')}</p>
                 <p>{t('filosofie.open-hart.s1.col3.text1')}</p>
                 <p>{t('filosofie.open-hart.s1.col3.text2')}</p>
                 <ul>
@@ -147,10 +147,10 @@ const t = useTranslations(lang);
         </div>
     </section>
 
-    <section class="open-hart back-gray text-gray center regular-font">
+    <section class="open-hart back-gray text-black center regular-font">
         <div class="grid col3">
             <div>
-                <p class="title papyrus-font">{t('filosofie.open-hart.s2.col1.title')}</p>
+                <p class="title">{t('filosofie.open-hart.s2.col1.title')}</p>
                 <p>{t('filosofie.open-hart.s2.col1.text1')}</p>
                 <ul>
                     <li>{t('filosofie.open-hart.s2.col1.list1')}</li>
@@ -160,7 +160,7 @@ const t = useTranslations(lang);
                 <p>{t('filosofie.open-hart.s2.col1.text2')}</p>
             </div>
             <div>
-                <p class="title papyrus-font">{t('filosofie.open-hart.s2.col2.title')}</p>
+                <p class="title">{t('filosofie.open-hart.s2.col2.title')}</p>
                 <p>{t('filosofie.open-hart.s2.col2.text1')}</p>
                 <p>{t('filosofie.open-hart.s2.col2.text2')}</p>
                 <ul>
@@ -171,7 +171,7 @@ const t = useTranslations(lang);
                 <p>{t('filosofie.open-hart.s2.col2.text3')}</p>
             </div>
             <div>
-                <p class="title papyrus-font">{t('filosofie.open-hart.s2.col3.title')}</p>
+                <p class="title">{t('filosofie.open-hart.s2.col3.title')}</p>
                 <p>{t('filosofie.open-hart.s2.col3.text1')}</p>
                 <p>{t('filosofie.open-hart.s2.col3.text2')}</p>
                 <p>{t('filosofie.open-hart.s2.col3.text3')}</p>
