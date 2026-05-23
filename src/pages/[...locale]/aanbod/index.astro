@@ -11,11 +11,11 @@ export { getStaticPaths };
 ---
 
 <Layout title={t('aanbod.title')}>
-	<section class="forWho text-align-center back-red text-white">
+	<section class="forWho text-align-center back-red text-white regular-font">
 		<div class="text-margin">
-			<h1 set:html={t('aanbod.forwho.title')} />
-			<p class="regular-font" set:html={t('aanbod.forwho.text')} />
-			<p class="bold regular-font">{t('aanbod.forwho.text2')}<p/>
+			<h1 class="papyrus-font" set:html={t('aanbod.forwho.title')} />
+			<p set:html={t('aanbod.forwho.text')} />
+			<p class="papyrus-font">{t('aanbod.forwho.text2')}<p/>
 		</div>
 	</section>
 	<Prices color='white'/>
