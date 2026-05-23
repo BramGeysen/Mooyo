@@ -357,7 +357,7 @@ export const ui = {
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
       "Voor wie al wat innerlijk werk gedaan heeft en voelt dat er via het lichaam iets verder mag bewegen.",
-    "Prices.reconstructive.format": "2 dag",
+    "Prices.reconstructive.format": "1dag",
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
