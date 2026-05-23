@@ -18,10 +18,17 @@ body {
   scroll-behavior: smooth;
 }
 
+.papyrus-font {
+  font-family: "papyrus", "sans-serif";
+}
+
+.regular-font {
+  font-family: "Open Sans", "sans-serif";
+}
+
 a {
   text-decoration: none;
   color: inherit;
-  font-size: 1.2rem;
 }
 
 h1,

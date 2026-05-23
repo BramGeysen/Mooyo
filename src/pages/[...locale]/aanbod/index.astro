@@ -11,11 +11,11 @@ export { getStaticPaths };
 ---
 
 <Layout title={t('aanbod.title')}>
-	<section class="forWho text-align-center back-red text-white">
+	<section class="forWho text-align-center back-red text-white regular-font">
 		<div class="text-margin">
-			<h1 set:html={t('aanbod.forwho.title')} />
+			<h1 class="papyrus-font" set:html={t('aanbod.forwho.title')} />
 			<p set:html={t('aanbod.forwho.text')} />
-			<p class="bold">{t('aanbod.forwho.text2')}<p/>
+			<p class="papyrus-font">{t('aanbod.forwho.text2')}<p/>
 		</div>
 	</section>
 	<Prices color='white'/>
@@ -32,9 +32,9 @@ export { getStaticPaths };
             <p class="text-white" set:html={t('quotes.text9')} />
         </div>
     </section>
-	<section class="methodieken back-gray text-black center">
+	<section class="methodieken back-gray text-black center regular-font">
 		<div class="text-margin">
-			<h3 class=" text-align-center text-red">{t('methodieken.title')}</h3>
+			<h3 class=" text-align-center text-red papyrus-font">{t('methodieken.title')}</h3>
 			<p class="text-align-justify border-bottom" set:html={t('methodieken.text')}/>
 			<div class="col2">
 				<div>
