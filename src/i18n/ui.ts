@@ -32,7 +32,8 @@ export const ui = {
 
     // Layout
     "layout.header.subtitle": "hartgedragen begeleiding",
-    "layout.contact": "Maak een afspraak of stuur een bericht naar: ",
+    "layout.contact": "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.
+",
 
     // Index
 
@@ -40,7 +41,7 @@ export const ui = {
     "index.distance.station":
       "(op 3min wandelafstand van treinstation Leuven).",
     // Index section 1
-    "index.intro.text1": " Hart, Leven, Energie",
+    "index.intro.text1": " Hart, Leven, Ziel, Energie",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
     "index.intro.text3":
@@ -58,25 +59,25 @@ export const ui = {
     "index.s3.col1.text1":
       "Het maakt niet uit, hoe groot of hoe klein je desoriëntatie is. Je bent welkom.",
     "index.s3.col1.text2":
-      "Gevoelens gaande van ‘ik zit vast’, ’ik weet niet wat te doen’, ‘ik kan niets’ tot gevoelens die samengaan met vragen zoals: ‘Is het dit?’, ‘Wil ik dit echt?’, ‘Waarom ben ik dit aan het doen?’, ‘Word ik hier blij van?’",
+      "Gevoelens gaande van ‘Is het dit?’, ‘Wil ik dit echt?’, ‘Waarom ben ik dit aan het doen?’, ‘Word ik hier blij van?’ tot gevoelens die samengaan met vragen zoals: ‘Ik zit vast’, ’Ik weet niet wat te doen’, ‘Ik kan niets.’",
     "index.s3.col1.text3":
       "Deze vragen zijn richtingaanwijzers en kunnen, met de juiste aandacht en zachtheid, leiden tot nieuwe inzichten en tot een vrijer en voller leven.",
     "index.s3.col2.title": "Tederheid",
     "index.s3.col2.text1":
-      "Tederheid is ook de zachtste, eerlijkste manier waarop waarheid spreekt.",
+      "Tederheid is de zachtste, eerlijkste manier waarop waarheid spreekt.",
     "index.s3.col2.text2":
       "Met tederheid ontstaat veiligheid en kan je de intimiteit met jezelf en met het leven herstellen.",
     "index.s3.col2.text3":
       "Leer eerst jezelf kennen op diep niveau, in je eigen hart, zodat je van daaruit verbinding kunt maken met de wereld.",
     "index.s3.col3.title": "Verlangen naar iets ouds en geworteld",
     "index.s3.col3.text1":
-      "Er zit kracht in het terugkeren naar je kern, gemeenschap, tradities en aarde. ",
+      "Er zit kracht in het terugkeren naar je kern, gemeenschap, tradities en aarde.",
     "index.s3.col3.text2":
-      "Herontdek jouw plaats en missie in de wereld. Hier zijn alle delen welkom, hier voel je de kracht van oude wortels omhoog komen om je voeten te ontmoeten, en fluistert de aarde:  jij hoort erbij. Hier wordt niets van je gevraagd behalve je aanwezigheid. ",
+      "Herontdek jouw plaats en missie in de wereld. Hier zijn alle delen welkom, hier voel je de kracht van oude wortels omhoog komen om je voeten te ontmoeten, en fluistert de aarde:  jij hoort erbij. Hier wordt niets van je gevraagd behalve je aanwezigheid.",
 
     // Index section 4
     "index.s4.text1":
-      "Mooyo nodigt uit om bij de oorsprong te beginnen: bij het stille midden waar jouw waarheid, jouw pijn én jouw potentieel samenkomen. Wanneer we naar die kern gaan, opent er iets. Niet door te duwen of te analyseren, maar door te voelen, te zakken, te erkennen. Zolang de kern niet wordt aangeraakt, blijft het voelen alsof je onderweg bent zonder richting. Het proces begint pas echt als je de kern aanraakt — niet als een nieuwe zoektocht buiten jezelf, maar als een thuiskomen in jezelf.",
+      "Mooyo nodigt uit om bij de oorsprong te beginnen: bij het stille midden waar jouw waarheid, jouw pijn én jouw potentieel samenkomen. Wanneer we naar die kern gaan, opent er iets. Niet door te duwen of te analyseren, maar door te voelen, te zakken, te erkennen. Zolang de kern niet wordt aangeraakt, blijft het voelen alsof je onderweg bent zonder richting. Het proces begint pas echt als je de kern aanraakt, niet als een nieuwe zoektocht buiten jezelf, maar als een thuiskomen in jezelf.",
     "index.s4.text2":
       "Ben je bereid om in beweging te komen en naar je hart te luisteren?",
     // Index section 6
@@ -92,19 +93,19 @@ export const ui = {
     // Aanbod section 1
     "aanbod.forwho.title": "Voor wie?",
     "aanbod.forwho.text":
-      "Ik begeleid mensen die voelen dat het tijd is om opnieuw in beweging te komen — naar leven, verbinding en het volledig belichamen van hun potentieel. Bij Mooyo vind je een plek waar je gezien en gedragen wordt, of je nu zoekt naar heling, helderheid, groei of richting. Voor wie vastzit in (hardnekkige) patronen bied ik een veilige ruimte om te onderzoeken wat eronder ligt en om stap voor stap terug te keren naar innerlijke vrijheid en zelfsturing. Als hoogbewuste of hoogbegaafde vind je hier herkenning, diepgang en begeleiding die aansluit bij jouw gevoeligheid en intensiteit.",
+      "Ik begeleid mensen die voelen dat het tijd is om opnieuw in beweging te komen, die terug willen verbinden met zichzelf en hun potentieel volledig willen belichamen. Mensen die vanuit hun open hart willen leven en vandaaruit veerkracht en levensvreugde terug willen ervaren. Bij Mooyo vind je een plek waar je gezien en gedragen wordt, of je nu zoekt naar helderheid, richting, groei of heling. Voor wie vastzit in (hardnekkige) patronen bied ik een veilige ruimte om te onderzoeken wat eronder ligt en om stap voor stap terug te keren naar innerlijke vrijheid en zelfsturing. Als hoogbewuste of hoogbegaafde vind je hier herkenning, diepgang en begeleiding die aansluit bij jouw gevoeligheid en intensiteit.",
     "aanbod.forwho.text2":
       "Mooyo is er voor iedereen die voelt dat het tijd is om terug te keren naar zichzelf — en van daaruit het leven te omarmen.",
     // Aanbod section 2
     "methodieken.title":
-      "Mijn begeleiding is gebaseerd op onderstaande filosofie, methodieken:",
+      "Mijn begeleiding is gebaseerd op onderstaande (levens)filosofie, methodieken:",
     "methodieken.text":
-      "Alle benaderingen en methodieken laten je lichamelijk ervaren hoe verandering kan aanvoelen. Ook houden deze methodieken rekening met het feit dat mensen relationele wezens zijn. We kijken bijgevolg ook naar het systemen waar je deel van uitmaakt. Gedrag en problemen ontstaan in wisselwerking met anderen en is nooit alleen van het individueel. Ook de verschillende relaties die we met onszelf hebben, krijgen een plek in de begeleiding.",
+      "Alle benaderingen en methodieken laten je lichamelijk ervaren hoe verandering kan aanvoelen. Ook houden deze methodieken rekening met het feit dat mensen relationele wezens zijn. We kijken bijgevolg ook naar het systemen waar je deel van uitmaakt. Gedrag en problemen ontstaan in wisselwerking met anderen en is nooit alleen van het individueel. Ook de verschillende relaties die we met onszelf hebben krijgen een plek in de begeleiding.",
 
     // Aanbod section 5
     "openHartCirkels.title": "Open hartcirkels",
     "openHartCirkels.text":
-      "Voor meer informatie zie (verwachting begin juni):",
+      "Voor meer informatie zie (verwachting eind juni):",
 
     // Aanbod section 6
     "aanbod.s6.text":
@@ -194,7 +195,7 @@ export const ui = {
 
     // Filosofie section 4
     "intro-pillars.text1":
-      "Mooyo werkt met vier basispijlers die in balans moeten zijn, in voortdurende dialoog met elkaar. Wanneer één pijler uit evenwicht raakt, beïnvloedt dat het geheel — en precies daarom is het zo belangrijk om op alle niveaus beweging te brengen.",
+      "Mooyo werkt met vier basispijlers die in voortdurende dialoog zijn met elkaar. Wanneer één pijler uit evenwicht raakt, beïnvloedt dat het geheel — en precies daarom is het zo belangrijk om op alle niveaus beweging te brengen zodat ze in balans zijn.",
     "intro-pillars.text2":
       "Mooyo brengt mensen dichter bij hun essentie zodat ze hartgedragen keuzes in hun leven kunnen maken.",
 
@@ -210,22 +211,22 @@ export const ui = {
     "pillars.bewustzijn.list2":
       "Begrijpen wat perceptie en conditionering van 0 tot 6 jaar betekent en hoe het je leven beïnvloedt.",
     "pillars.bewustzijn.list3":
-      "Conditioneringen ontstaan vaak vóór de taalontwikkeling, zijn daardoor emotioneel van aard en niet via het verstand te bereiken.",
-    "pillars.bewustzijn.list4":
       "Elke conditionering heeft zowel een energetisch aspect als een bewustzijnsdeel.",
+    "pillars.bewustzijn.list4":
+      "Omdat conditioneringen vaak ontstaan vóór de taalontwikkeling, zijn ze emotioneel van aard en niet via het verstand te bereiken.",
     "pillars.adem.title1": "Adem - Het nu",
     "pillars.adem.img.text1":
       "De twee golflijnen staan voor verbinding: de in- en uitademing. De streep stelt het middenrif voor en staat voor ondersteuning",
     "pillars.adem.img.text2":
-      "Betekenis: Adem als brug tussen lichaam en geest, beïnvloedt emoties, zenuwstelsel en mentale helderheid.",
+      "Betekenis: Adem als brug tussen lichaam en geest, beïnvloedt emoties, zenuwstelsels en mentale helderheid.",
     "pillars.adem.title2": "De kracht van het moment",
     "pillars.adem.list1":
       "Het leven aanvaarden zoals het nu is, niet zoals je het zou willen dat het is.",
-    "pillars.adem.list2": "De tijdelijkheid ervan inzien, zonder weerstand. ",
+    "pillars.adem.list2": "De tijdelijkheid van het moment inzien, zonder weerstand, zonder vasthouden. ",
     "pillars.adem.list3":
       " Ademhaling is de poort tussen het bewuste en onbewuste: we kunnen de ademhaling bewust sturen en tegelijk werkt de ademhaling autonoom.",
     "pillars.adem.list4":
-      "Ademhaling speelt een belangrijke rol in ons dagelijks leven en kan ingezet worden als regulatie tijdens pijnlijke ervaringen die gevoeld mogen worden.",
+      "Ademhaling speelt een belangrijke rol in ons dagelijks leven en kan ingezet worden als regulatie bij stress, bij ongemak.",
     "pillars.hart.title1": "Het Hart - De Toekomst",
     "pillars.hart.img.text1":
       "De spiraal continu gevoed door warmte en menselijkheid.",
@@ -233,23 +234,23 @@ export const ui = {
       "Betekenis: De kracht van oprechte (zelf)compassie en het centrum van moed om ongemak toe te laten.",
     "pillars.hart.title2": "De kracht van moed",
     "pillars.hart.list1":
-      "Hartcoherentie is een manier om aan zelfregulering te doen en een uitnodiging om veerkracht op te bouwen. Eveneens is het een toegangspoort tot je hoger zelf. ",
+      "Hartcoherentie is een manier om aan zelfregulering te doen en een uitnodiging om veerkracht op te bouwen. Eveneens is het een toegangspoort tot ons hoger zelf. ",
     "pillars.hart.list2":
-      "De moed om je plek (terug) in te nemen met alles wat daarbij hoort.",
+      "De moed om onze plek (terug) in te nemen met alles wat daarbij hoort.",
     "pillars.hart.list3":
       "Herkennen van gewoonten, overtuigingssystemen met compassie en de moed ontwikkelen om dit te doorbreken.",
     "pillars.e4.title1": "Lichaam - Het Verleden",
     "pillars.e4.img.text1":
-      "De segmenten zijn verschillend en niet perfect uitgelijnd - een verwijzing naar herinneringen, littekens, geschiedenis.",
+      "De segmenten zijn verschillend - een verwijzing naar herinneringen, littekens, geschiedenis.",
     "pillars.e4.img.text2":
       "Betekenis: Het lichaam als drager van alles wat is geweest",
     "pillars.e4.title2": "De kracht van opgroeien",
     "pillars.e4.list1":
-      "De ontmoeting tussen het kind in jou en de volwassene in jou.",
+      "De ontmoeting tussen het kinddeel en het volwassendeel.",
     "pillars.e4.list2":
       "In veel mensen raakt het kinddeel bedekt door verwachtingen, rollen, verantwoordelijkheden, trauma’s. Het kind verdwijnt niet — het wordt stil.",
     "pillars.e4.list3":
-      "Zonder het kind wordt de volwassene droog, functioneel, afgesneden. Zonder de volwassene wordt het kind onveilig, ongegrond, onbeschermd.",
+      "Zonder het kind wordt de volwassene functioneel, afgesneden. Zonder de volwassene wordt het kind onveilig, ongegrond, onbeschermd.",
     "pillars.e4.list4":
       "Wanneer het kind en de volwassene elkaar vinden, ontstaat: <br> veiligheid zonder verstarring, speelsheid zonder chaos, kracht zonder hardheid, zachtheid zonder breekbaarheid",
 
@@ -317,17 +318,17 @@ export const ui = {
 
     "Prices.title": "Aanbod ∞ Tarieven",
     "Prices.text":
-      "Begeleidingen kunnen ook online plaatsvinden. Verandering gebeurt immers in het lichaam en in het bewustzijn — en dat kan ook wanneer er fysieke afstand tussen ons is. Online begeleiding werkt even diep, even transformerend. Het gaat om de interne beweging die ontstaat bij jou, niet om de fysieke ruimte waarin je zit. Wat telt, is dat jij je comfortabel voelt. Wanneer dat aanwezig is, kan het proces zich net zo krachtig ontvouwen.",
+      "Begeleidingen kunnen ook online plaatsvinden.  Dit werkt even diep, even transformerend. Het gaat om de interne beweging die ontstaat bij jou. Verandering gebeurt immers in het lichaam en in het bewustzijn en dat kan ook wanneer er fysieke afstand is. Wat telt, is dat jij je er comfortabel bij voelt. Wanneer dat aanwezig is, kan het proces zich net zo krachtig ontvouwen.",
     "Prices.e1.title1": "Individuele begeleidingen",
-    "Prices.e1.li1": "Een sessie van 60 min is 65 euro (incl BTW)",
-    "Prices.e1.li2": "Een sessie van 90 min is 95 euro (incl BTW)",
+    "Prices.e1.li1": "Een sessie van 60 min is 70 euro (incl BTW)",
+    "Prices.e1.li2": "Een sessie van 90 min is 90 euro (incl BTW)",
     "Prices.e1.details":
-      "Ik begeleid mensen die voelen dat het tijd is om opnieuw in beweging te komen. Mensen die bewust willen kiezen — of opnieuw willen kiezen — voor het leven, voor verbinding en voor het volledig belichamen van hun potentieel. Of je nu op zoek bent naar heling, helderheid, groei of een nieuwe richting: bij Mooyo vind je een plek waar je gezien en gedragen wordt. Mooyo is er voor iedereen die voelt dat het leven meer vraagt — en meer te bieden heeft — wanneer je durft te bewegen vanuit je hart.",
+      "Ik begeleid mensen die voelen dat het tijd is om opnieuw in beweging te komen. Mensen die bewust (opnieuw) willen voor het leven, voor verbinding en voor het volledig belichamen van hun potentieel. Of je nu op zoek bent naar helderheid, richting, groei of heling: bij Mooyo vind je een plek waar je gezien en gedragen wordt. Ervaar dat het leven meer te bieden heeft wanneer je vanuit je hart durft te bewegen",
     "Prices.e2.title1": "Begeleiding van koppels",
-    "Prices.e2.li1": "Een sessie van 60 min is 70 euro (incl BTW)",
-    "Prices.e2.li2": "Een sessie van 90 min is 110 euro (incl BTW)",
+    "Prices.e2.li1": "Een sessie van 60 min is 100 euro (incl BTW)",
+    "Prices.e2.li2": "Een sessie van 90 min is 120 euro (incl BTW)",
     "Prices.e2.details":
-      "Ook koppels die verlangen naar meer verbinding, begrip en gezamenlijke groei zijn hier welkom. Koppels die bereid zijn om met openheid en moed naar hun eigen innerlijke delen te kijken — de stukken die geraakt worden, die zich terugtrekken, die verlangen, die beschermen. In hartgedragen begeleiding creëren we een veilige bedding waarin beide partners kunnen thuiskomen bij zichzelf én bij elkaar. Vanuit zachtheid, eerlijkheid en aanwezigheid onderzoeken we wat er onder de oppervlakte leeft, zodat liefde, helderheid en echte ontmoeting opnieuw ruimte krijgen.",
+      "Ook koppels die verlangen naar meer verbinding, begrip en gezamenlijke groei zijn hier welkom. Koppels die bereid zijn om met openheid en moed naar hun eigen innerlijke delen te kijken zoals delen die geraakt worden, die zich terugtrekken, die verlangen, die beschermen. In hartgedragen begeleiding creëren we een veilige bedding waarin beide partners kunnen thuiskomen bij zichzelf én bij elkaar. Vanuit zachtheid, eerlijkheid en aanwezigheid onderzoeken we wat er onder de oppervlakte leeft, zodat liefde, helderheid en echte ontmoeting opnieuw ruimte krijgen.",
     "Prices.e3.title": "Begeleiding van organisaties",
     "Prices.e3.li1": "Een sessie van één halve dag is 500 euro (excl BTW)",
     "Prices.e3.li2": " Een sessie van één dag is 800 euro (excl BTW)",
@@ -336,13 +337,13 @@ export const ui = {
     "Prices.patronen.title": "Voorbij je construct",
     "Prices.patronen.text":
       "Een eerste ontmoeting met je essentie en eerste kennismaking met reconstructive methode. Voor wie wilt proeven van wat er leeft voorbij je patronen",
-    "Prices.patronen.format": "1dag",
+    "Prices.patronen.format": "1 dag",
     "Prices.patronen.for": "individu",
     "Prices.patronen.location": "Leuven",
     "Prices.patronen.max": "12",
     "Prices.patronen.data": "najaar 2026",
-    "Prices.patronen.price": "175€ excl btw",
-    "Prices.patronen.lunch": "Met koffie, thee en lunch inbegrepen",
+    "Prices.patronen.price": "125€ excl btw",
+    "Prices.patronen.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.patronen.body1":
       'Merk jij ook dat sommigen vrijer leven dan jij? Dat als jij iets wil veranderen, er meteen een stem in jouw hoofd zegt, "ja maar, dat kan niet want..." Heb je door dat jouw kader er anders uitziet en wil jij wel eens verkennen wat er mogelijk is als jij je kader verruimt?',
     "Prices.patronen.body2":
@@ -362,7 +363,7 @@ export const ui = {
     "Prices.reconstructive.max": "8",
     "Prices.reconstructive.data": "najaar 2026",
     "Prices.reconstructive.price": "450€ excl btw",
-    "Prices.reconstructive.lunch": "Met koffie, thee en lunch inbegrepen",
+    "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
       "Je hebt al een weg naar binnen afgelegd. En toch voel je: er is nog iets. Iets wat niet via het hoofd loskomt, maar via het lichaam. Reconstructive is voor jou.",
     "Prices.reconstructive.body2":
@@ -385,10 +386,10 @@ export const ui = {
     "Prices.label.price": "Prijs",
     "Prices.adolescenten.title":
       "Adolescenten (korting voor adolescenten die zelf instaan voor de kosten)",
-    "Prices.adolescenten.li1": "Een sessie van 60 min is 50 euro (incl BTW)",
-    "Prices.adolescenten.li2": "Een sessie van 90 min 75 is euro (incl BTW)",
+    "Prices.adolescenten.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
+    "Prices.adolescenten.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
     "Prices.adolescenten.details":
-      "Ook adolescenten zijn meer dan welkom. Zij dragen nieuwe talenten, gevoeligheden en verlangens in zich die niet altijd lijken te passen binnen de huidige maatschappij — maar wél essentieel zijn voor een samenleving in transformatie. Via mijn hartgedragen begeleiding ontdekken jongeren hoe ze in hun eigen kracht kunnen staan. Met heldere inzichten, zelfvertrouwen en nieuwe perspectieven leren ze hun energie te richten op wat klopt voor hen. Zo kunnen zij vanuit veerkracht en met plezier bijdragen aan een wereld die blijft groeien en zichzelf vernieuwen.",
+      "Ook adolescenten zijn meer dan welkom. Zij dragen nieuwe talenten, gevoeligheden en verlangens in zich die niet altijd lijken te passen binnen de huidige maatschappij, maar wél essentieel zijn voor een samenleving in transformatie. Via mijn hartgedragen begeleiding ontdekken jongeren hoe ze in hun eigen kracht kunnen staan. Met heldere inzichten, zelfvertrouwen en nieuwe perspectieven leren ze hun energie te richten op wat klopt voor hen. Zo kunnen zij vanuit veerkracht en met plezier bijdragen aan een wereld die blijft groeien en veranderen.",
     "Prices.seeMore": "Zie meer...",
     "Prices.collab": "In samenwerking met Elke Busschots van",
     "Prices.info": "Voor info en aanmelden, mail",
