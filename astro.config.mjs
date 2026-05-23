@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://nielg.github.io",
+  site: "https://www.mooyo.be",
 
   i18n: {
     defaultLocale: "nl",
