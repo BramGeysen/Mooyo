@@ -30,8 +30,7 @@ const { title, description = "Standaard omschrijving voor Mooyo" } = Astro.props
 	<head>
 		 <GoogleTMHead/>
 		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content={description}>
-		<BaseHead/>
+		<BaseHead title={`Mooyo | ${title}`} description={description} />
 		<title>Mooyo | {title}</title>
 		<link rel="icon" type="image/png" href={`${baseUrl}/favicon.png`} />
 		<link rel="canonical" href={canonicalURL} />
