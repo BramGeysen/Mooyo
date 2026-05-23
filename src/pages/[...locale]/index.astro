@@ -43,26 +43,34 @@ const t = useTranslations(lang);
 		<div class="col3 text-gray text-align-justify">
 			<div class="text-gray text-align-justify">
 				<p class="text-align-center text-red bold">{t("index.s3.col1.title")}</p>
-				<p>{t("index.s3.col1.text1")}</p>
-				 <p>{t("index.s3.col1.text2")}<p/>
-				 <p>{t("index.s3.col1.text3")}<p/>
+				<div class="regular-font">
+					<p>{t("index.s3.col1.text1")}</p>
+					 <p>{t("index.s3.col1.text2")}<p/>
+					 <p>{t("index.s3.col1.text3")}<p/>
+
+				</div>
 			</div>
 			<div class="text-gray text-align-justify">
 				<p class="text-red text-align-center bold">{t("index.s3.col2.title")}</p>
-				<p>{t("index.s3.col2.text1")}</p>
-				<p>{t("index.s3.col2.text2")}</p>
-				<p>{t("index.s3.col2.text3")}</p>
+				<div class="regular-font">
+					<p>{t("index.s3.col2.text1")}</p>
+					<p>{t("index.s3.col2.text2")}</p>
+					<p>{t("index.s3.col2.text3")}</p>
+				</div>
 			</div>
 			<div>
 				<p class="text-red text-align-center bold">{t("index.s3.col3.title")}</p>
-				<p>{t("index.s3.col3.text1")}</p>
-				<p>{t("index.s3.col3.text2")}</p>
+				<div class="regular-font">
+					<p>{t("index.s3.col3.text1")}</p>
+					<p>{t("index.s3.col3.text2")}</p>
+
+				</div>
 			</div>
 		</div>
 	</section>
 	<section class="s4 back-red text-align-center text-white">
 		<div class="text-margin">
-			<p class="p2" set:html={t("index.s4.text1")} />
+			<p class="p2 regular-font" set:html={t("index.s4.text1")} />
 			<p class="p2" set:html={t("index.s4.text2")} />
 		</div>
 	</section>
