@@ -4,12 +4,13 @@ import Layout from "../../layouts/Layout.astro"
 import hart_rond from '../../assets/rondevormen/hart_rond.png'
 import zon from '../../assets/zon.jpg'
 import profiel from '../../assets/profiel-square.png'
-import { getLangFromUrl, useTranslations, getStaticPaths } from '../../i18n/utils';
+import { getLangFromUrl, useTranslations, getStaticPaths, useTranslatedPath } from '../../i18n/utils';
 import Prices from '@components/Prices.astro';
 import ContactSection from '@components/Contact-section.astro';
 export { getStaticPaths };
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
 ---
 
 <Layout title='Home'>
@@ -74,16 +75,18 @@ const t = useTranslations(lang);
 			<p class="p2" set:html={t("index.s4.text2")} />
 		</div>
 	</section>
-	<section class="profile back-white">
+	<section class="profile back-white text-black">
 		<div class="img-container">
 			<Image src={profiel} class="img" alt="Profiel foto van Bram Geysen"/>
 		</div>
 		<div class="text">
 			<h1 class="text-red">Bram Geysen</h1>
-			<p class="text-gray">Rondestraat 38 <br> 3000 Leuven, Belgium <br> {t('index.distance.station')}</p>
-			<p class="text-gray title">Contact</p>
+			<p>Rondestraat 38 <br> 3000 Leuven, Belgium <br> {t('index.distance.station')}</p>
+			<p class="title">Contact</p>
 			<p class="text-red"><a href="tel:+32473523094">[+32 473 52 30 94]</a></p>
 			<p class="text-red"><a href="mailto:bramgeysen@gmail.com" class="text-red">[bramgeysen@gmail.com]</a></p>
+			<p class="title">Over mij</p>
+			<p class="about-link"><a href={translatePath("/about")}>Lees hier meer over mij</a></p>
 		</div>
 	</section>
 	<Prices color='red'/>
@@ -156,6 +159,14 @@ const t = useTranslations(lang);
 	.profile .title{
 		font-weight: 700;
 	}
+
+	.profile .about-link {
+		border-bottom: 1px solid var(--mooyo-red);
+		width: fit-content;
+		padding: 0  0 0.3rem 0;
+	}
+
+
 
 	.content-end {
 		text-align: end;
