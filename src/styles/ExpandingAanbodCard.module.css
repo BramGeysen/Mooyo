@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
   width: 100%;
+  padding: 0 1rem;
 }
 
 .card {
@@ -74,13 +75,4 @@
 .a {
   border-bottom: 1px solid var(--mooyo-red);
   color: var(--mooyo-red);
-}
-
-@media (max-width: 1200px) {
-  .card {
-    width: 80%;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
 }
