@@ -2,7 +2,8 @@
 import Layout from '../../../layouts/Layout.astro';
 import { getLangFromUrl, useTranslations, getStaticPaths } from '../../../i18n/utils';
 import ContactSection from '@components/Contact-section.astro';
-import Prices from '@components/Prices.astro';
+import EAC from '../../../styles/ExpandingAanbodCard.module.css'
+import DropDownContainer from '@components/DropDownContainer.astro';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -18,7 +19,102 @@ export { getStaticPaths };
 			<p class="papyrus-font">{t('aanbod.forwho.text2')}<p/>
 		</div>
 	</section>
-	<Prices color='white'/>
+	<DropDownContainer title='Individuele begeleidingen'>
+		<section class={`center ${EAC.container}`}>
+    		<div class={EAC.flex}>
+				<div class={`${EAC.card} ${EAC.expanding}`}>
+					<div class={EAC.main}>
+						<h4 class="bold text-red papyrus-font">{t('Prices.e1.title1')}</h4>
+						<ul class="infinity-list text-black">
+							<li>{t('Prices.e1.li1')}</li>
+							<li>{t('Prices.e1.li2')}</li>
+						</ul>
+						<p class={EAC.seeMore}>{t('Prices.seeMore')}</p>
+					</div>
+					<div class={EAC.details}>
+						<p>{t('Prices.e1.details')}</p>
+					</div>
+				</div>
+				<div class={`${EAC.card} ${EAC.expanding}`}>
+					<div class={EAC.main}>
+						<h4 class="bold text-red papyrus-font">{t('Prices.adolescenten.title')}</h4>
+						<ul class="infinity-list text-black">
+							<li>{t('Prices.adolescenten.li1')}</li>
+							<li>{t('Prices.adolescenten.li2')}</li>
+						</ul>
+						<p class={EAC.seeMore}>{t('Prices.seeMore')}</p>
+					</div>
+					<div class={EAC.details}>
+						<p>{t('Prices.adolescenten.details')}</p>
+					</div>
+				</div>
+			</div>
+		</section>	
+	</DropDownContainer>
+	<DropDownContainer title='Workshops - Transformatie beleving'>
+		<section class={`center ${EAC.container}`}>
+    		<div class={EAC.flex}>
+				<div class={`${EAC.card} ${EAC.expanding}`}>
+					<div class={EAC.main}>
+						<h4 class="bold text-red papyrus-font">{t('Prices.e1.title1')}</h4>
+						<ul class="infinity-list text-black">
+							<li>{t('Prices.e1.li1')}</li>
+							<li>{t('Prices.e1.li2')}</li>
+						</ul>
+						<p class={EAC.seeMore}>{t('Prices.seeMore')}</p>
+					</div>
+					<div class={EAC.details}>
+						<p>{t('Prices.e1.details')}</p>
+					</div>
+				</div>
+				<div class={`${EAC.card} ${EAC.expanding}`}>
+					<div class={EAC.main}>
+						<h4 class="bold text-red papyrus-font">{t('Prices.adolescenten.title')}</h4>
+						<ul class="infinity-list text-black">
+							<li>{t('Prices.adolescenten.li1')}</li>
+							<li>{t('Prices.adolescenten.li2')}</li>
+						</ul>
+						<p class={EAC.seeMore}>{t('Prices.seeMore')}</p>
+					</div>
+					<div class={EAC.details}>
+						<p>{t('Prices.adolescenten.details')}</p>
+					</div>
+				</div>
+			</div>
+		</section>	
+	</DropDownContainer>	
+	<DropDownContainer title='Organisaties en Teams'>
+		<section class={`center ${EAC.container}`}>
+    		<div class={EAC.flex}>
+				<div class={`${EAC.card} ${EAC.expanding}`}>
+					<div class={EAC.main}>
+						<h4 class="bold text-red papyrus-font">{t('Prices.e1.title1')}</h4>
+						<ul class="infinity-list text-black">
+							<li>{t('Prices.e1.li1')}</li>
+							<li>{t('Prices.e1.li2')}</li>
+						</ul>
+						<p class={EAC.seeMore}>{t('Prices.seeMore')}</p>
+					</div>
+					<div class={EAC.details}>
+						<p>{t('Prices.e1.details')}</p>
+					</div>
+				</div>
+				<div class={`${EAC.card} ${EAC.expanding}`}>
+					<div class={EAC.main}>
+						<h4 class="bold text-red papyrus-font">{t('Prices.adolescenten.title')}</h4>
+						<ul class="infinity-list text-black">
+							<li>{t('Prices.adolescenten.li1')}</li>
+							<li>{t('Prices.adolescenten.li2')}</li>
+						</ul>
+						<p class={EAC.seeMore}>{t('Prices.seeMore')}</p>
+					</div>
+					<div class={EAC.details}>
+						<p>{t('Prices.adolescenten.details')}</p>
+					</div>
+				</div>
+			</div>
+		</section>	
+	</DropDownContainer>
 	<section class="quotes back-red text-align-center center">
         <div class="col3">
             <p class="text-white" set:html={t('quotes.text1')} />
