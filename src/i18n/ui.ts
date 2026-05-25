@@ -324,10 +324,10 @@ export const ui = {
     "Prices.e1.li2": "Een sessie van 90 min is 90 euro (incl BTW)",
     "Prices.e1.details":
       "Ik begeleid mensen die voelen dat het tijd is om opnieuw in beweging te komen. Mensen die bewust (opnieuw) willen voor het leven, voor verbinding en voor het volledig belichamen van hun potentieel. Of je nu op zoek bent naar helderheid, richting, groei of heling: bij Mooyo vind je een plek waar je gezien en gedragen wordt. Ervaar dat het leven meer te bieden heeft wanneer je vanuit je hart durft te bewegen",
-    "Prices.e2.title1": "Begeleiding van koppels",
-    "Prices.e2.li1": "Een sessie van 60 min is 100 euro (incl BTW)",
-    "Prices.e2.li2": "Een sessie van 90 min is 120 euro (incl BTW)",
-    "Prices.e2.details":
+    "Prices.koppels.title": "Begeleiding van koppels",
+    "Prices.koppels.li1": "Een sessie van 60 min is 100 euro (incl BTW)",
+    "Prices.koppels.li2": "Een sessie van 90 min is 120 euro (incl BTW)",
+    "Prices.koppels.details":
       "Ook koppels die verlangen naar meer verbinding, begrip en gezamenlijke groei zijn hier welkom. Koppels die bereid zijn om met openheid en moed naar hun eigen innerlijke delen te kijken zoals delen die geraakt worden, die zich terugtrekken, die verlangen, die beschermen. In hartgedragen begeleiding creëren we een veilige bedding waarin beide partners kunnen thuiskomen bij zichzelf én bij elkaar. Vanuit zachtheid, eerlijkheid en aanwezigheid onderzoeken we wat er onder de oppervlakte leeft, zodat liefde, helderheid en echte ontmoeting opnieuw ruimte krijgen.",
     "Prices.e3.title": "Begeleiding van organisaties",
     "Prices.e3.li1": "Een sessie van één halve dag is 500 euro (excl BTW)",
@@ -575,8 +575,7 @@ export const ui = {
       "Community often plays a much larger role in healing than people realize.",
     "filosofie.open-hart.s2.col3.text2":
       "Healing — whether it is emotional, psychological, spiritual, or even physical — rarely happens completely in isolation.",
-    "filosofie.open-hart.s2.col3.text3":
-      "People heal in relation to others.",
+    "filosofie.open-hart.s2.col3.text3": "People heal in relation to others.",
 
     // Filosofie section 4
     "intro-pillars.text1":
@@ -688,7 +687,7 @@ export const ui = {
     "about.s2.e1.text3":
       "The events in my life are the building blocks that have brought me to this point. By consciously looking at the pains and challenges of my own life over the last 10 years and moving through them, I have developed a deep well of insights and experiences. My process is still ongoing.",
     "about.s2.e1.text4":
-      'Carl Jung says: “The privilege of a lifetime is to become who you truly are.” ',
+      "Carl Jung says: “The privilege of a lifetime is to become who you truly are.” ",
     "about.s2.e1.text6":
       "I am grateful for everything that has been; it has shaped me and brought much good. I look forward to the future with hope. Out of that gratitude, Mooyo was born — my inspiration and my commitment to guide others on their own unique journey.",
     "about.s2.e1.text7":
@@ -708,10 +707,10 @@ export const ui = {
     "Prices.e1.li2": "A 90-minute session costs 90 euros (incl. VAT)",
     "Prices.e1.details":
       "I guide people who feel it is time to move again. People who consciously (re)choose for life, for connection, and for fully embodying their potential. Whether you are looking for clarity, direction, growth, or healing: at Mooyo you find a place where you are seen and supported. Experience that life has more to offer when you dare to move from your heart.",
-    "Prices.e2.title1": "Couples guidance",
-    "Prices.e2.li1": "A 60-minute session costs 100 euros (incl. VAT)",
-    "Prices.e2.li2": "A 90-minute session costs 120 euros (incl. VAT)",
-    "Prices.e2.details":
+    "Prices.koppels.title1": "Couples guidance",
+    "Prices.koppels.li1": "A 60-minute session costs 100 euros (incl. VAT)",
+    "Prices.koppels.li2": "A 90-minute session costs 120 euros (incl. VAT)",
+    "Prices.koppels.details":
       "Couples longing for more connection, understanding, and joint growth are also welcome here. Couples willing to look with openness and courage at their own inner parts, such as parts that are touched, withdraw, long, or protect. In heart-centered guidance, we create a safe foundation in which both partners can come home to themselves and each other. From gentleness, honesty, and presence, we explore what lives beneath the surface, so that love, clarity, and true encounter find space again.",
     "Prices.e3.title": "Guidance for organizations",
     "Prices.e3.li1": "A half-day session costs 500 euros (excl. VAT)",
@@ -761,7 +760,8 @@ export const ui = {
     "Prices.reconstructive.li3": "New insights",
     "Prices.reconstructive.li4":
       "Breakthrough in patterns that remained stuck until now",
-    "Prices.reconstructive.li5": "An experience that leaves a lasting impression",
+    "Prices.reconstructive.li5":
+      "An experience that leaves a lasting impression",
     "Prices.label.format": "Format",
     "Prices.label.for": "For",
     "Prices.label.location": "Location",
