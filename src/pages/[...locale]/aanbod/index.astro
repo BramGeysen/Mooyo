@@ -152,6 +152,7 @@ export { getStaticPaths };
 			</div>
 	</DropDownContainer>	
 	<DropDownContainer title='Organisaties en Teams'>
+		<div class={EAC.flex}>
 				<div class={`${EAC.card} ${EAC.expanding}`}>
 					<div class={EAC.main}>
 						<h4 class="bold text-red papyrus-font">{t('Prices.e1.title1')}</h4>
@@ -165,8 +166,6 @@ export { getStaticPaths };
 						<p>{t('Prices.e1.details')}</p>
 					</div>
 				</div>
-			</div>
-    		<div class={EAC.flex}>
 				<div class={`${EAC.card} ${EAC.expanding}`}>
 					<div class={EAC.main}>
 						<h4 class="bold text-red papyrus-font">{t('Prices.adolescenten.title')}</h4>
@@ -181,6 +180,7 @@ export { getStaticPaths };
 					</div>
 				</div>
 			</div>
+		</div>
 	</DropDownContainer>
 	<section class="quotes back-red text-align-center center">
         <div class="col3">
