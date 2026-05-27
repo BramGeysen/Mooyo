@@ -562,7 +562,7 @@ export const ui = {
     "filosofie.open-hart.s2.col2.title":
       "5. The strength needed is not hard but persistent",
     "filosofie.open-hart.s2.col2.text1":
-      'Many people think that they need to become "stronger".',
+      'Many people think that they need to become "stronger"',
     "filosofie.open-hart.s2.col2.text2": "In reality, it is about:",
     "filosofie.open-hart.s2.col2.list1": "gentleness",
     "filosofie.open-hart.s2.col2.list2": "presence",

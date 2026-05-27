@@ -11,7 +11,7 @@ import {
   useTranslations,
   getStaticPaths,
 } from "../../../i18n/utils";
-import ContactSection from "@components/Contact-section.astro";
+import ContactSection from "../../../components/Contact-section.astro";
 export { getStaticPaths };
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
