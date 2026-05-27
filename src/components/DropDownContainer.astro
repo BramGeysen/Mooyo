@@ -7,9 +7,9 @@ interface Props {
 }
 ---
 
-<article class="dropdown-container">
+<article class="dropdown-container back-red text-white">
   <div class="header">
-    <p>{title}</p>
+    <h4>{title}</h4>
     <div class="arrow-icon">
       <Fragment set:html={arrowDown} />
     </div>
@@ -37,9 +37,8 @@ interface Props {
   article {
     margin: 2rem auto;
     max-width: 95vw;
-    color: white;
-    background-color: var(--mooyo-red);
     border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
   .header {
     display: flex;
@@ -51,6 +50,10 @@ interface Props {
     user-select: none;
     position: relative;
     z-index: 2;
+  }
+  h4 {
+    font-size: 1.7rem;
+    margin: 1rem 0.5rem;
   }
 
   .dropdown-container.is-open .header {
@@ -65,7 +68,7 @@ interface Props {
   }
 
   .arrow-icon :global(svg path) {
-    fill: #ffffff;
+    fill: white;
   }
 
   .dropdown-container.is-open .arrow-icon {
