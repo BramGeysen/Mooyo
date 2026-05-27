@@ -246,7 +246,6 @@ const t = useTranslations(lang);
     </div>
   </DropDownContainer>
 </section>
-
 <style>
   section {
     padding: 3vw;
@@ -280,7 +279,7 @@ const t = useTranslations(lang);
     min-height: 400px;
   }
 
-  .expanding:hover {
+  .expanding.is-active {
     flex: 2;
   }
 
@@ -306,13 +305,13 @@ const t = useTranslations(lang);
     transition: max-height 0.4s ease-in-out;
   }
 
-  .expanding:hover .details {
+  .expanding.is-active .details {
     opacity: 1;
     visibility: visible;
     max-height: 2000px;
     width: 100%;
     transform: translateY(0);
-    transition: max-height 1s ease-in-out;
+    transition: max-height 0.4s ease-in-out;
   }
 
   .seeMore {
@@ -322,7 +321,7 @@ const t = useTranslations(lang);
     transition: opacity 1s ease;
   }
 
-  .expanding:hover .seeMore {
+  .expanding.is-active .seeMore {
     opacity: 0;
     height: 0;
     margin: 0;
@@ -347,3 +346,16 @@ const t = useTranslations(lang);
     }
   }
 </style>
+<script>
+  const cards = document.querySelectorAll('.expanding');
+
+  cards.forEach((card) => {
+    card.addEventListener('mouseenter', () => {
+      cards.forEach((anyCard) => {
+        anyCard.classList.remove('is-active');
+      });
+
+      card.classList.add('is-active');
+    });
+  });
+</script>
