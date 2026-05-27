@@ -10,8 +10,8 @@ import {
   getStaticPaths,
   useTranslatedPath,
 } from "../../i18n/utils";
-import Prices from "@components/Prices.astro";
 import ContactSection from "@components/Contact-section.astro";
+import Aanbod from "@components/Aanbod.astro";
 export { getStaticPaths };
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -118,7 +118,7 @@ const translatePath = useTranslatedPath(lang);
     </div>
   </section>
 
-  <Prices color="red" />
+  <Aanbod color="red"/>
   <ContactSection color="gray" />
 
   <section class="s6 back-red text-white text-align-center bold regular-font">

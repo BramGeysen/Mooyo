@@ -1,16 +1,20 @@
 ---
 import arrowDown from "../assets/arrow-down.svg?raw";
-const { title } = Astro.props;
 
 interface Props {
-  title: string;
+  title: string
+  // background color of the parent
+  color?: string;
 }
+const { color, title } = Astro.props;
+
+const articleClasses = color == "red" ? "back-white text-black" : "back-black text-white"
 ---
 
-<article class="dropdown-container back-red text-white">
+<article class=`dropdown-container ${articleClasses}`>
   <div class="header">
     <h4>{title}</h4>
-    <div class="arrow-icon">
+    <div class=`arrow-icon ${color == "red" ? "black" : "white"}`>
       <Fragment set:html={arrowDown} />
     </div>
   </div>
@@ -67,8 +71,11 @@ interface Props {
     align-items: center;
   }
 
-  .arrow-icon :global(svg path) {
+  .arrow-icon.white :global(svg path) {
     fill: white;
+  }
+  .arrow-icon.black :global(svg path) {
+    fill: black;
   }
 
   .dropdown-container.is-open .arrow-icon {

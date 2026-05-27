@@ -3,11 +3,18 @@ import { getLangFromUrl, useTranslations } from "../i18n/utils";
 import DropDownContainer from "./DropDownContainer.astro";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+
+interface Props {
+  color?: string;
+}
+const { color } = Astro.props;
+
+const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
 ---
 
-<section class="prices back-gray">
+<section class=`prices ${sectionClasses}`>
   <!-- Section 1: Individuele begeleidingen -->
-  <DropDownContainer title="Individuele begeleidingen">
+  <DropDownContainer title="Individuele begeleidingen" color={color}>
     <div class="flex">
       <!-- Card 1: E1 -->
       <div class="card expanding">
@@ -87,7 +94,7 @@ const t = useTranslations(lang);
   </DropDownContainer>
 
   <!-- Section 2: Workshops -->
-  <DropDownContainer title="Workshops - Transformatie beleving">
+  <DropDownContainer title="Workshops - Transformatie beleving" color={color}>
     <div class="flex">
       <!-- Workshop Card 1: Patronen -->
       <div class="card expanding text-align-justify">
@@ -224,7 +231,7 @@ const t = useTranslations(lang);
   </DropDownContainer>
 
   <!-- Section 3: Organisaties en Teams -->
-  <DropDownContainer title="Organisaties en Teams">
+  <DropDownContainer title="Organisaties en Teams" color={color}>
     <div class="flex">
       <div class="card expanding">
         <div class="main">
@@ -257,7 +264,6 @@ const t = useTranslations(lang);
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    gap: 2rem;
     perspective: 1000px; /* Gives depth to the animation */
   }
 
@@ -266,7 +272,7 @@ const t = useTranslations(lang);
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
+    margin: 2rem;
     color: black;
     box-sizing: border-box;
   }
