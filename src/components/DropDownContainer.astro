@@ -64,6 +64,10 @@ interface Props {
     align-items: center;
   }
 
+  .arrow-icon :global(svg path) {
+    fill: #ffffff;
+  }
+
   .dropdown-container.is-open .arrow-icon {
     transform: rotate(180deg);
   }
@@ -79,8 +83,6 @@ interface Props {
 
   .dropdown-container.is-open .hidden-content {
     grid-template-rows: 1fr;
-    border: 1px solid var(--mooyo-gray);
-    border-top: none;
   }
 
   .content-wrapper {
