@@ -22,7 +22,7 @@ const t = useTranslations(lang);
   </section>
 
   <section class="s2 back-white text-black text-align-justify regular-font">
-    <div class="center img-wrapper-first">
+    <div class="center img-container">
       <Image
         class="img"
         src={afrika}
@@ -67,13 +67,12 @@ const t = useTranslations(lang);
 <style>
   .s1,
   .s3 {
-    padding: 2rem 2rem;
+    padding: 2rem;
   }
 
   .s2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
   }
 
   .s2 .text {
@@ -116,8 +115,6 @@ const t = useTranslations(lang);
     .s2 .text {
       padding: 2rem;
     }
-
-    /* Fixed assignments enforcing DOM stacking order visually */
     .img-wrapper-first {
       order: 1;
     }
