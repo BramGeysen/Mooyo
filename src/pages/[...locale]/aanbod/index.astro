@@ -20,9 +20,10 @@ export { getStaticPaths };
     <div class="text-margin">
       <h1 class="papyrus-font" set:html={t("aanbod.forwho.title")} />
       <p set:html={t("aanbod.forwho.text")} />
-      <p class="papyrus-font">{t("aanbod.forwho.text2")}<p></p></p>
+      <p class="papyrus-font">{t("aanbod.forwho.text2")}</p>
     </div>
   </section>
+
   <section class="prices back-gray">
     <DropDownContainer title="Individuele begeleidingen">
       <div class={EAC.flex}>
@@ -38,9 +39,12 @@ export { getStaticPaths };
             <p class={EAC.seeMore}>{t("Prices.seeMore")}</p>
           </div>
           <div class={EAC.details}>
-            <p>{t("Prices.e1.details")}</p>
+            <div class={EAC.detailsInner}>
+              <p>{t("Prices.e1.details")}</p>
+            </div>
           </div>
         </div>
+
         <div class={`${EAC.card} ${EAC.expanding}`}>
           <div class={EAC.main}>
             <h4 class="bold text-red papyrus-font">
@@ -53,10 +57,13 @@ export { getStaticPaths };
             <p class={EAC.seeMore}>{t("Prices.seeMore")}</p>
           </div>
           <div class={EAC.details}>
-            <p>{t("Prices.adolescenten.details")}</p>
+            <div class={EAC.detailsInner}>
+              <p>{t("Prices.adolescenten.details")}</p>
+            </div>
           </div>
         </div>
       </div>
+
       <div class={EAC.flex}>
         <div class={`${EAC.card} ${EAC.expanding}`}>
           <div class={EAC.main}>
@@ -70,9 +77,12 @@ export { getStaticPaths };
             <p class={EAC.seeMore}>{t("Prices.seeMore")}</p>
           </div>
           <div class={EAC.details}>
-            <p>{t("Prices.e1.details")}</p>
+            <div class={EAC.detailsInner}>
+              <p>{t("Prices.e1.details")}</p>
+            </div>
           </div>
         </div>
+
         <div class={`${EAC.card} ${EAC.expanding}`}>
           <div class={EAC.main}>
             <h4 class="bold text-red papyrus-font">
@@ -85,11 +95,14 @@ export { getStaticPaths };
             <p class={EAC.seeMore}>{t("Prices.seeMore")}</p>
           </div>
           <div class={EAC.details}>
-            <p>{t("Prices.koppels.details")}</p>
+            <div class={EAC.detailsInner}>
+              <p>{t("Prices.koppels.details")}</p>
+            </div>
           </div>
         </div>
       </div>
     </DropDownContainer>
+
     <DropDownContainer title="Workshops - Transformatie beleving">
       <div class={EAC.flex}>
         <div class={`${EAC.card} ${EAC.expanding} text-align-justify`}>
@@ -107,55 +120,58 @@ export { getStaticPaths };
             <p class={EAC.seeMore}>{t("Prices.seeMore")}</p>
           </div>
           <div class={EAC.details}>
-            <div class={EAC["card-aanbod"]}>
+            <div class={EAC.detailsInner}>
+              <div class={EAC["card-aanbod"]}>
+                <ul>
+                  <li>
+                    <span class="bold">{t("Prices.label.format")}:</span>
+                    {t("Prices.patronen.format")}
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.for")}:</span>
+                    {t("Prices.patronen.for")}
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.location")}:</span>
+                    {t("Prices.patronen.location")}
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.max")}:</span>
+                    {t("Prices.patronen.max")}
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.data")}:</span>
+                    {t("Prices.patronen.data")}
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.price")}:</span>
+                    {t("Prices.patronen.price")}
+                  </li>
+                </ul>
+                <p>{t("Prices.patronen.lunch")}</p>
+              </div>
+              <p>{t("Prices.patronen.body1")}</p>
+              <p>{t("Prices.patronen.body2")}</p>
+              <p>{t("Prices.patronen.body3")}</p>
               <ul>
-                <li>
-                  <span class="bold">{t("Prices.label.format")}:</span>
-                  {t("Prices.patronen.format")}
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.for")}:</span>
-                  {t("Prices.patronen.for")}
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.location")}:</span>
-                  {t("Prices.patronen.location")}
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.max")}:</span>
-                  {t("Prices.patronen.max")}
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.data")}:</span>
-                  {t("Prices.patronen.data")}
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.price")}:</span>
-                  {t("Prices.patronen.price")}
-                </li>
+                <li>{t("Prices.patronen.li1")}</li>
+                <li>{t("Prices.patronen.li2")}</li>
+                <li>{t("Prices.patronen.li3")}</li>
+                <li>{t("Prices.patronen.li4")}</li>
               </ul>
-              <p>{t("Prices.patronen.lunch")}</p>
+              <p class="text-gray text-align-start">
+                {t("Prices.collab")}
+                <a
+                  class={EAC.a}
+                  href="https://www.Cominz.be"
+                  target="_blank"
+                  rel="noopener noreferrer">www.Cominz.be</a
+                >
+              </p>
             </div>
-            <p>{t("Prices.patronen.body1")}</p>
-            <p>{t("Prices.patronen.body2")}</p>
-            <p>{t("Prices.patronen.body3")}</p>
-            <ul>
-              <li>{t("Prices.patronen.li1")}</li>
-              <li>{t("Prices.patronen.li2")}</li>
-              <li>{t("Prices.patronen.li3")}</li>
-              <li>{t("Prices.patronen.li4")}</li>
-            </ul>
-            <p class="text-gray text-align-start">
-              {t("Prices.collab")}
-              <a
-                class={EAC.a}
-                href="https://www.Cominz.be"
-                target="_blank"
-                rel="noopener noreferrer">www.Cominz.be</a
-              >
-            </p>
           </div>
         </div>
+
         <div class={`${EAC.card} ${EAC.expanding} text-align-justify`}>
           <div class={EAC.main}>
             <h4 class="bold text-red text-align-center papyrus-font">
@@ -171,60 +187,63 @@ export { getStaticPaths };
             <p class={EAC.seeMore}>{t("Prices.seeMore")}</p>
           </div>
           <div class={EAC.details}>
-            <div class={EAC["card-aanbod"]}>
+            <div class={EAC.detailsInner}>
+              <div class={EAC["card-aanbod"]}>
+                <ul>
+                  <li>
+                    <span class="bold">{t("Prices.label.format")}:</span>
+                    {t("Prices.reconstructive.format")}
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.for")}:</span>
+                    {t("Prices.reconstructive.for")}
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.location")}:</span>
+                    {t("Prices.reconstructive.location")}
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.max")}: </span>{
+                      t("Prices.reconstructive.max")
+                    }
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.data")}:</span>
+                    {t("Prices.reconstructive.data")}
+                  </li>
+                  <li>
+                    <span class="bold">{t("Prices.label.price")}:</span>
+                    {t("Prices.reconstructive.price")}
+                  </li>
+                </ul>
+                <p>{t("Prices.reconstructive.lunch")}</p>
+              </div>
+              <p>{t("Prices.reconstructive.body1")}</p>
+              <p>{t("Prices.reconstructive.body2")}</p>
+              <p>{t("Prices.reconstructive.body3")}</p>
+              <p>{t("Prices.reconstructive.body4")}</p>
               <ul>
-                <li>
-                  <span class="bold">{t("Prices.label.format")}:</span>
-                  {t("Prices.reconstructive.format")}
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.for")}:</span>
-                  {t("Prices.reconstructive.for")}
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.location")}:</span>
-                  {t("Prices.reconstructive.location")}
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.max")}: </span>{
-                    t("Prices.reconstructive.max")
-                  }
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.data")}:</span>
-                  {t("Prices.reconstructive.data")}
-                </li>
-                <li>
-                  <span class="bold">{t("Prices.label.price")}:</span>
-                  {t("Prices.reconstructive.price")}
-                </li>
+                <li>{t("Prices.reconstructive.li1")}</li>
+                <li>{t("Prices.reconstructive.li2")}</li>
+                <li>{t("Prices.reconstructive.li3")}</li>
+                <li>{t("Prices.reconstructive.li4")}</li>
+                <li>{t("Prices.reconstructive.li5")}</li>
               </ul>
-              <p>{t("Prices.reconstructive.lunch")}</p>
+              <p class="text-gray text-align-start">
+                {t("Prices.collab")}
+                <a
+                  class={EAC.a}
+                  href="https://www.Cominz.be"
+                  target="_blank"
+                  rel="noopener noreferrer">www.Cominz.be</a
+                >
+              </p>
             </div>
-            <p>{t("Prices.reconstructive.body1")}</p>
-            <p>{t("Prices.reconstructive.body2")}</p>
-            <p>{t("Prices.reconstructive.body3")}</p>
-            <p>{t("Prices.reconstructive.body4")}</p>
-            <ul>
-              <li>{t("Prices.reconstructive.li1")}</li>
-              <li>{t("Prices.reconstructive.li2")}</li>
-              <li>{t("Prices.reconstructive.li3")}</li>
-              <li>{t("Prices.reconstructive.li4")}</li>
-              <li>{t("Prices.reconstructive.li5")}</li>
-            </ul>
-            <p class="text-gray text-align-start">
-              {t("Prices.collab")}
-              <a
-                class={EAC.a}
-                href="https://www.Cominz.be"
-                target="_blank"
-                rel="noopener noreferrer">www.Cominz.be</a
-              >
-            </p>
           </div>
         </div>
       </div>
     </DropDownContainer>
+
     <DropDownContainer title="Organisaties en Teams">
       <div class={EAC.flex}>
         <div class={`${EAC.card} ${EAC.expanding}`}>
@@ -239,9 +258,12 @@ export { getStaticPaths };
             <p class={EAC.seeMore}>{t("Prices.seeMore")}</p>
           </div>
           <div class={EAC.details}>
-            <p>{t("Prices.e1.details")}</p>
+            <div class={EAC.detailsInner}>
+              <p>{t("Prices.e1.details")}</p>
+            </div>
           </div>
         </div>
+
         <div class={`${EAC.card} ${EAC.expanding}`}>
           <div class={EAC.main}>
             <h4 class="bold text-red papyrus-font">
@@ -254,7 +276,9 @@ export { getStaticPaths };
             <p class={EAC.seeMore}>{t("Prices.seeMore")}</p>
           </div>
           <div class={EAC.details}>
-            <p>{t("Prices.adolescenten.details")}</p>
+            <div class={EAC.detailsInner}>
+              <p>{t("Prices.adolescenten.details")}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -273,6 +297,7 @@ export { getStaticPaths };
       <p class="text-white" set:html={t("quotes.text9")} />
     </div>
   </section>
+
   <section class="methodieken back-gray text-black center regular-font">
     <div class="text-margin">
       <h3 class="text-align-center text-red papyrus-font">
@@ -318,6 +343,7 @@ export { getStaticPaths };
   </section>
 
   <ContactSection color="red" />
+
   <section class="openHartcirkels back-white text-gray center">
     <h3 class="text-red bold">{t("openHartCirkels.title")}</h3>
     <p>
@@ -325,12 +351,15 @@ export { getStaticPaths };
       <a href="#" class="text-red">www.hartcirkels.be</a>
     </p>
   </section>
+
   <section class="s6 back-red text-white text-align-center">
     <h3 set:html={t("aanbod.s6.text")} />
   </section>
+
   <section class="s7 back-white text-red text-align-center">
     <h3 set:html={t("aanbod.s7.text")} />
   </section>
+
   <section class="s8 back-red text-white text-align-center">
     <h3 set:html={t("aanbod.s8.text")} />
   </section>
@@ -347,11 +376,11 @@ export { getStaticPaths };
   }
 
   .methodieken .col2 {
+    display: grid; /* Fixed: Added grid display initialization */
     grid-template-columns: 1fr 1fr;
   }
 
-  /* Responsive */
-
+  /* Responsive Queries */
   @media (max-width: 1200px) {
     .quotes {
       display: none;

@@ -60,181 +60,182 @@ const translatePath = useTranslatedPath(lang);
         </p>
         <div class="regular-font">
           <p>{t("index.s3.col1.text1")}</p>
-          <p>
-            {t("index.s3.col1.text2")}<p></p>
-            <p>{t("index.s3.col1.text3")}<p></p></p>
-          </p>
-          <div>
-            <p class="text-red text-align-center bold">
-              {t("index.s3.col2.title")}
-            </p>
-            <div class="regular-font">
-              <p>{t("index.s3.col2.text1")}</p>
-              <p>{t("index.s3.col2.text2")}</p>
-              <p>{t("index.s3.col2.text3")}</p>
-            </div>
-          </div>
-          <div>
-            <p class="text-red text-align-center bold">
-              {t("index.s3.col3.title")}
-            </p>
-            <div class="regular-font">
-              <p>{t("index.s3.col3.text1")}</p>
-              <p>{t("index.s3.col3.text2")}</p>
-            </div>
-          </div>
+          <p>{t("index.s3.col1.text2")}</p>
+          <p>{t("index.s3.col1.text3")}</p>
         </div>
       </div>
-      <section class="s4 back-red text-align-center text-white">
-        <div class="text-margin">
-          <p class="p2 regular-font" set:html={t("index.s4.text1")} />
-          <p class="p2" set:html={t("index.s4.text2")} />
+      <div>
+        <p class="text-red text-align-center bold">
+          {t("index.s3.col2.title")}
+        </p>
+        <div class="regular-font">
+          <p>{t("index.s3.col2.text1")}</p>
+          <p>{t("index.s3.col2.text2")}</p>
+          <p>{t("index.s3.col2.text3")}</p>
         </div>
-      </section>
-      <section class="profile back-white text-black">
-        <div class="img-container">
-          <Image src={profiel} class="img" alt="Profiel foto van Bram Geysen" />
+      </div>
+
+      <div>
+        <p class="text-red text-align-center bold">
+          {t("index.s3.col3.title")}
+        </p>
+        <div class="regular-font">
+          <p>{t("index.s3.col3.text1")}</p>
+          <p>{t("index.s3.col3.text2")}</p>
         </div>
-        <div class="text">
-          <h1 class="text-red">Bram Geysen</h1>
-          <p>
-            Rondestraat 38 <br /> 3000 Leuven, Belgium <br />
-            {t("index.distance.station")}
-          </p>
-          <p class="title">Contact</p>
-          <p class="text-red">
-            <a href="tel:+32473523094">[+32 473 52 30 94]</a>
-          </p>
-          <p class="text-red">
-            <a href="mailto:bramgeysen@gmail.com" class="text-red"
-              >[bramgeysen@gmail.com]</a>
-          </p>
-          <p class="title">Over mij</p>
-          <p class="about-link">
-            <a href={translatePath("/about")}>Lees hier meer over mij</a>
-          </p>
-        </div>
-      </section>
-      <Prices color="red" />
-      <ContactSection color="gray" />
-      <section
-        class="s6 back-red text-white text-align-center bold regular-font"
-      >
-        <p>{t("index.s6.text1")}</p>
-        <p>{t("index.s6.text2")}</p>
-        <p>{t("index.s6.text3")}</p>
-        <p>{t("index.s6.text4")}</p>
-      </section>
+      </div>
     </div>
+  </section>
+  <section class="s4 back-red text-align-center text-white">
+    <div class="text-margin">
+      <p class="p2 regular-font" set:html={t("index.s4.text1")} />
+      <p class="p2" set:html={t("index.s4.text2")} />
+    </div>
+  </section>
 
-    <style>
-      section {
-        padding: 2rem;
-      }
-      .intro .container,
-      .welcome .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        max-width: 70rem;
-        column-gap: 2rem;
-      }
+  <section class="profile back-white text-black">
+    <div class="img-container">
+      <Image src={profiel} class="img" alt="Profiel foto van Bram Geysen" />
+    </div>
+    <div class="text">
+      <h1 class="text-red">Bram Geysen</h1>
+      <p>
+        Rondestraat 38 <br /> 3000 Leuven, Belgium <br />
+        {t("index.distance.station")}
+      </p>
+      <p class="title">Contact</p>
+      <p class="text-red">
+        <a href="tel:+32473523094">[+32 473 52 30 94]</a>
+      </p>
+      <p class="text-red">
+        <a href="mailto:bramgeysen@gmail.com" class="text-red"
+          >[bramgeysen@gmail.com]</a
+        >
+      </p>
+      <p class="title">Over mij</p>
+      <p class="about-link">
+        <a href={translatePath("/about")}>Lees hier meer over mij</a>
+      </p>
+    </div>
+  </section>
 
-      .intro .img-container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .intro .img-container .img {
-        width: 100%;
-        height: auto;
-        max-width: 450px;
-        max-height: 450px;
-      }
+  <Prices color="red" />
+  <ContactSection color="gray" />
 
-      .welcome .img {
-        max-width: 500px;
-        max-height: 500px;
-        width: 100%;
-        height: auto;
-      }
-      .profile {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 0;
-      }
+  <section class="s6 back-red text-white text-align-center bold regular-font">
+    <p>{t("index.s6.text1")}</p>
+    <p>{t("index.s6.text2")}</p>
+    <p>{t("index.s6.text3")}</p>
+    <p>{t("index.s6.text4")}</p>
+  </section>
+</Layout>
 
-      .img-container {
-        width: 100%;
-        height: 600px;
-        overflow: hidden;
-      }
-      .profile .img {
-        position: relative;
-        top: -10rem;
-        min-width: 600px;
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        object-position: bottom;
-      }
+<style>
+  section {
+    padding: 2rem;
+  }
+  .intro .container,
+  .welcome .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 70rem;
+    column-gap: 2rem;
+  }
 
-      .profile .text {
-        padding: 2rem;
-      }
+  .intro .img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro .img-container .img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    max-height: 450px;
+  }
 
-      .profile .title {
-        font-weight: 700;
-      }
+  .welcome .img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+  }
+  .profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
 
-      .profile .about-link {
-        border-bottom: 1px solid var(--mooyo-red);
-        width: fit-content;
-        padding: 0 0 0.3rem 0;
-      }
+  .img-container {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  }
+  .profile .img {
+    position: relative;
+    top: -10rem;
+    min-width: 600px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+  }
 
-      .content-end {
-        text-align: end;
-      }
+  .profile .text {
+    padding: 2rem;
+  }
 
-      /* Responsive */
+  .profile .title {
+    font-weight: 700;
+  }
 
-      @media (max-width: 1900px) {
-        .profile .img {
-          top: 0;
-        }
-      }
+  .profile .about-link {
+    border-bottom: 1px solid var(--mooyo-red);
+    width: fit-content;
+    padding: 0 0 0.3rem 0;
+  }
 
-      @media (max-width: 1200px) {
-        .s3 .col3 {
-          grid-template-columns: auto;
-        }
-      }
+  .content-end {
+    text-align: end;
+  }
 
-      @media (max-width: 900px) {
-        .intro .container,
-        .welcome .container,
-        .profile {
-          grid-template-columns: auto;
-        }
-        .intro .img {
-          display: none;
-        }
+  /* Responsive */
+  @media (max-width: 1900px) {
+    .profile .img {
+      top: 0;
+    }
+  }
 
-        .welcome .img,
-        .profile .img {
-          grid-row: 2;
-          min-width: none;
-        }
+  @media (max-width: 1200px) {
+    .s3 .col3 {
+      display: grid; /* Added ensuring col3 recognizes grid settings */
+      grid-template-columns: auto;
+    }
+  }
 
-        .profile {
-          padding: 0;
-        }
-        .profile .img {
-          width: 100%;
-        }
-      }
-    </style>
-  </section></Layout
->
+  @media (max-width: 900px) {
+    .intro .container,
+    .welcome .container,
+    .profile {
+      grid-template-columns: auto;
+    }
+    .intro .img {
+      display: none;
+    }
+
+    .welcome .img,
+    .profile .img {
+      grid-row: 2;
+      min-width: unset; /* Fixed 'none' syntax error */
+    }
+
+    .profile {
+      padding: 0;
+    }
+    .profile .img {
+      width: 100%;
+    }
+  }
+</style>
