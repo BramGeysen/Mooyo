@@ -12,7 +12,7 @@ const { color } = Astro.props;
 const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
 ---
 
-<section class=`prices ${sectionClasses}`>
+<section class=`prices ${sectionClasses} regular-font`>
   <!-- Section 1: Individuele begeleidingen -->
   <DropDownContainer title="Individuele begeleidingen" color={color}>
     <div class="flex">
@@ -65,9 +65,12 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
           </ul>
           <p class="seeMore">{t("Prices.seeMore")}</p>
           <div class="details">
-            <div class="detailsInner">
-              <p>{t("Prices.e1.details")}</p>
-            </div>
+            <p>Hartcoherentie is er voor mensen die merken dat hun zenuwstelsel snel overbelast raakt. Het helpt wie met lage veerkracht kampt, wie snel overspoeld raakt door emoties of prikkels, en wie te maken heeft met burn-outklachten zoals uitputting of prikkelgevoeligheid. Ook bij concentratieproblemen, mentale mist of moeite om focus vast te houden, biedt hartcoherentie een zachte en effectieve weg terug naar rust, helderheid en veerkracht.</p>
+            <ul>
+              <li><span class="text-red bold">Stressmanagement</span> vormt de basis: je leert je zenuwstelsel tot rust brengen, je ademhaling te reguleren en je lichaam terug in balans te brengen. Dit niveau creëert de stabiliteit die nodig is om helder te denken en bewuste keuzes te maken.</li>
+              <li><span class="text-red bold">Emotieregulatie</span> verdiept het proces: je ontwikkelt veerkracht, leert emoties herkennen zonder erdoor overspoeld te worden en bouwt aan een innerlijke stevigheid. Hierdoor ontstaat meer ruimte, nuance en zelfvertrouwen.</li>
+              <li><span class="text-red bold">Verbinding </span> is het hoogste niveau: vanuit rust en emotionele helderheid kun je authentiek contact maken — met jezelf én met anderen. Dit is waar hartcoherentie uitmondt in echte aanwezigheid, empathie en samenwerking.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -233,6 +236,7 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
   <!-- Section 3: Organisaties en Teams -->
   <DropDownContainer title="Organisaties en Teams" color={color}>
     <div class="flex">
+      <!-- Begeleiding -->
       <div class="card expanding">
         <div class="main">
           <h4 class="bold text-red papyrus-font">
@@ -250,6 +254,33 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
           </div>
         </div>
       </div>
+      <!-- Deep time walk -->
+      <div class="card expanding">
+        <div class="main">
+          <h4 class="bold text-red papyrus-font">Deep Time Walk</h4>
+          <p>Een DeepTimeWalk is een transformatieve, begeleide wandeling door 4,6 miljard jaar geschiedenis van de Aarde. Het is een uitnodiging om onze relatie met Planeet Aarde te bevragen, onze plek binnen haar ecosystemen te verkennen, en onze kijk op de wereld te veranderen.</p>
+          <ul class="infinity-list">
+            <li><span class="text-red bold">Prijs:</span> 500 euro (excl BTW) voor een halve dag.</li>
+          </ul>
+          <p>
+            {t("Prices.info")}
+            <a href="mailto:bramgeysen@gmail.com">bramgeysen@gmail.com</a>
+          </p>
+          <p class="seeMore">{t("Prices.seeMore")}</p>
+          <div class="details">
+            <h5>Unieke beleving</h5>
+            <p>Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staat stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte  tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).</p>
+            <h5>Perspectiefverschuiving</h5>
+            <p>Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet zien. Welke verandering merk jij?</p>
+            <h5>Persoonlijke reflectie</h5>
+            <ul class="infinity-list">
+              <li><span class="text-red bold">Lichaam</span> -  Wat voel je in je lichaam na de wandeling?</li>
+              <li><span class="text-red bold">Hart</span> - Welk deel heeft je het meest geraakt? Welke emoties kwamen bij je op tijdens en aan het einde van de wandeling?</li>
+              <li><span class="text-red bold">Hoofd</span> - Wat heb je geleerd?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </DropDownContainer>
 </section>
@@ -258,6 +289,9 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
     padding: 3vw;
   }
 
+  h5 {
+    font-size: 1.2rem;
+  }
   .flex {
     display: flex;
     flex-direction: row;
