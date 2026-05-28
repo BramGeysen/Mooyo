@@ -10,7 +10,7 @@ import {
   useTranslations,
 } from "../i18n/utils";
 import Footer from "@components/Footer.astro";
-import BaseHead from "@components/head/BaseHead.astro";
+import Head from "@components/head/Head.astro";
 import ScrollToTop from "../components/ScrollToTop.astro";
 import GoogleTMHead from "@components/head/GoogleTMHead.astro";
 import GoogleTMBody from "@components/head/GoogleTMBody.astro";
@@ -35,7 +35,7 @@ const { title, description = "Standaard omschrijving voor Mooyo" } =
   <head>
     <GoogleTMHead />
     <meta name="generator" content={Astro.generator} />
-    <BaseHead title={`Mooyo | ${title}`} description={description} />
+    <Head title={`Mooyo | ${title}`} description={description} />
     <title>Mooyo | {title} | coaching</title>
     <link rel="icon" type="image/png" href={`${baseUrl}/favicon.png`} />
     <link rel="canonical" href={canonicalURL} />
@@ -85,7 +85,7 @@ const { title, description = "Standaard omschrijving voor Mooyo" } =
     align-items: center;
     gap: 5rem;
   }
-  
+
   header .title {
     font-size: 3rem;
   }
