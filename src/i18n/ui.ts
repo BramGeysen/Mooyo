@@ -328,26 +328,35 @@ export const ui = {
     "Prices.title.workshops": "Workshops - Transformatie beleving",
     "Prices.title.organizations": "Organisaties en Teams",
     "Prices.burnout.title": "Hartcoherentie - burn-out",
-    "Prices.burnout.description": "Hartcoherentie is er voor mensen die merken dat hun zenuwstelsel snel overbelast raakt. Het helpt wie met lage veerkracht kampt, wie snel overspoeld raakt door emoties of prikkels, en wie te maken heeft met burn-outklachten zoals uitputting of prikkelgevoeligheid. Ook bij concentratieproblemen, mentale mist of moeite om focus vast te houden, biedt hartcoherentie een zachte en effectieve weg terug naar rust, helderheid en veerkracht.",
+    "Prices.burnout.description":
+      "Hartcoherentie is er voor mensen die merken dat hun zenuwstelsel snel overbelast raakt. Het helpt wie met lage veerkracht kampt, wie snel overspoeld raakt door emoties of prikkels, en wie te maken heeft met burn-outklachten zoals uitputting of prikkelgevoeligheid. Ook bij concentratieproblemen, mentale mist of moeite om focus vast te houden, biedt hartcoherentie een zachte en effectieve weg terug naar rust, helderheid en veerkracht.",
     "Prices.burnout.stress.title": "Stressmanagement",
-    "Prices.burnout.stress.text": "vormt de basis: je leert je zenuwstelsel tot rust brengen, je ademhaling te reguleren en je lichaam terug in balans te brengen. Dit niveau creëert de stabiliteit die nodig is om helder te denken en bewuste keuzes te maken.",
+    "Prices.burnout.stress.text":
+      "vormt de basis: je leert je zenuwstelsel tot rust brengen, je ademhaling te reguleren en je lichaam terug in balans te brengen. Dit niveau creëert de stabiliteit die nodig is om helder te denken en bewuste keuzes te maken.",
     "Prices.burnout.emotions.title": "Emotieregulatie",
-    "Prices.burnout.emotions.text": "verdiept het proces: je ontwikkelte veerkracht, leert emoties herkennen zonder erdoor overspoeld te worden en bouwt aan een innerlijke stevigheid. Hierdoor ontstaat meer ruimte, nuance en zelfvertrouwen.",
+    "Prices.burnout.emotions.text":
+      "verdiept het proces: je ontwikkelte veerkracht, leert emoties herkennen zonder erdoor overspoeld te worden en bouwt aan een innerlijke stevigheid. Hierdoor ontstaat meer ruimte, nuance en zelfvertrouwen.",
     "Prices.burnout.connection.title": "Verbinding",
-    "Prices.burnout.connection.text": "is het hoogste niveau: vanuit rust en emotionele helderheid kun je authentiek contact maken — met jezelf én met anderen. Dit is waar hartcoherentie uitmondt in echte aanwezigheid, empathie en samenwerking.",
+    "Prices.burnout.connection.text":
+      "is het hoogste niveau: vanuit rust en emotionele helderheid kun je authentiek contact maken — met jezelf én met anderen. Dit is waar hartcoherentie uitmondt in echte aanwezigheid, empathie en samenwerking.",
     "Prices.deeptimewalk.title": "Deep Time Walk",
-    "Prices.deeptimewalk.description": "Een DeepTimeWalk is een transformatieve, begeleide wandeling door 4,6 miljard jaar geschiedenis van de Aarde. Het is een uitnodiging om onze relatie met Planeet Aarde te bevragen, onze plek binnen haar ecosystemen te verkennen, en onze kijk op de wereld te veranderen.",
+    "Prices.deeptimewalk.description":
+      "Een DeepTimeWalk is een transformatieve, begeleide wandeling door 4,6 miljard jaar geschiedenis van de Aarde. Het is een uitnodiging om onze relatie met Planeet Aarde te bevragen, onze plek binnen haar ecosystemen te verkennen, en onze kijk op de wereld te veranderen.",
     "Prices.deeptimewalk.price.label": "Prijs",
-    "Prices.deeptimewalk.price.text": "500 euro (excl BTW) voor een halve dag.",
+    "Prices.deeptimewalk.price.text": "Een halve dag voor 500 euro (excl BTW).",
     "Prices.deeptimewalk.experience.title": "Unieke beleving",
-    "Prices.deeptimewalk.experience.text": "Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staat stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).",
+    "Prices.deeptimewalk.experience.text":
+      "Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staat stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).",
     "Prices.deeptimewalk.perspective.title": "Perspectiefverschuiving",
-    "Prices.deeptimewalk.perspective.text": "Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet zien. Welke verandering merk jij?",
+    "Prices.deeptimewalk.perspective.text":
+      "Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet zien. Welke verandering merk jij?",
     "Prices.deeptimewalk.reflection.title": "Persoonlijke reflectie",
     "Prices.deeptimewalk.body.title": "Lichaam",
-    "Prices.deeptimewalk.body.text": "Wat voel je in je lichaam na de wandeling?",
+    "Prices.deeptimewalk.body.text":
+      "Wat voel je in je lichaam na de wandeling?",
     "Prices.deeptimewalk.heart.title": "Hart",
-    "Prices.deeptimewalk.heart.text": "Welk deel heeft je het meest geraakt? Welke emoties kwamen bij je op tijdens en aan het einde van de wandeling?",
+    "Prices.deeptimewalk.heart.text":
+      "Welk deel heeft je het meest geraakt? Welke emoties kwamen bij je op tijdens en aan het einde van de wandeling?",
     "Prices.deeptimewalk.head.title": "Hoofd",
     "Prices.deeptimewalk.head.text": "Wat heb je geleerd?",
     "Prices.koppels.title": "Begeleiding van koppels",
@@ -737,26 +746,35 @@ export const ui = {
     "Prices.title.workshops": "Workshops - Transformation experience",
     "Prices.title.organizations": "Organizations and Teams",
     "Prices.burnout.title": "Heart coherence - burn-out",
-    "Prices.burnout.description": "Heart coherence is for people who notice that their nervous system quickly becomes overloaded. It helps those struggling with low resilience, those who are quickly overwhelmed by emotions or stimuli, and those dealing with burn-out symptoms such as exhaustion or sensitivity to stimuli. Also for concentration problems, mental fog, or difficulty maintaining focus, heart coherence offers a gentle and effective way back to peace, clarity, and resilience.",
+    "Prices.burnout.description":
+      "Heart coherence is for people who notice that their nervous system quickly becomes overloaded. It helps those struggling with low resilience, those who are quickly overwhelmed by emotions or stimuli, and those dealing with burn-out symptoms such as exhaustion or sensitivity to stimuli. Also for concentration problems, mental fog, or difficulty maintaining focus, heart coherence offers a gentle and effective way back to peace, clarity, and resilience.",
     "Prices.burnout.stress.title": "Stress management",
-    "Prices.burnout.stress.text": "forms the basis: you learn to calm your nervous system, regulate your breathing, and bring your body back into balance. This level creates the stability needed to think clearly and make conscious choices.",
+    "Prices.burnout.stress.text":
+      "forms the basis: you learn to calm your nervous system, regulate your breathing, and bring your body back into balance. This level creates the stability needed to think clearly and make conscious choices.",
     "Prices.burnout.emotions.title": "Emotion regulation",
-    "Prices.burnout.emotions.text": "deepens the process: you develop resilience, learn to recognize emotions without being overwhelmed by them, and build an inner steadiness. This creates more space, nuance, and self-confidence.",
+    "Prices.burnout.emotions.text":
+      "deepens the process: you develop resilience, learn to recognize emotions without being overwhelmed by them, and build an inner steadiness. This creates more space, nuance, and self-confidence.",
     "Prices.burnout.connection.title": "Connection",
-    "Prices.burnout.connection.text": "is the highest level: from peace and emotional clarity, you can make authentic contact — with yourself and with others. This is where heart coherence culminates in true presence, empathy, and collaboration.",
+    "Prices.burnout.connection.text":
+      "is the highest level: from peace and emotional clarity, you can make authentic contact — with yourself and with others. This is where heart coherence culminates in true presence, empathy, and collaboration.",
     "Prices.deeptimewalk.title": "Deep Time Walk",
-    "Prices.deeptimewalk.description": "A DeepTimeWalk is a transformative, guided walk through 4.6 billion years of Earth's history. It is an invitation to question our relationship with Planet Earth, explore our place within its ecosystems, and change our view of the world.",
+    "Prices.deeptimewalk.description":
+      "A DeepTimeWalk is a transformative, guided walk through 4.6 billion years of Earth's history. It is an invitation to question our relationship with Planet Earth, explore our place within its ecosystems, and change our view of the world.",
     "Prices.deeptimewalk.price.label": "Price",
     "Prices.deeptimewalk.price.text": "500 euros (excl. VAT) for a half day.",
     "Prices.deeptimewalk.experience.title": "Unique experience",
-    "Prices.deeptimewalk.experience.text": "An experience of the enormous vastness of 4.6 billion years on a human scale, where every meter represents 1 million years. We pause at the major earthly revolutions: from the creation of our moon to the rise of photosynthesis, how complex life formed, and finally to the recent appearance of modern humans (in only the last 30 cm of the walk!).",
+    "Prices.deeptimewalk.experience.text":
+      "An experience of the enormous vastness of 4.6 billion years on a human scale, where every meter represents 1 million years. We pause at the major earthly revolutions: from the creation of our moon to the rise of photosynthesis, how complex life formed, and finally to the recent appearance of modern humans (in only the last 30 cm of the walk!).",
     "Prices.deeptimewalk.perspective.title": "Perspective shift",
-    "Prices.deeptimewalk.perspective.text": "Many participants describe a change in how they see their relationship with our planet. What change do you notice?",
+    "Prices.deeptimewalk.perspective.text":
+      "Many participants describe a change in how they see their relationship with our planet. What change do you notice?",
     "Prices.deeptimewalk.reflection.title": "Personal reflection",
     "Prices.deeptimewalk.body.title": "Body",
-    "Prices.deeptimewalk.body.text": "What do you feel in your body after the walk?",
+    "Prices.deeptimewalk.body.text":
+      "What do you feel in your body after the walk?",
     "Prices.deeptimewalk.heart.title": "Heart",
-    "Prices.deeptimewalk.heart.text": "Which part touched you the most? What emotions came up for you during and at the end of the walk?",
+    "Prices.deeptimewalk.heart.text":
+      "Which part touched you the most? What emotions came up for you during and at the end of the walk?",
     "Prices.deeptimewalk.head.title": "Head",
     "Prices.deeptimewalk.head.text": "What did you learn?",
     "Prices.koppels.title": "Couples guidance",
