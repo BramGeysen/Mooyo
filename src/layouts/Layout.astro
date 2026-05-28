@@ -36,7 +36,7 @@ const { title, description = "Standaard omschrijving voor Mooyo" } =
     <GoogleTMHead />
     <meta name="generator" content={Astro.generator} />
     <BaseHead title={`Mooyo | ${title}`} description={description} />
-    <title>Mooyo | {title}</title>
+    <title>Mooyo | {title} | coaching</title>
     <link rel="icon" type="image/png" href={`${baseUrl}/favicon.png`} />
     <link rel="canonical" href={canonicalURL} />
   </head>
@@ -53,10 +53,10 @@ const { title, description = "Standaard omschrijving voor Mooyo" } =
             width={100}
             loading="eager"
           />
-          <h1>
+          <p class="title">
             <span class="big-text">Mooyo -</span>
             {t("layout.header.subtitle")}
-          </h1>
+          </p>
         </div>
       </a>
     </header>
@@ -85,8 +85,12 @@ const { title, description = "Standaard omschrijving voor Mooyo" } =
     align-items: center;
     gap: 5rem;
   }
+  
+  header .title {
+    font-size: 3rem;
+  }
   header .big-text {
-    font-size: 48px;
+    font-size: 4rem;
   }
 
   section {
