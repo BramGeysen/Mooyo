@@ -390,7 +390,7 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
   const cards = document.querySelectorAll('.expanding');
 
   cards.forEach((card) => {
-    card.addEventListener('mouseenter', () => {
+    card.addEventListener('click', () => {
       cards.forEach((anyCard) => {
         anyCard.classList.remove('is-active');
       });
