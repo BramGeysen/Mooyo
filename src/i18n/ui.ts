@@ -346,7 +346,7 @@ export const ui = {
     "Prices.deeptimewalk.price.text": "Een halve dag voor 500 euro (excl BTW).",
     "Prices.deeptimewalk.experience.title": "Unieke beleving",
     "Prices.deeptimewalk.experience.text":
-      "Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staat stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).",
+      "Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staan stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).",
     "Prices.deeptimewalk.perspective.title": "Perspectiefverschuiving",
     "Prices.deeptimewalk.perspective.text":
       "Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet zien. Welke verandering merk jij?",
@@ -359,6 +359,7 @@ export const ui = {
       "Welk deel heeft je het meest geraakt? Welke emoties kwamen bij je op tijdens en aan het einde van de wandeling?",
     "Prices.deeptimewalk.head.title": "Hoofd",
     "Prices.deeptimewalk.head.text": "Wat heb je geleerd?",
+    "Prices.deeptimewalk.groups.footer": "Voor vriendengroepen, verenigingen en families, wil je meer weten over de workshop en de prijs. Stuur een mail naar",
     "Prices.koppels.title": "Begeleiding van koppels",
     "Prices.koppels.li1": "Een sessie van 60 min is 100 euro (incl BTW)",
     "Prices.koppels.li2": "Een sessie van 90 min is 120 euro (incl BTW)",
@@ -796,6 +797,7 @@ export const ui = {
       "Which part touched you the most? What emotions came up for you during and at the end of the walk?",
     "Prices.deeptimewalk.head.title": "Head",
     "Prices.deeptimewalk.head.text": "What did you learn?",
+    "Prices.deeptimewalk.groups.footer": "For groups of friends, associations and families, would you like to know more about the workshop and the price. Send an email to",
     "Prices.koppels.title": "Couples guidance",
     "Prices.koppels.li1": "A 60-minute session costs 100 euros (incl. VAT)",
     "Prices.koppels.li2": "A 90-minute session costs 120 euros (incl. VAT)",
