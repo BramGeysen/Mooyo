@@ -14,7 +14,7 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
 
 <section class=`prices ${sectionClasses} regular-font`>
   <!-- Section 1: Individuele begeleidingen -->
-  <DropDownContainer title="Individuele begeleidingen" color={color}>
+  <DropDownContainer title={t("Prices.title.individual")} color={color}>
     <div class="flex">
       <!-- Card 1: E1 -->
       <div class="card expanding">
@@ -58,18 +58,18 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
       <!-- Card 3: Hartcoherentie -->
       <div class="card expanding">
         <div class="main">
-          <h4 class="bold text-red papyrus-font">Hartcoherentie - burn-out</h4>
+          <h4 class="bold text-red papyrus-font">{t("Prices.burnout.title")}</h4>
           <ul class="infinity-list text-black">
             <li>{t("Prices.e1.li1")}</li>
             <li>{t("Prices.e1.li2")}</li>
           </ul>
           <p class="seeMore">{t("Prices.seeMore")}</p>
           <div class="details">
-            <p>Hartcoherentie is er voor mensen die merken dat hun zenuwstelsel snel overbelast raakt. Het helpt wie met lage veerkracht kampt, wie snel overspoeld raakt door emoties of prikkels, en wie te maken heeft met burn-outklachten zoals uitputting of prikkelgevoeligheid. Ook bij concentratieproblemen, mentale mist of moeite om focus vast te houden, biedt hartcoherentie een zachte en effectieve weg terug naar rust, helderheid en veerkracht.</p>
+            <p>{t("Prices.burnout.description")}</p>
             <ul>
-              <li><span class="text-red bold">Stressmanagement</span> vormt de basis: je leert je zenuwstelsel tot rust brengen, je ademhaling te reguleren en je lichaam terug in balans te brengen. Dit niveau creëert de stabiliteit die nodig is om helder te denken en bewuste keuzes te maken.</li>
-              <li><span class="text-red bold">Emotieregulatie</span> verdiept het proces: je ontwikkelt veerkracht, leert emoties herkennen zonder erdoor overspoeld te worden en bouwt aan een innerlijke stevigheid. Hierdoor ontstaat meer ruimte, nuance en zelfvertrouwen.</li>
-              <li><span class="text-red bold">Verbinding </span> is het hoogste niveau: vanuit rust en emotionele helderheid kun je authentiek contact maken — met jezelf én met anderen. Dit is waar hartcoherentie uitmondt in echte aanwezigheid, empathie en samenwerking.</li>
+              <li><span class="text-red bold">{t("Prices.burnout.stress.title")}</span> {t("Prices.burnout.stress.text")}</li>
+              <li><span class="text-red bold">{t("Prices.burnout.emotions.title")}</span> {t("Prices.burnout.emotions.text")}</li>
+              <li><span class="text-red bold">{t("Prices.burnout.connection.title")} </span> {t("Prices.burnout.connection.text")}</li>
             </ul>
           </div>
         </div>
@@ -97,7 +97,7 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
   </DropDownContainer>
 
   <!-- Section 2: Workshops -->
-  <DropDownContainer title="Workshops - Transformatie beleving" color={color}>
+  <DropDownContainer title={t("Prices.title.workshops")} color={color}>
     <div class="flex">
       <!-- Workshop Card 1: Patronen -->
       <div class="card expanding text-align-justify">
@@ -234,7 +234,7 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
   </DropDownContainer>
 
   <!-- Section 3: Organisaties en Teams -->
-  <DropDownContainer title="Organisaties en Teams" color={color}>
+  <DropDownContainer title={t("Prices.title.organizations")} color={color}>
     <div class="flex">
       <!-- Begeleiding -->
       <div class="card expanding">
@@ -257,10 +257,10 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
       <!-- Deep time walk -->
       <div class="card expanding">
         <div class="main">
-          <h4 class="bold text-red papyrus-font">Deep Time Walk</h4>
-          <p>Een DeepTimeWalk is een transformatieve, begeleide wandeling door 4,6 miljard jaar geschiedenis van de Aarde. Het is een uitnodiging om onze relatie met Planeet Aarde te bevragen, onze plek binnen haar ecosystemen te verkennen, en onze kijk op de wereld te veranderen.</p>
+          <h4 class="bold text-red papyrus-font">{t("Prices.deeptimewalk.title")}</h4>
+          <p>{t("Prices.deeptimewalk.description")}</p>
           <ul class="infinity-list">
-            <li><span class="text-red bold">Prijs:</span> 500 euro (excl BTW) voor een halve dag.</li>
+            <li><span class="text-red bold">{t("Prices.deeptimewalk.price.label")}:</span> {t("Prices.deeptimewalk.price.text")}</li>
           </ul>
           <p>
             {t("Prices.info")}
@@ -268,15 +268,15 @@ const sectionClasses: string = color == 'red' ? "back-red" : "back-gray"
           </p>
           <p class="seeMore">{t("Prices.seeMore")}</p>
           <div class="details">
-            <h5>Unieke beleving</h5>
-            <p>Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staat stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte  tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).</p>
-            <h5>Perspectiefverschuiving</h5>
-            <p>Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet zien. Welke verandering merk jij?</p>
-            <h5>Persoonlijke reflectie</h5>
+            <h5>{t("Prices.deeptimewalk.experience.title")}</h5>
+            <p>{t("Prices.deeptimewalk.experience.text")}</p>
+            <h5>{t("Prices.deeptimewalk.perspective.title")}</h5>
+            <p>{t("Prices.deeptimewalk.perspective.text")}</p>
+            <h5>{t("Prices.deeptimewalk.reflection.title")}</h5>
             <ul class="infinity-list">
-              <li><span class="text-red bold">Lichaam</span> -  Wat voel je in je lichaam na de wandeling?</li>
-              <li><span class="text-red bold">Hart</span> - Welk deel heeft je het meest geraakt? Welke emoties kwamen bij je op tijdens en aan het einde van de wandeling?</li>
-              <li><span class="text-red bold">Hoofd</span> - Wat heb je geleerd?</li>
+              <li><span class="text-red bold">{t("Prices.deeptimewalk.body.title")}</span> - {t("Prices.deeptimewalk.body.text")}</li>
+              <li><span class="text-red bold">{t("Prices.deeptimewalk.heart.title")}</span> - {t("Prices.deeptimewalk.heart.text")}</li>
+              <li><span class="text-red bold">{t("Prices.deeptimewalk.head.title")}</span> - {t("Prices.deeptimewalk.head.text")}</li>
             </ul>
           </div>
         </div>
