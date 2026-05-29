@@ -1,56 +1,52 @@
 ---
-import "../styles/global.css"
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import "../styles/global.css";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 interface Props {
-    color: "red" | "gray"
+  color: "red" | "gray";
 }
 
-const {color} = Astro.props
+const { color } = Astro.props;
 
-const sectionClasses = color === "red"
-    ? "back-red text-white"
-    : "back-gray text-black";
+const sectionClasses =
+  color === "red" ? "back-red text-white" : "back-gray text-black";
 
-const buttonClasses = color === "red"
-    ? "white-btn"
-    : "red-btn";
-
+const buttonClasses = color === "red" ? "white-btn" : "red-btn";
 ---
 
 <section class=`${sectionClasses} text-align-center regular-font`>
-    <p>{t('layout.contact')}</p>
-    <a href="tel:+32473523094"><p class="tel">+32 473 52 30 94</p></a>
-    
-    <a href="mailto:bramgeysen@gmail.com" class="red-link-container">
-        <button class=`${buttonClasses}`>
-            <p>bramgeysen@gmail.com</p>
-        </button>
-    </a>
+  <p>{t("layout.contact")}</p>
+  <a href="tel:+32473523094"><p class="tel">+32 473 52 30 94</p></a>
+
+  <a href="mailto:bramgeysen@gmail.com" class="red-link-container">
+    <button class=`${buttonClasses}`>
+      <p>bramgeysen@gmail.com</p>
+    </button>
+  </a>
 </section>
 
 <style>
-    section {
-        padding: 3rem;
-    }
+  section {
+    padding: 3rem;
+  }
 
-    .red-link-container {
-        text-decoration: none;
-        display: inline-block; 
-    }
+  .red-link-container {
+    text-decoration: none;
+    display: inline-block;
+  }
 
-    .tel{
-        border-bottom: 1px solid var(--mooyo-black);
-        width: fit-content;
-        margin: auto;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-        padding: 0 2rem 0.5rem 2rem;
-    }
+  .tel {
+    border-bottom: 1px solid var(--mooyo-black);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 0 2rem 0.5rem 2rem;
+  }
 
-    .back-red .tel {
-        border-color: white;
-    }
+  .back-red .tel {
+    border-color: white;
+  }
 </style>

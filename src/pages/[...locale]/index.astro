@@ -1,213 +1,243 @@
 ---
-import { Image } from 'astro:assets';
-import Layout from "../../layouts/Layout.astro"
-import hart_rond from '../../assets/rondevormen/hart_rond.png'
-import zon from '../../assets/zon.jpg'
-import profiel from '../../assets/profiel-square.png'
-import { getLangFromUrl, useTranslations, getStaticPaths, useTranslatedPath } from '../../i18n/utils';
-import Prices from '@components/Prices.astro';
-import ContactSection from '@components/Contact-section.astro';
+import { Image } from "astro:assets";
+import Layout from "../../layouts/Layout.astro";
+import hart_rond from "../../assets/rondevormen/hart_rond.png";
+import zon from "../../assets/zon.jpg";
+import profiel from "../../assets/profiel-square.png";
+import {
+  getLangFromUrl,
+  useTranslations,
+  getStaticPaths,
+  useTranslatedPath,
+} from "../../i18n/utils";
+import ContactSection from "@components/Contact-section.astro";
+import Aanbod from "@components/Aanbod.astro";
 export { getStaticPaths };
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 ---
 
-<Layout title='Home'>
-	<section class="intro back-gray text-align-center text-gray center">
-		<div class="container">
-			<div class="img-container">
-				<Image src={hart_rond} class="img hart" alt="Mooyo logo" width={450} height={450} loading="eager"/>
-			</div>
-			<div class="text">
-				<h1 class="text-red">Mooyo</h1>
-				<p>{t("index.intro.text1")}</p>
-				<p>{t("index.intro.text2")}</p>
-				<p>∞ ∞ ∞</p>
-				<p>{t("index.intro.text3")}</p>
-				<p>∞ ∞ ∞</p>
-				<p>{t("index.intro.text4")}</p>
-			</div>
-		</div>
-	</section>
-	<section class="welcome back-red text-white center">
-		<div class="container">
-				<Image src={zon} alt="tekening" class="img" width={450} height={450}/>
-			<div>
-				<h1 class="text-align-center">{t("index.welcome.title")}</h1>
-				<p set:html={t("index.welcome.text")}></p>
-				<p class="content-end">Francis Weller</p>
-			</div>
-		</div>
-	</section>
-	<section class="s3 back-gray text-align-center center">
-		<div class="col3 text-black text-align-justify">
-			<div>
-				<p class="text-align-center text-red bold">{t("index.s3.col1.title")}</p>
-				<div class="regular-font">
-					<p>{t("index.s3.col1.text1")}</p>
-					 <p>{t("index.s3.col1.text2")}<p/>
-					 <p>{t("index.s3.col1.text3")}<p/>
+<Layout title="Home">
+  <section class="intro back-gray text-align-center text-gray center">
+    <div class="container">
+      <div class="img-container">
+        <Image
+          src={hart_rond}
+          class="img hart"
+          alt="Mooyo logo"
+          width={450}
+          height={450}
+          loading="eager"
+        />
+      </div>
+      <div class="text">
+        <h1 class="text-red">Mooyo</h1>
+        <p>{t("index.intro.text1")}</p>
+        <p>{t("index.intro.text2")}</p>
+        <p>∞ ∞ ∞</p>
+        <p>{t("index.intro.text3")}</p>
+        <p>∞ ∞ ∞</p>
+        <p>{t("index.intro.text4")}</p>
+      </div>
+    </div>
+  </section>
+  <section class="welcome back-red text-white center">
+    <div class="container">
+      <Image src={zon} alt="tekening" class="img" width={450} height={450} />
+      <div>
+        <h2 class="text-align-center">{t("index.welcome.title")}</h2>
+        <p set:html={t("index.welcome.text")} />
+        <p class="content-end">Francis Weller</p>
+      </div>
+    </div>
+  </section>
+  <section class="s3 back-gray text-align-center center">
+    <div class="col3 text-black text-align-justify">
+      <div>
+        <p class="text-align-center text-red bold">
+          {t("index.s3.col1.title")}
+        </p>
+        <div class="regular-font">
+          <p>{t("index.s3.col1.text1")}</p>
+          <p>{t("index.s3.col1.text2")}</p>
+          <p>{t("index.s3.col1.text3")}</p>
+        </div>
+      </div>
+      <div>
+        <p class="text-red text-align-center bold">
+          {t("index.s3.col2.title")}
+        </p>
+        <div class="regular-font">
+          <p>{t("index.s3.col2.text1")}</p>
+          <p>{t("index.s3.col2.text2")}</p>
+          <p>{t("index.s3.col2.text3")}</p>
+        </div>
+      </div>
 
-				</div>
-			</div>
-			<div>
-				<p class="text-red text-align-center bold">{t("index.s3.col2.title")}</p>
-				<div class="regular-font">
-					<p>{t("index.s3.col2.text1")}</p>
-					<p>{t("index.s3.col2.text2")}</p>
-					<p>{t("index.s3.col2.text3")}</p>
-				</div>
-			</div>
-			<div>
-				<p class="text-red text-align-center bold">{t("index.s3.col3.title")}</p>
-				<div class="regular-font">
-					<p>{t("index.s3.col3.text1")}</p>
-					<p>{t("index.s3.col3.text2")}</p>
+      <div>
+        <p class="text-red text-align-center bold">
+          {t("index.s3.col3.title")}
+        </p>
+        <div class="regular-font">
+          <p>{t("index.s3.col3.text1")}</p>
+          <p>{t("index.s3.col3.text2")}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s4 back-red text-align-center text-white">
+    <div class="text-margin">
+      <p class="p2 regular-font" set:html={t("index.s4.text1")} />
+      <p class="p2" set:html={t("index.s4.text2")} />
+    </div>
+  </section>
 
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="s4 back-red text-align-center text-white">
-		<div class="text-margin">
-			<p class="p2 regular-font" set:html={t("index.s4.text1")} />
-			<p class="p2" set:html={t("index.s4.text2")} />
-		</div>
-	</section>
-	<section class="profile back-white text-black">
-		<div class="img-container">
-			<Image src={profiel} class="img" alt="Profiel foto van Bram Geysen"/>
-		</div>
-		<div class="text">
-			<h1 class="text-red">Bram Geysen</h1>
-			<p>Rondestraat 38 <br> 3000 Leuven, Belgium <br> {t('index.distance.station')}</p>
-			<p class="title">Contact</p>
-			<p class="text-red"><a href="tel:+32473523094">[+32 473 52 30 94]</a></p>
-			<p class="text-red"><a href="mailto:bramgeysen@gmail.com" class="text-red">[bramgeysen@gmail.com]</a></p>
-			<p class="title">Over mij</p>
-			<p class="about-link"><a href={translatePath("/about")}>Lees hier meer over mij</a></p>
-		</div>
-	</section>
-	<Prices color='red'/>
-	<ContactSection color='gray'/>
-	<section class="s6 back-red text-white text-align-center bold regular-font">
-		<p>{t('index.s6.text1')}</p>
-		<p>{t('index.s6.text2')}</p>
-		<p>{t('index.s6.text3')}</p>
-		<p>{t('index.s6.text4')}</p>
-	</section>
+  <section class="profile back-white text-black">
+    <div class="img-container">
+      <Image src={profiel} class="img" alt="Profiel foto van Bram Geysen" />
+    </div>
+    <div class="text">
+      <h2 class="text-red">Bram Geysen</h2>
+      <p>
+        Rondestraat 38 <br /> 3000 Leuven, Belgium <br />
+        {t("index.distance.station")}
+      </p>
+      <p class="title">Contact</p>
+      <p class="text-red">
+        <a href="tel:+32473523094">[+32 473 52 30 94]</a>
+      </p>
+      <p class="text-red">
+        <a href="mailto:bramgeysen@gmail.com" class="text-red"
+          >[bramgeysen@gmail.com]</a
+        >
+      </p>
+      <p class="about-link">
+        <a href={translatePath("/about")}>Lees hier meer over mij</a>
+      </p>
+    </div>
+  </section>
+
+  <Aanbod color="red"/>
+  <ContactSection color="gray" />
+
+  <section class="s6 back-red text-white text-align-center bold regular-font">
+    <p>{t("index.s6.text1")}</p>
+    <p>{t("index.s6.text2")}</p>
+    <p>{t("index.s6.text3")}</p>
+    <p>{t("index.s6.text4")}</p>
+  </section>
 </Layout>
 
 <style>
-	section {
-		padding: 2rem;
-	}
-	.intro .container,
-		 .welcome .container {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		max-width: 70rem;
-		column-gap: 2rem;
-	}
+  section {
+    padding: 2rem;
+  }
+  .intro .container,
+  .welcome .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 70rem;
+    column-gap: 2rem;
+  }
 
-	.intro .img-container {
-		width: 100%;
-		height: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.intro .img-container .img{
-		width: 100%;
-		height: auto;
-		max-width: 450px;
-		max-height: 450px;
-	}
-	
-	.welcome .img {
-		max-width: 500px;
-		max-height: 500px;
-		width: 100%;
-		height: auto;
-	}
-	.profile {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		padding: 0;
-	}
-	
-    .img-container {
-        width: 100%;
-        height: 600px; 
-        overflow: hidden;
+  .intro .img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro .img-container .img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    max-height: 450px;
+  }
+
+  .welcome .img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+  }
+  .profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+
+  .img-container {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  }
+  .profile .img {
+    position: relative;
+    top: -10rem;
+    min-width: 600px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .profile .text {
+    padding: 2rem;
+  }
+
+  .profile .title {
+    font-weight: 700;
+  }
+
+  .profile .about-link {
+    border-bottom: 1px solid var(--mooyo-red);
+    width: fit-content;
+    padding: 0 0 0.3rem 0;
+  }
+
+  .about-link {
+    margin-top: 3rem;
+  }
+  .content-end {
+    text-align: end;
+  }
+
+  /* Responsive */
+  @media (max-width: 1900px) {
+    .profile .img {
+      top: 0;
     }
-	.profile .img{
-		position: relative;
-		top: -10rem;
-		min-width: 600px;
-		width: 100%;
-		height: auto;
-		object-fit: cover;
-  		object-position: bottom;
-	}
+  }
 
-	.profile .text{
-		padding: 2rem;
-	}
+  @media (max-width: 1200px) {
+    .s3 .col3 {
+      display: grid; /* Added ensuring col3 recognizes grid settings */
+      grid-template-columns: auto;
+    }
+  }
 
-	.profile .title{
-		font-weight: 700;
-	}
+  @media (max-width: 900px) {
+    .intro .container,
+    .welcome .container,
+    .profile {
+      grid-template-columns: auto;
+    }
+    .intro .img {
+      display: none;
+    }
 
-	.profile .about-link {
-		border-bottom: 1px solid var(--mooyo-red);
-		width: fit-content;
-		padding: 0  0 0.3rem 0;
-	}
+    .welcome .img,
+    .profile .img {
+      grid-row: 2;
+      min-width: unset; /* Fixed 'none' syntax error */
+    }
 
-
-
-	.content-end {
-		text-align: end;
-	}
-
-
-	/* Responsive */
-
-	@media (max-width: 1900px) {
-		.profile .img {
-			top: 0;
-		}
-	}
-
-	@media (max-width: 1200px){
-		.s3 .col3{
-			grid-template-columns: auto;
-		}
-	}
-
-	@media (max-width: 900px){
-
-		.intro .container,
-		.welcome .container,
-		.profile {
-			grid-template-columns: auto;
-		}
-		.intro .img{
-			display: none;
-		}
-
-		.welcome .img, .profile .img{
-			grid-row: 2;
-			min-width: none;
-		}
-
-		.profile{
-			padding: 0;
-		}
-		.profile .img{
-			width: 100%;
-		}
-	}
+    .profile {
+      padding: 0;
+    }
+    .profile .img {
+      width: 100%;
+    }
+  }
 </style>
