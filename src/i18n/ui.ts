@@ -325,7 +325,7 @@ export const ui = {
     "Prices.e1.details":
       "Ik begeleid mensen die voelen dat het tijd is om opnieuw in beweging te komen. Mensen die bewust (opnieuw) willen voor het leven, voor verbinding en voor het volledig belichamen van hun potentieel. Of je nu op zoek bent naar helderheid, richting, groei of heling: bij Mooyo vind je een plek waar je gezien en gedragen wordt. Ervaar dat het leven meer te bieden heeft wanneer je vanuit je hart durft te bewegen",
     "Prices.title.individual": "Individuele begeleidingen",
-    "Prices.title.workshops": "Workshops - Transformatie beleving",
+    "Prices.title.workshops": "Transformatieve belevingen",
     "Prices.title.organizations": "Organisaties en Teams",
     "Prices.burnout.title": "Hartcoherentie - burn-out",
     "Prices.burnout.description":
@@ -359,7 +359,8 @@ export const ui = {
       "Welk deel heeft je het meest geraakt? Welke emoties kwamen bij je op tijdens en aan het einde van de wandeling?",
     "Prices.deeptimewalk.head.title": "Hoofd",
     "Prices.deeptimewalk.head.text": "Wat heb je geleerd?",
-    "Prices.deeptimewalk.groups.footer": "Voor vriendengroepen, verenigingen en families, wil je meer weten over de workshop en de prijs. Stuur een mail naar",
+    "Prices.deeptimewalk.groups.footer":
+      "Voor vriendengroepen, verenigingen en families, wil je meer weten over de workshop en de prijs. Stuur een mail naar",
     "Prices.koppels.title": "Begeleiding van koppels",
     "Prices.koppels.li1": "Een sessie van 60 min is 100 euro (incl BTW)",
     "Prices.koppels.li2": "Een sessie van 90 min is 120 euro (incl BTW)",
@@ -435,19 +436,23 @@ export const ui = {
     "Prices.collab": "In samenwerking met Elke Busschots",
     "Prices.info": "Voor info en aanmelden, mail",
     "Prices.gold.title": "Find your gold",
-    "Prices.gold.text": "Een thuiskomen bij jezelf. Tijdens deze innerlijke tocht komen we laag na laag dichterbij jouw blauwdruk, zodat zichtbaar wordt wie je altijd al was.",
+    "Prices.gold.text":
+      "Een thuiskomen bij jezelf. Tijdens deze innerlijke tocht komen we laag na laag dichterbij jouw blauwdruk, zodat zichtbaar wordt wie je altijd al was.",
     "Prices.gold.for": "individu",
     "Prices.gold.location": "Noorwegen in een rustige, natuurlijke omgeving",
     "Prices.gold.max": "Kleine groep (max. 6)",
     "Prices.gold.data": "Van 5-12 september 2026",
-    "Prices.gold.price": "Inclusief programma, begeleiding, maaltijden (Exclusief vervoer)",
-    "Prices.gold.body": "Elke dag trekken we de natuur in. Ze spiegelt je zonder oordeel: waar je nog vasthoudt, waar je mag verzachten, waar je mag openen. De natuur laat zien wat je lichaam al wist, maar wat je hoofd misschien nog niet durfde te erkennen. Reconstructive maakt zichtbaar wat je onderweg tegenkomt: oude patronen, beschermingslagen, ingehouden emoties. Door ermee te werken in het lichaam komt er beweging, helderheid en richting. Je voelt hoe je dichter bij je blauwdruk komt dat stille, diepe weten van wie jij in essentie bent. De groep wordt een bedding. Je hoeft het niet alleen te doen, maar je maakt wel je eigen innerlijke reis.",
+    "Prices.gold.price":
+      "Inclusief programma, begeleiding, maaltijden (Exclusief vervoer)",
+    "Prices.gold.body":
+      "Elke dag trekken we de natuur in. Ze spiegelt je zonder oordeel: waar je nog vasthoudt, waar je mag verzachten, waar je mag openen. De natuur laat zien wat je lichaam al wist, maar wat je hoofd misschien nog niet durfde te erkennen. Reconstructive maakt zichtbaar wat je onderweg tegenkomt: oude patronen, beschermingslagen, ingehouden emoties. Door ermee te werken in het lichaam komt er beweging, helderheid en richting. Je voelt hoe je dichter bij je blauwdruk komt dat stille, diepe weten van wie jij in essentie bent. De groep wordt een bedding. Je hoeft het niet alleen te doen, maar je maakt wel je eigen innerlijke reis.",
     "Prices.gold.results.title": "Wat levert het op",
     "Prices.gold.li1": "Meer helderheid",
     "Prices.gold.li2": "Belichaming",
     "Prices.gold.li3": "Rust",
     "Prices.gold.li4": "stevig contact met je kern",
-    "Prices.gold.footer": "Voor wie een reset wil, oude lagen wil loslaten en zijn/haar blauwdruk wil herontdekken",
+    "Prices.gold.footer":
+      "Voor wie een reset wil, oude lagen wil loslaten en zijn/haar blauwdruk wil herontdekken",
   },
   en: {
     // Global
@@ -797,7 +802,8 @@ export const ui = {
       "Which part touched you the most? What emotions came up for you during and at the end of the walk?",
     "Prices.deeptimewalk.head.title": "Head",
     "Prices.deeptimewalk.head.text": "What did you learn?",
-    "Prices.deeptimewalk.groups.footer": "For groups of friends, associations and families, would you like to know more about the workshop and the price. Send an email to",
+    "Prices.deeptimewalk.groups.footer":
+      "For groups of friends, associations and families, would you like to know more about the workshop and the price. Send an email to",
     "Prices.koppels.title": "Couples guidance",
     "Prices.koppels.li1": "A 60-minute session costs 100 euros (incl. VAT)",
     "Prices.koppels.li2": "A 90-minute session costs 120 euros (incl. VAT)",
@@ -869,18 +875,22 @@ export const ui = {
     "Prices.collab": "In collaboration with Elke Busschots from",
     "Prices.info": "For info and registration, email",
     "Prices.gold.title": "Find your gold",
-    "Prices.gold.text": "A homecoming to yourself. During this inner journey, we come layer by layer closer to your blueprint, so that who you have always been becomes visible.",
+    "Prices.gold.text":
+      "A homecoming to yourself. During this inner journey, we come layer by layer closer to your blueprint, so that who you have always been becomes visible.",
     "Prices.gold.for": "individual",
     "Prices.gold.location": "Norway in a quiet, natural environment",
     "Prices.gold.max": "Small group (max. 6)",
     "Prices.gold.data": "From September 5-12, 2026",
-    "Prices.gold.price": "Including program, guidance, meals (Excluding transport)",
-    "Prices.gold.body": "Every day we go into nature. It mirrors you without judgment: where you still hold on, where you may soften, where you may open. Nature shows what your body already knew, but what your head perhaps did not yet dare to acknowledge. Reconstructive makes visible what you encounter along the way: old patterns, protective layers, held-back emotions. By working with it in the body, movement, clarity, and direction emerge. You feel how you get closer to your blueprint – that quiet, deep knowing of who you are in essence. The group becomes a foundation. You don't have to do it alone, but you do make your own inner journey.",
+    "Prices.gold.price":
+      "Including program, guidance, meals (Excluding transport)",
+    "Prices.gold.body":
+      "Every day we go into nature. It mirrors you without judgment: where you still hold on, where you may soften, where you may open. Nature shows what your body already knew, but what your head perhaps did not yet dare to acknowledge. Reconstructive makes visible what you encounter along the way: old patterns, protective layers, held-back emotions. By working with it in the body, movement, clarity, and direction emerge. You feel how you get closer to your blueprint – that quiet, deep knowing of who you are in essence. The group becomes a foundation. You don't have to do it alone, but you do make your own inner journey.",
     "Prices.gold.results.title": "What does it deliver",
     "Prices.gold.li1": "More clarity",
     "Prices.gold.li2": "Embodiment",
     "Prices.gold.li3": "Peace",
     "Prices.gold.li4": "Strong contact with your core",
-    "Prices.gold.footer": "For those who want a reset, want to let go of old layers and rediscover their blueprint",
+    "Prices.gold.footer":
+      "For those who want a reset, want to let go of old layers and rediscover their blueprint",
   },
 } as const;
