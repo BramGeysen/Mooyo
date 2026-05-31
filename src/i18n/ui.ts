@@ -347,7 +347,7 @@ export const ui = {
     "Prices.deeptimewalk.experience.title": "Unieke beleving",
     "Prices.deeptimewalk.experience.text":
       "Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staan stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).",
-    "Prices.deeptimewalk.perspective.title": "Perspectiefverschuiving",
+    "Prices.deeptimewalk.perspective.title": "Perspectief verschuiving",
     "Prices.deeptimewalk.perspective.text":
       "Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet zien. Welke verandering merk jij?",
     "Prices.deeptimewalk.reflection.title": "Persoonlijke reflectie",
