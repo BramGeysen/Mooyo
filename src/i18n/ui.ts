@@ -41,7 +41,7 @@ export const ui = {
     "index.distance.station":
       "(op 3min wandelafstand van treinstation Leuven).",
     // Index section 1
-    "index.intro.text1": " Hart, Leven, Ziel, Energie",
+    "index.intro.text1": " Hart, Leven, Ziel, Geest, Energie",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
     "index.intro.text3":
@@ -307,7 +307,7 @@ export const ui = {
     "about.s2.e1.text6":
       "Ik ben dankbaar voor alles wat geweest is; het heeft me gevormd en veel goeds gebracht. Ik kijk hoopvol uit naar de toekomst. Vanuit die dankbaarheid is Mooyo ontstaan — mijn inspiratie én mijn toewijding om anderen te begeleiden op hun eigen unieke reis.",
     "about.s2.e1.text7":
-      " Momenteel werk ik halftijd bij Adem vzw als Teamcoach en halftijds als zelfstandige.",
+      " Momenteel werk ik deeltijds bij Adem vzw als Teamcoach en halftijds als zelfstandige.",
     "about.s2.e2.title": "Waarom kiezen voor Mooyo?",
     "about.s2.e2.text1":
       "Mijn begeleidingsstijl wordt gekenmerkt door een diepe kwaliteit van aanwezigheid en een kalme rust. Dit stelt mij in staat om een veilige en ondersteunende omgeving te creëren waarin jij je volledig kunt openstellen en groeien.",
@@ -357,17 +357,17 @@ export const ui = {
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
       "Voor wie al wat innerlijk werk gedaan heeft en voelt dat er via het lichaam iets verder mag bewegen.",
-    "Prices.reconstructive.format": "1dag",
+    "Prices.reconstructive.format": "2 dag",
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data": "najaar 2026",
-    "Prices.reconstructive.price": "450€ excl btw",
+    "Prices.reconstructive.data": "25/26 juli 2026 (10-17u) - De volgende 2-daagse gaat door op 17/18 oktober 2026 (10-17u)",
+    "Prices.reconstructive.price": "375€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
-      "Je hebt al een weg naar binnen afgelegd. En toch voel je: er is nog iets. Iets wat niet via het hoofd loskomt, maar via het lichaam. Reconstructive is voor jou.",
+      "Soms voel je dat er nog iets in de weg zit. Iets wat niet via het hoofd loskomt, maar via het lichaam wil gezien worden.",
     "Prices.reconstructive.body2":
-      "Het is een krachtige lichaamsgerichte methode waarbij intuïtie, vrijheid en helderheid meer kunnen stromen. Het denken wordt even opzijgezet. Wat overblijft is het lichaam en wat het je te vertellen heeft.",
+      "Vaak zijn het diepgewortelde patronen, oude verhalen, ingehouden emoties en overlevingsstrategieën die ons onbewust ervan weerhouden om ons potentieel ten volle te leven. Door ermee te werken in het lichaam komt er beweging, helderheid en richting.",
     "Prices.reconstructive.body3":
       "In de tweedaagse vertraagt de tijd. Je krijgt ruimte om dieper te zakken, voorbij de oppervlakte. Je ontmoet twee delen in jezelf die vaak meer invloed hebben dan je denkt: je kinddeel en je volwassen deel. Wanneer deze twee elkaar ontmoeten, ontstaat er iets krachtigs: een beweging die je niet kunt bedenken, maar wel kunt voelen.",
     "Prices.reconstructive.body4":
@@ -385,13 +385,13 @@ export const ui = {
     "Prices.label.data": "Data",
     "Prices.label.price": "Prijs",
     "Prices.adolescenten.title":
-      "Adolescenten (korting voor adolescenten die zelf instaan voor de kosten)",
-    "Prices.adolescenten.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
-    "Prices.adolescenten.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
+      "Footprints",
+    "Prices.adolescenten.li1": "Een sessie van 60 min is 70 euro (incl BTW)",
+    "Prices.adolescenten.li2": "Een sessie van 90 min is 90 euro (incl BTW)",
     "Prices.adolescenten.details":
-      "Ook adolescenten zijn meer dan welkom. Zij dragen nieuwe talenten, gevoeligheden en verlangens in zich die niet altijd lijken te passen binnen de huidige maatschappij, maar wél essentieel zijn voor een samenleving in transformatie. Via mijn hartgedragen begeleiding ontdekken jongeren hoe ze in hun eigen kracht kunnen staan. Met heldere inzichten, zelfvertrouwen en nieuwe perspectieven leren ze hun energie te richten op wat klopt voor hen. Zo kunnen zij vanuit veerkracht en met plezier bijdragen aan een wereld die blijft groeien en veranderen.",
+      "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
     "Prices.seeMore": "Zie meer...",
-    "Prices.collab": "In samenwerking met Elke Busschots van",
+    "Prices.collab": "In samenwerking met Elke Busschots",
     "Prices.info": "Voor info en aanmelden, mail",
   },
   en: {
@@ -422,7 +422,7 @@ export const ui = {
     "index.title": "Home",
 
     // Index section 1
-    "index.intro.text1": "Heart, life, soul, spirit.",
+    "index.intro.text1": "Heart, life, soul, spirit, energy.",
     "index.intro.text2":
       "In various African languages, Mooyo refers to both the physical heart and the inner essence or life energy.",
     "index.intro.text3":
