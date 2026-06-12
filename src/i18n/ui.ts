@@ -831,7 +831,7 @@ export const ui = {
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
       "For those who have already done some inner work and feel that something can move further through the body.",
-    "Prices.reconstructive.format": "1 day",
+    "Prices.reconstructive.format": "2 days",
     "Prices.reconstructive.for": "individual",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
@@ -839,9 +839,9 @@ export const ui = {
     "Prices.reconstructive.price": "450€ excl. VAT",
     "Prices.reconstructive.lunch": "Coffee, tea, and lunch included",
     "Prices.reconstructive.body1":
-      "You have already traveled a path inward. And yet you feel: there is something more. Something that doesn't release through the head, but through the body. Reconstructive is for you.",
+      "Sometimes you feel that something is still in the way. Something that doesn't release through the mind, but wants to be seen through the body.",
     "Prices.reconstructive.body2":
-      "It is a powerful body-oriented method where intuition, freedom, and clarity can flow more freely. Thinking is set aside for a moment. What remains is the body and what it has to tell you.",
+      "Often it is deep-rooted patterns, old stories, held-back emotions, and survival strategies that unconsciously prevent us from fully living our potential. By working with them in the body, movement, clarity, and direction emerge.",
     "Prices.reconstructive.body3":
       "In the two-day session, time slows down. You get space to sink deeper, beyond the surface. You meet two parts within yourself that often have more influence than you think: your child part and your adult part. When these two meet, something powerful arises: a movement you cannot think up, but you can feel.",
     "Prices.reconstructive.body4":
@@ -859,14 +859,13 @@ export const ui = {
     "Prices.label.max": "Max participants",
     "Prices.label.data": "Dates",
     "Prices.label.price": "Price",
-    "Prices.footprints.title":
-      "Adolescents (discount for adolescents covering their own costs)",
+    "Prices.footprints.title": "Footprints",
     "Prices.footprints.li1": "A 60-minute session costs 55 euros (incl. VAT)",
     "Prices.footprints.li2": "A 90-minute session costs 75 euros (incl. VAT)",
     "Prices.footprints.details":
-      "Adolescents are also more than welcome. They carry new talents, sensitivities, and desires within them that may not always seem to fit within current society, but are essential for a society in transformation. Through my heart-centered guidance, young people discover how to stand in their own power. With clear insights, self-confidence, and new perspectives, they learn to direct their energy toward what is right for them. Thus, they can contribute with resilience and pleasure to a world that continues to grow and change.",
+      "The Footprints method is an individual guidance of 4 sessions that forms an essential key to a free life. If you recognize any of the following patterns in yourself, Footprints can bring change: pleasing, caring for, being constantly busy, controlling, trying even harder. Footprints is an encounter with your own inner world and opens the door to emotional maturity where your place in the system is honored, creating clarity. After the first session you already feel lighter; the following sessions deepen this feeling, making integration into daily life tangible and lasting.",
     "Prices.seeMore": "See more...",
-    "Prices.collab": "In collaboration with Elke Busschots from",
+    "Prices.collab": "In collaboration with Elke Busschots",
     "Prices.info": "For info and registration, email",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
