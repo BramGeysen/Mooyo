@@ -41,7 +41,7 @@ export const ui = {
     "index.distance.station":
       "(op 3min wandelafstand van het treinstation van Leuven).",
     // Index section 1
-    "index.intro.text1": " Hart, Leven, Ziel, Geest, Energie",
+    "index.intro.text1": " Hart, Leven, Ziel, Geest",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
     "index.intro.text3":
@@ -91,9 +91,12 @@ export const ui = {
     "aanbod.title": "Aanbod",
 
     // Aanbod section 1
-    "aanbod.forwho.title": "Voor wie?",
+    "aanbod.forwho.title": "Begeleiding waarin jij, je lichaam en je relaties centraal staan.",
     "aanbod.forwho.text":
-      "Ik begeleid mensen die voelen dat het tijd is om opnieuw in beweging te komen, die terug willen verbinden met zichzelf en hun potentieel volledig willen belichamen. Mensen die vanuit hun open hart willen leven en vandaaruit veerkracht en levensvreugde terug willen ervaren. Bij Mooyo vind je een plek waar je gezien en gedragen wordt, of je nu zoekt naar helderheid, richting, groei of heling. Voor wie vastzit in (hardnekkige) patronen bied ik een veilige ruimte om te onderzoeken wat eronder ligt en om stap voor stap terug te keren naar innerlijke vrijheid en zelfsturing. Als hoogbewuste of hoogbegaafde vind je hier herkenning, diepgang en begeleiding die aansluit bij jouw gevoeligheid en intensiteit.",
+      "In mijn begeleiding nodig ik je uit om niet alleen te praten over wat er speelt, maar het ook in je lichaam te voelen. Vaak vertelt je lichaam iets wat woorden nog niet kunnen vatten. Door samen stil te staan bij die signalen, ontstaat er ruimte voor echte, duurzame verandering.
+Ik kijk altijd naar jou in relatie tot je omgeving. We leven en ontwikkelen ons immers in verbinding met anderen. Daarom betrek ik, wanneer dat helpend is, de systemen waarvan jij deel uitmaakt. Gedrag en patronen ontstaan zelden in isolatie; ze zijn meestal onderdeel van een groter geheel.
+Daarnaast onderzoek ik met jou de interne relaties die je met jezelf hebt: de delen die je beschermen, de delen die je kwetsbaar maken, en de delen die soms botsen. Door deze innerlijke stemmen te leren kennen, ontstaat er meer begrip, mildheid en richting.
+Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en innerlijke dynamiek elkaar versterken en je helpen om op een authentieke manier te groeien.",
     "aanbod.forwho.text2":
       "Mooyo is er voor iedereen die voelt dat het tijd is om terug te keren naar zichzelf — en van daaruit het leven te omarmen.",
     // Aanbod section 2
@@ -339,11 +342,11 @@ export const ui = {
     "Prices.burnout.connection.title": "Verbinding",
     "Prices.burnout.connection.text":
       "is het hoogste niveau: vanuit rust en emotionele helderheid kun je authentiek contact maken — met jezelf én met anderen. Dit is waar hartcoherentie uitmondt in echte aanwezigheid, empathie en samenwerking.",
-    "Prices.deeptimewalk.title": "Deep Time Walk",
+    "Prices.deeptimewalk.title": "Deep Time Walk - Teambuilding",
     "Prices.deeptimewalk.description":
       "Een DeepTimeWalk is een transformatieve, begeleide wandeling door 4,6 miljard jaar geschiedenis van de Aarde. Het is een uitnodiging om onze relatie met Planeet Aarde te bevragen, onze plek binnen haar ecosystemen te verkennen, en onze kijk op de wereld te veranderen.",
     "Prices.deeptimewalk.price.label": "Prijs",
-    "Prices.deeptimewalk.price.text": "Een halve dag voor 500 euro (excl BTW).",
+    "Prices.deeptimewalk.price.text": "Een halve dag voor 300 euro (excl BTW).",
     "Prices.deeptimewalk.experience.title": "Unieke beleving",
     "Prices.deeptimewalk.experience.text":
       "Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staan stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).",
@@ -398,7 +401,7 @@ export const ui = {
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data": "najaar 2026",
+    "Prices.reconstructive.data": "25 en 26 juli 2026 + najaar 2026 (data volgen nog)",
     "Prices.reconstructive.price": "450€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
@@ -433,16 +436,16 @@ export const ui = {
     "Prices.adolescenten.details":
       "Ook adolescenten zijn meer dan welkom. Zij dragen nieuwe talenten, gevoeligheden en verlangens in zich die niet altijd lijken te passen binnen de huidige maatschappij, maar wél essentieel zijn voor een samenleving in transformatie. Via mijn hartgedragen begeleiding ontdekken jongeren hoe ze in hun eigen kracht kunnen staan. Met heldere inzichten, zelfvertrouwen en nieuwe perspectieven leren ze hun energie te richten op wat klopt voor hen. Zo kunnen zij vanuit veerkracht en met plezier bijdragen aan een wereld die blijft groeien en veranderen.",
     "Prices.seeMore": "Zie meer...",
-    "Prices.collab": "In samenwerking met Elke Busschots",
+    "Prices.collab": "In samenwerking met Elke Busschots, https://www.cominz.be",
     "Prices.info": "Voor info en aanmelden, mail",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
       "Een thuiskomen bij jezelf. Tijdens deze innerlijke tocht komen we laag na laag dichterbij jouw blauwdruk, zodat zichtbaar wordt wie je altijd al was.",
     "Prices.gold.for": "individu",
-    "Prices.gold.location": "Noorwegen in een rustige, natuurlijke omgeving",
+    "Prices.gold.location": "Zuid Noorwegen in een rustige, natuurlijke omgeving",
     "Prices.gold.max": "Kleine groep (max. 6)",
     "Prices.gold.data": "Van 5-12 september 2026",
-    "Prices.gold.price":
+    "Prices.gold.price": "1750€ excl btw"
       "Inclusief programma, begeleiding, maaltijden (Exclusief vervoer)",
     "Prices.gold.body":
       "Elke dag trekken we de natuur in. Ze spiegelt je zonder oordeel: waar je nog vasthoudt, waar je mag verzachten, waar je mag openen. De natuur laat zien wat je lichaam al wist, maar wat je hoofd misschien nog niet durfde te erkennen. Reconstructive maakt zichtbaar wat je onderweg tegenkomt: oude patronen, beschermingslagen, ingehouden emoties. Door ermee te werken in het lichaam komt er beweging, helderheid en richting. Je voelt hoe je dichter bij je blauwdruk komt dat stille, diepe weten van wie jij in essentie bent. De groep wordt een bedding. Je hoeft het niet alleen te doen, maar je maakt wel je eigen innerlijke reis.",
