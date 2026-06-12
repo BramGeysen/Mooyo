@@ -32,8 +32,7 @@ export const ui = {
 
     // Layout
     "layout.header.subtitle": "hartgedragen begeleiding",
-    "layout.contact": "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.
-",
+    "layout.contact": "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.",
 
     // Index
 
