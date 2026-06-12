@@ -32,7 +32,8 @@ export const ui = {
 
     // Layout
     "layout.header.subtitle": "hartgedragen begeleiding",
-    "layout.contact": "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.",
+    "layout.contact":
+      "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.",
 
     // Index
 
@@ -40,7 +41,7 @@ export const ui = {
     "index.distance.station":
       "(op 3min wandelafstand van treinstation Leuven).",
     // Index section 1
-    "index.intro.text1": " Hart, Leven, Ziel, Geest, Energie",
+    "index.intro.text1": " Hart, Leven, Ziel, Energie",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
     "index.intro.text3":
@@ -103,8 +104,7 @@ export const ui = {
 
     // Aanbod section 5
     "openHartCirkels.title": "Open hartcirkels",
-    "openHartCirkels.text":
-      "Voor meer informatie zie (verwachting eind juni):",
+    "openHartCirkels.text": "Voor meer informatie zie (verwachting eind juni):",
 
     // Aanbod section 6
     "aanbod.s6.text":
@@ -221,7 +221,8 @@ export const ui = {
     "pillars.adem.title2": "De kracht van het moment",
     "pillars.adem.list1":
       "Het leven aanvaarden zoals het nu is, niet zoals je het zou willen dat het is.",
-    "pillars.adem.list2": "De tijdelijkheid van het moment inzien, zonder weerstand, zonder vasthouden. ",
+    "pillars.adem.list2":
+      "De tijdelijkheid van het moment inzien, zonder weerstand, zonder vasthouden. ",
     "pillars.adem.list3":
       " Ademhaling is de poort tussen het bewuste en onbewuste: we kunnen de ademhaling bewust sturen en tegelijk werkt de ademhaling autonoom.",
     "pillars.adem.list4":
@@ -360,8 +361,8 @@ export const ui = {
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data": "25/26 juli 2026 (10-17u) - De volgende 2-daagse gaat door op 17/18 oktober 2026 (10-17u)",
-    "Prices.reconstructive.price": "375€ excl btw",
+    "Prices.reconstructive.data": "najaar 2026",
+    "Prices.reconstructive.price": "450€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
       "Soms voel je dat er nog iets in de weg zit. Iets wat niet via het hoofd loskomt, maar via het lichaam wil gezien worden.",
@@ -389,6 +390,11 @@ export const ui = {
     "Prices.adolescenten.li2": "Een sessie van 90 min is 90 euro (incl BTW)",
     "Prices.adolescenten.details":
       "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
+      "Adolescenten (korting voor adolescenten die zelf instaan voor de kosten)",
+    "Prices.adolescenten.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
+    "Prices.adolescenten.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
+    "Prices.adolescenten.details":
+      "Ook adolescenten zijn meer dan welkom. Zij dragen nieuwe talenten, gevoeligheden en verlangens in zich die niet altijd lijken te passen binnen de huidige maatschappij, maar wél essentieel zijn voor een samenleving in transformatie. Via mijn hartgedragen begeleiding ontdekken jongeren hoe ze in hun eigen kracht kunnen staan. Met heldere inzichten, zelfvertrouwen en nieuwe perspectieven leren ze hun energie te richten op wat klopt voor hen. Zo kunnen zij vanuit veerkracht en met plezier bijdragen aan een wereld die blijft groeien en veranderen.",
     "Prices.seeMore": "Zie meer...",
     "Prices.collab": "In samenwerking met Elke Busschots",
     "Prices.info": "Voor info en aanmelden, mail",
@@ -415,10 +421,13 @@ export const ui = {
 
     // Layout
     "layout.header.subtitle": "heart-centered guidance",
-    "layout.contact": "Make an appointment or send a message to: ",
+    "layout.contact":
+      "You are welcome for a no-obligation conversation in which we explore your questions and together see what next step feels right.",
 
     // Index
     "index.title": "Home",
+    "index.distance.station":
+      "(within 3 min walking distance from Leuven train station).",
 
     // Index section 1
     "index.intro.text1": "Heart, life, soul, spirit, energy.",
@@ -439,12 +448,12 @@ export const ui = {
     "index.s3.col1.text1":
       "It doesn't matter how big or small your disorientation is. You are welcome.",
     "index.s3.col1.text2":
-      "Feelings ranging from 'I am stuck', 'I don't know what to do', 'I can't do anything' to feelings associated with questions like: 'Is this it?', 'Do I really want this?', 'Why am I doing this?', 'Does this make me happy?'",
+      "Feelings ranging from ‘Is it this?’, ‘Do I really want this?’, ‘Why am I doing this?’, ‘Does this make me happy?’ to feelings associated with questions like: ‘I am stuck’, ’I don't know what to do’, ‘I can't do anything.’",
     "index.s3.col1.text3":
       "These questions are signposts and, with the right attention and softness, can lead to new insights and a freer, fuller life.",
     "index.s3.col2.title": "Tenderness",
     "index.s3.col2.text1":
-      "Tenderness is also the softest, most honest way truth speaks.",
+      "Tenderness is the softest, most honest way truth speaks.",
     "index.s3.col2.text2":
       "With tenderness, safety arises and you can restore intimacy with yourself and with life.",
     "index.s3.col2.text3":
@@ -456,7 +465,9 @@ export const ui = {
       "Rediscover your place and mission in the world. Here all parts are welcome, here you feel the strength of old roots rising to meet your feet, and the earth whispers: you belong. Here nothing is asked of you except your presence.",
 
     // Index section 4
-    "index.s4.text": "Are you prepared to move and listen to your heart?",
+    "index.s4.text1":
+      "Mooyo invites you to start at the origin: at the silent center where your truth, your pain, and your potential converge. When we go to that core, something opens. Not by pushing or analyzing, but by feeling, sinking, acknowledging. As long as the core is not touched, it continues to feel as if you are on a journey without direction. The process only truly begins when you touch the core, not as a new search outside yourself, but as a homecoming within yourself.",
+    "index.s4.text2": "Are you prepared to move and listen to your heart?",
 
     // Index section 6
     "index.s6.text1": "Feel first, think later.",
@@ -471,17 +482,19 @@ export const ui = {
     // Aanbod section 1
     "aanbod.forwho.title": "For whom?",
     "aanbod.forwho.text":
-      "Guidance at Mooyo always goes to the core of who we are and what we carry within us. We look at the layers beneath behavior, beneath patterns, beneath what is visible. Real movement begins when we dare to feel what lives inside us — and when we no longer have to carry it alone. We heal in relationship: in relationship with ourselves, with others, and with life. That is why every guidance process is both universal and completely tailored. Universal because we all long for connection, clarity, direction, and inner peace. Tailored because every person, every couple, and every life story is unique. Whether you come as an individual, as a couple wanting to reconnect, or as someone struggling with persistent patterns or addiction-related challenges: you are welcomed into a safe, open space where you may land exactly as you are. Through heart-centered presence, we explore what wants to be seen, so you can reconnect with your own strength, freedom of choice, and life energy. Mooyo is here for everyone who feels it is time to return to themselves — and from there embrace life again.",
+      "I guide people who feel it is time to move again, who want to reconnect with themselves and fully embody their potential. People who want to live from their open heart and experience resilience and joy once more. At Mooyo, you find a place where you are seen and supported, whether you seek clarity, direction, growth, or healing. For those stuck in (persistent) patterns, I offer a safe space to explore what lies beneath and to return step by step to inner freedom and self-direction. As a highly conscious or gifted person, you will find recognition, depth, and guidance that aligns with your sensitivity and intensity.",
+    "aanbod.forwho.text2":
+      "Mooyo is there for everyone who feels it is time to return to themselves — and embrace life from there.",
 
     // Aanbod section 2
     "methodieken.title":
-      "My guidance is based on the philosophy and methodologies below:",
+      "My guidance is based on the following (life) philosophy and methodologies:",
     "methodieken.text":
-      "All approaches and methodologies allow you to physically experience how change can feel. These methodologies also take into account that people are relational beings. Consequently, we also look at the system you are part of. Behavior and problems arise in interaction with others and are never purely individual. The different relationships we have with ourselves are also given a place within the guidance process.",
+      "All approaches and methodologies allow you to physically experience how change can feel. These methods also take into account that humans are relational beings. Consequently, we also look at the systems you are part of. Behavior and problems arise in interaction with others and are never solely individual. The different relationships we have with ourselves are also given a place in the guidance.",
 
     // Aanbod section 5
     "openHartCirkels.title": "Open heart circles",
-    "openHartCirkels.text": "For more information see (expected early June):",
+    "openHartCirkels.text": "For more information see (expected late June):",
 
     // Aanbod section 6
     "aanbod.s6.text":
@@ -527,11 +540,11 @@ export const ui = {
     "filosofie.open-hart.s1.col2.list3":
       "do not immediately react as you always did",
     "filosofie.open-hart.s1.col2.text3":
-      "That moment of awareness is already a break in the conditioning",
+      "That moment of awareness is already a break in the conditioning.",
     "filosofie.open-hart.s1.col3.title":
       "3. Reversing happens through small, repeated choices",
     "filosofie.open-hart.s1.col3.text1":
-      "Major transformations rarely arise from one big act",
+      "Major transformations rarely arise from one big act.",
     "filosofie.open-hart.s1.col3.text2": "They arise from:",
     "filosofie.open-hart.s1.col3.list1":
       "choosing a different reaction time and again",
@@ -566,46 +579,45 @@ export const ui = {
     "filosofie.open-hart.s2.col3.text1":
       "Community often plays a much larger role in healing than people realize.",
     "filosofie.open-hart.s2.col3.text2":
-      "Healing -- whether it is emotional, psychological, spiritual, or even physical -- rarely happens completely in isolation.",
+      "Healing — whether it is emotional, psychological, spiritual, or even physical — rarely happens completely in isolation.",
     "filosofie.open-hart.s2.col3.text3":
-      "People heal in relationship to others.",
+      "People heal in relation to others.",
 
     // Filosofie section 4
-    "intro-pillars.title":
-      "The guidance is based on 4 core pillars that are constantly <br> in dialogue with each other.",
     "intro-pillars.text1":
-      "These 4 pillars are given sufficient attention, and depending on the moment, one or the other will be more in the foreground. <br>The pillars must always be in communication with each other and in balance.",
+      "Mooyo works with four core pillars that are in constant dialogue with each other. When one pillar becomes unbalanced, it affects the whole — and that is precisely why it is so important to bring movement to all levels so they are in balance.",
     "intro-pillars.text2":
       "Mooyo brings people closer to their essence so they can make heart-centered choices in their lives.",
 
     // Filosofie section 5
     "pillars.bewustzijn.title1": "Awareness - The Whole",
     "pillars.bewustzijn.img.text1":
-      "A circle that is not fully closed with an opening at the top. Above it, a floating dot as if the circle is letting go of a thought - awareness.",
+      "A circle with an opening and a floating dot above it represents awareness.",
     "pillars.bewustzijn.img.text2":
       "Meaning: the mental space where perception, interpretation, and meaning arise.",
     "pillars.bewustzijn.title2": "The Power of Your Roots",
     "pillars.bewustzijn.list1":
       "Truth-telling: looking honestly at your past, your patterns.",
     "pillars.bewustzijn.list2":
-      "Understanding what perception and conditioning from 0 to 6 years old entails and how it affects your life.",
+      "Understanding what perception and conditioning from 0 to 6 years old means and how it affects your life.",
     "pillars.bewustzijn.list3":
-      "Conditioning often arises before language development, is therefore emotional in nature, and cannot be reached through the intellect.",
-    "pillars.bewustzijn.list4":
       "Every conditioning has both an energetic aspect and an awareness part.",
+    "pillars.bewustzijn.list4":
+      "Because conditionings often arise before language development, they are emotional in nature and cannot be reached through the intellect.",
     "pillars.adem.title1": "Breath - The Now",
     "pillars.adem.img.text1":
-      "The two wavy lines represent connection: the inhalation and exhalation. The line represents the diaphragm, the support.",
+      "The two wavy lines represent connection: the inhalation and exhalation. The line represents the diaphragm and stands for support.",
     "pillars.adem.img.text2":
-      "Meaning: Breath as a bridge between body and mind, influencing emotions, the nervous system, and mental clarity.",
+      "Meaning: Breath as a bridge between body and mind, influencing emotions, nervous systems, and mental clarity.",
     "pillars.adem.title2": "The Power of the Moment",
     "pillars.adem.list1":
       "Accepting life as it is now, not as you would like it to be.",
-    "pillars.adem.list2": "Recognizing its impermanence. Without resistance.",
+    "pillars.adem.list2":
+      "Recognizing the impermanence of the moment, without resistance, without holding on.",
     "pillars.adem.list3":
-      "Breathing is the gate between the conscious and unconscious: we can consciously guide the breath, while it also works autonomously.",
+      "Breathing is the gate between the conscious and unconscious: we can consciously guide the breath while it also works autonomously.",
     "pillars.adem.list4":
-      "Breathing plays an important role in our daily lives and can be used as regulation during painful experiences that are allowed to be felt.",
+      "Breathing plays an important role in our daily lives and can be used as regulation during stress or discomfort.",
     "pillars.hart.title1": "The Heart - The Future",
     "pillars.hart.img.text1":
       "The spiral continuously nourished by warmth and humanity.",
@@ -613,25 +625,37 @@ export const ui = {
       "Meaning: The power of sincere (self)compassion and the center of courage to allow discomfort.",
     "pillars.hart.title2": "The Power of Courage",
     "pillars.hart.list1":
-      "Heart coherence is a way to practice self-regulation and an invitation to build resilience. It is also a gateway to your higher self.",
+      "Heart coherence is a way to practice self-regulation and an invitation to build resilience. It is also a gateway to our higher self.",
     "pillars.hart.list2":
-      "The courage to take (back) your place with everything that comes with it.",
+      "The courage to take (back) our place with everything that belongs to it.",
     "pillars.hart.list3":
       "Recognizing habits and belief systems with compassion and developing the courage to break through them.",
     "pillars.e4.title1": "Body - The Past",
     "pillars.e4.img.text1":
-      "The segments are different and not perfectly aligned - a reference to memories, scars, history.",
+      "The segments are different - a reference to memories, scars, history.",
     "pillars.e4.img.text2":
       "Meaning: The body as the bearer of all that has been.",
     "pillars.e4.title2": "The Power of Growing Up",
     "pillars.e4.list1":
-      "The meeting between the child within you and the adult within you.",
+      "The meeting between the child part and the adult part.",
     "pillars.e4.list2":
       "In many people, the child part becomes covered by expectations, roles, responsibilities, traumas. The child doesn't disappear — it becomes quiet.",
     "pillars.e4.list3":
-      "Without the child, the adult becomes dry, functional, cut off. Without the adult, the child becomes unsafe, ungrounded, unprotected.",
+      "Without the child, the adult becomes functional, cut off. Without the adult, the child becomes unsafe, ungrounded, unprotected.",
     "pillars.e4.list4":
-      "When the child and the adult find each other, there arises: <br> safety without rigidity, playfulness without chaos, strength without hardness, gentleness without fragility.",
+      "When the child and the adult find each other, there arises: <br> safety without rigidity, playfulness without chaos, strength without hardness, gentleness without fragility",
+
+    // Filosofie essentie
+    "filosofie.essentie.text1":
+      "Mooyo works like a gentle but deep key. It touches layers that often remained closed for years. This opening creates space, movement, clarity.",
+    "filosofie.essentie.li1":
+      "<span class='bold'>Core work</span> — We go to the essence, beyond the noise.",
+    "filosofie.essentie.li2":
+      "<span class='bold'>Creating an opening</span> — Mooyo releases something that cannot be reached with words.",
+    "filosofie.essentie.li3":
+      "<span class='bold'>Impactful guidance</span> — Once the core is touched, every next step becomes more meaningful.",
+    "filosofie.essentie.text2":
+      "Mooyo is not an end point, but a starting point. A door that opens, so that the process that follows is no longer a search, but an unfolding.",
 
     // Filosofie section 6
     "quotes.text1":
@@ -665,18 +689,15 @@ export const ui = {
     "about.s2.e1.title": "My personal journey",
     "about.s2.e1.text1":
       "I was born under the African sun, in Chipata, Zambia, and lived in Africa for the first 11 years. Besides Zambia, I also lived in Rwanda.",
-    "about.s2.e1.text2":
-      "Currently, I live in Kessel-Lo. I have four children.",
+    "about.s2.e1.text2": "Currently I live in Kessel-lo. I have four children.",
     "about.s2.e1.text3":
       "The events in my life are the building blocks that have brought me to this point. By consciously looking at the pains and challenges of my own life over the last 10 years and moving through them, I have developed a deep well of insights and experiences. My process is still ongoing.",
     "about.s2.e1.text4":
-      'Carl Jung says: "The privilege of a lifetime is to become who you truly are."',
-    "about.s2.e1.text5":
-      "The sooner we realize this, the richer our lives become.",
+      'Carl Jung says: “The privilege of a lifetime is to become who you truly are.” ',
     "about.s2.e1.text6":
       "I am grateful for everything that has been; it has shaped me and brought much good. I look forward to the future with hope. Out of that gratitude, Mooyo was born — my inspiration and my commitment to guide others on their own unique journey.",
     "about.s2.e1.text7":
-      "Currently, I work part-time at Adem vzw as a team coach.",
+      "Currently, I work part-time at Adem vzw as a Team Coach and part-time as a freelancer.",
     "about.s2.e2.title": "Why choose Mooyo?",
     "about.s2.e2.text1":
       "My guidance style is characterized by a deep quality of presence and a calm stillness. This allows me to create a safe and supportive environment in which you can fully open up and grow.",
@@ -684,38 +705,33 @@ export const ui = {
       "Three years ago, I came into contact with Buddhism and meditation. Since then, Buddhist philosophy and daily meditation have become a fixed part of my life. It helps me stand in life with more clarity, peace, and presence — qualities that I also bring into my work with others.",
 
     // Components
-    "Prices.title": "Offerings ∞ Pricing",
+    "Prices.title": "Offerings ∞ Rates",
     "Prices.text":
-      "Guidance sessions can also take place online. Change happens in the body — and that body always travels with you. That is why online guidance can be just as deep, transformative, and effective. What matters is that an inner movement takes place, independent of physical distance. The most important thing is that you feel comfortable with it.",
-
-    "Prices.e1.title1": "Individual guidance (in person or online)",
-    "Prices.e1.li1": "A 60-minute session costs 65 euros (incl. VAT)",
-    "Prices.e1.li2": "A 90-minute session costs 95 euros (incl. VAT)",
+      "Guidance sessions can also take place online. This works just as deeply and transformatively. It is about the internal movement that occurs within you. Change happens in the body and in awareness, and that can also occur when there is physical distance. What matters is that you feel comfortable with it. When that is present, the process can unfold just as powerfully.",
+    "Prices.e1.title1": "Individual guidance",
+    "Prices.e1.li1": "A 60-minute session costs 70 euros (incl. VAT)",
+    "Prices.e1.li2": "A 90-minute session costs 90 euros (incl. VAT)",
     "Prices.e1.details":
-      "I guide people who feel it is time to move again. People who consciously want to choose — or choose again — for life, for connection, and for fully embodying their potential. Whether you are seeking healing, clarity, growth, or a new direction: at Mooyo you will find a place where you are seen and supported. For those struggling with addiction-related patterns, I offer a safe space to explore what lies beneath those patterns and to gradually return to inner freedom and self-direction. As an exceptionally conscious or gifted person, you can count on recognition, reflection, and guidance attuned to your sensitivity, intensity, and depth. Mooyo is here for everyone who feels that life asks for more — and has more to offer — when you dare to move from the heart.",
-
-    "Prices.e2.title1": "Couples guidance (in person or online)",
-    "Prices.e2.li1": "A 60-minute session costs 70 euros (incl. VAT)",
-    "Prices.e2.li2": "A 90-minute session costs 110 euros (incl. VAT)",
+      "I guide people who feel it is time to move again. People who consciously (re)choose for life, for connection, and for fully embodying their potential. Whether you are looking for clarity, direction, growth, or healing: at Mooyo you find a place where you are seen and supported. Experience that life has more to offer when you dare to move from your heart.",
+    "Prices.e2.title1": "Couples guidance",
+    "Prices.e2.li1": "A 60-minute session costs 100 euros (incl. VAT)",
+    "Prices.e2.li2": "A 90-minute session costs 120 euros (incl. VAT)",
     "Prices.e2.details":
-      "Couples who long for greater connection, understanding, and shared growth are also welcome here. Couples willing to look with openness and courage at their own inner parts — the pieces that are triggered, withdraw, long, or protect. In heart-centered guidance, we create a safe foundation in which both partners can come home to themselves and to each other. Through gentleness, honesty, and presence, we explore what lives beneath the surface, so that love, clarity, and true encounter can find space again.",
-
+      "Couples longing for more connection, understanding, and joint growth are also welcome here. Couples willing to look with openness and courage at their own inner parts, such as parts that are touched, withdraw, long, or protect. In heart-centered guidance, we create a safe foundation in which both partners can come home to themselves and each other. From gentleness, honesty, and presence, we explore what lives beneath the surface, so that love, clarity, and true encounter find space again.",
     "Prices.e3.title": "Guidance for organizations",
     "Prices.e3.li1": "A half-day session costs 500 euros (excl. VAT)",
     "Prices.e3.li2": "A full-day session costs 800 euros (excl. VAT)",
     "Prices.e3.details":
       "Organizations willing to let the heart speak can count on guidance that goes beyond methods and models. In (self-steering) teams, it regularly appears that an essential element is still missing for optimal functioning: the inner alignment needed so that each team member can step into their heart-centered power. When that missing piece is filled in, a team arises that is not only self-steering, but also truly self-aware, connected, and resilient. This creates a sustainable foundation for effective collaboration, ownership, and result-orientedness.",
-    "Prices.patronen.title": "Beyond your patterns",
+    "Prices.patronen.title": "Beyond your construct",
     "Prices.patronen.text":
-      "A first encounter with your essence and a first introduction to the Reconstructive method. For those who want to taste what lives beyond your patterns.",
-    "Prices.patronen.info":
-      'For info and registration, mail <a href="mailto:bramgeysen@gmail.be">bramgeysen@gmail.be</a>',
+      "A first meeting with your essence and first introduction to the reconstructive method. For those who want to taste what lives beyond your patterns.",
     "Prices.patronen.format": "1 day",
     "Prices.patronen.for": "individual",
     "Prices.patronen.location": "Leuven",
     "Prices.patronen.max": "12",
-    "Prices.patronen.data": "Fall 2026",
-    "Prices.patronen.price": "175€ excl. VAT",
+    "Prices.patronen.data": "fall 2026",
+    "Prices.patronen.price": "125€ excl. VAT",
     "Prices.patronen.lunch": "Coffee, tea, and lunch included",
     "Prices.patronen.body1":
       'Do you also notice that some live more freely than you? That when you want to change something, a voice in your head immediately says, "yes but, that\'s not possible because..." Do you realize that your frame looks different and do you want to explore what is possible if you broaden your frame?',
@@ -727,18 +743,14 @@ export const ui = {
     "Prices.patronen.li2": "A first experience of space and freedom",
     "Prices.patronen.li3": "More awareness of what drives you",
     "Prices.patronen.li4": "Curiosity as a starting point for growth",
-    "Prices.patronen.collab":
-      'In collaboration with Elke Busschots from <a href="www.Cominz.be">www.Cominz.be</a>',
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
-      "For those who have already done some inner work and feel that something can move further through the body. <br> The <a href=\"https://www.cominz.be/opleidingen\">initiation day 'Beyond your construct'</a> is a great starter if you are new to this work.",
-    "Prices.reconstructive.info":
-      'For info and registration, mail <a href="mailto:bramgeysen@gmail.be">bramgeysen@gmail.be</a>',
+      "For those who have already done some inner work and feel that something can move further through the body.",
     "Prices.reconstructive.format": "1 day",
     "Prices.reconstructive.for": "individual",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data": "Fall 2026",
+    "Prices.reconstructive.data": "fall 2026",
     "Prices.reconstructive.price": "450€ excl. VAT",
     "Prices.reconstructive.lunch": "Coffee, tea, and lunch included",
     "Prices.reconstructive.body1":
@@ -754,10 +766,7 @@ export const ui = {
     "Prices.reconstructive.li3": "New insights",
     "Prices.reconstructive.li4":
       "Breakthrough in patterns that remained stuck until now",
-    "Prices.reconstructive.li5":
-      "An experience that leaves a lasting impression",
-    "Prices.reconstructive.collab":
-      'In collaboration with Elke Busschots from <a href="www.Cominz.be">www.Cominz.be</a>',
+    "Prices.reconstructive.li5": "An experience that leaves a lasting impression",
     "Prices.label.format": "Format",
     "Prices.label.for": "For",
     "Prices.label.location": "Location",
@@ -766,10 +775,12 @@ export const ui = {
     "Prices.label.price": "Price",
     "Prices.adolescenten.title":
       "Adolescents (discount for adolescents covering their own costs)",
-    "Prices.adolescenten.li1": "A 60-minute session costs 50 euros (incl. VAT)",
+    "Prices.adolescenten.li1": "A 60-minute session costs 55 euros (incl. VAT)",
     "Prices.adolescenten.li2": "A 90-minute session costs 75 euros (incl. VAT)",
     "Prices.adolescenten.details":
-      "Adolescents are also more than welcome. They are the future and bring talents, desires, and qualities that may not always seem to align with current society. Through my heart-centered guidance, they discover how to stand in their own power. With clear insights, self-confidence, and new perspectives, they can contribute with full energy and joy to a society that continues to grow and renew itself.",
+      "Adolescents are also more than welcome. They carry new talents, sensitivities, and desires within them that may not always seem to fit within current society, but are essential for a society in transformation. Through my heart-centered guidance, young people discover how to stand in their own power. With clear insights, self-confidence, and new perspectives, they learn to direct their energy toward what is right for them. Thus, they can contribute with resilience and pleasure to a world that continues to grow and change.",
     "Prices.seeMore": "See more...",
+    "Prices.collab": "In collaboration with Elke Busschots from",
+    "Prices.info": "For info and registration, email",
   },
 } as const;
