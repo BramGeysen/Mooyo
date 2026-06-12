@@ -33,19 +33,19 @@ export const ui = {
     // Layout
     "layout.header.subtitle": "hartgedragen begeleiding",
     "layout.contact":
-      "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.",
+      "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen, je gevoel verkennen en samen bekijken welke volgende stap goed voelt.",
 
     // Index
 
     "index.title": "Home",
     "index.distance.station":
-      "(op 3min wandelafstand van treinstation Leuven).",
+      "(op 3min wandelafstand van het treinstation van Leuven).",
     // Index section 1
-    "index.intro.text1": " Hart, Leven, Ziel, Energie",
+    "index.intro.text1": " Hart, Leven, Ziel, Geest, Energie",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
     "index.intro.text3":
-      "Mooyo is een uitnodiging om volledig aanwezig te zijn met alles wat je meedraagt, precies zoals je bent.",
+      " ",
     "index.intro.text4":
       "Ben je bereid om naar je hart te luisteren en te ontdekken hoe je elke situatie kunt benaderen vanuit de stevigheid van je hart?",
 
@@ -104,7 +104,7 @@ export const ui = {
 
     // Aanbod section 5
     "openHartCirkels.title": "Open hartcirkels",
-    "openHartCirkels.text": "Voor meer informatie zie (verwachting eind juni):",
+    "openHartCirkels.text": "Voor meer informatie zie (verwachting eind septemeber):",
 
     // Aanbod section 6
     "aanbod.s6.text":
@@ -357,7 +357,7 @@ export const ui = {
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
       "Voor wie al wat innerlijk werk gedaan heeft en voelt dat er via het lichaam iets verder mag bewegen.",
-    "Prices.reconstructive.format": "2 dag",
+    "Prices.reconstructive.format": "2 dagen",
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
@@ -391,8 +391,8 @@ export const ui = {
     "Prices.adolescenten.details":
       "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
       "Adolescenten (korting voor adolescenten die zelf instaan voor de kosten)",
-    "Prices.adolescenten.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
-    "Prices.adolescenten.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
+    "Prices.adolescenten.li1": "Een sessie van 60 min is 70 euro (incl BTW)",
+    "Prices.adolescenten.li2": "Een sessie van 90 min is 90 euro (incl BTW)",
     "Prices.adolescenten.details":
       "Ook adolescenten zijn meer dan welkom. Zij dragen nieuwe talenten, gevoeligheden en verlangens in zich die niet altijd lijken te passen binnen de huidige maatschappij, maar wél essentieel zijn voor een samenleving in transformatie. Via mijn hartgedragen begeleiding ontdekken jongeren hoe ze in hun eigen kracht kunnen staan. Met heldere inzichten, zelfvertrouwen en nieuwe perspectieven leren ze hun energie te richten op wat klopt voor hen. Zo kunnen zij vanuit veerkracht en met plezier bijdragen aan een wereld die blijft groeien en veranderen.",
     "Prices.seeMore": "Zie meer...",
