@@ -1,19 +1,23 @@
 ---
-import { Image } from 'astro:assets';
-import hart_rond from '../assets/rondevormen/hart_rond.png'
-import "../styles/global.css"
-import Nav from '../components/Nav.astro';
-import LanguagePicker from '../components/LanguagePicker.astro';
-import { getLangFromUrl, useTranslatedPath, useTranslations } from '../i18n/utils';
-import Footer from '@components/Footer.astro';
-import BaseHead from '@components/head/BaseHead.astro';
-import ScrollToTop from '../components/ScrollToTop.astro';
-import GoogleTMHead from '@components/head/GoogleTMHead.astro';
-import GoogleTMBody from '@components/head/GoogleTMBody.astro';
+import { Image } from "astro:assets";
+import hart_rond from "../assets/rondevormen/hart_rond.png";
+import "../styles/global.css";
+import Nav from "../components/Nav.astro";
+import LanguagePicker from "../components/LanguagePicker.astro";
+import {
+  getLangFromUrl,
+  useTranslatedPath,
+  useTranslations,
+} from "../i18n/utils";
+import Footer from "@components/Footer.astro";
+import Head from "@components/head/Head.astro";
+import ScrollToTop from "../components/ScrollToTop.astro";
+import GoogleTMHead from "@components/head/GoogleTMHead.astro";
+import GoogleTMBody from "@components/head/GoogleTMBody.astro";
 
 interface Props {
-	title: string;
-	description?: string; 
+  title: string;
+  description?: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -21,83 +25,89 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 const pathname = new URL(Astro.url).pathname;
-const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
-const { title, description = "Standaard omschrijving voor Mooyo" } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
+const { title, description = "Standaard omschrijving voor Mooyo" } =
+  Astro.props;
 ---
 
 <!doctype html>
 <html lang={lang}>
-	<head>
-		 <GoogleTMHead/>
-		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content={description}>
-		<BaseHead/>
-		<title>Mooyo | {title}</title>
-		<link rel="icon" type="image/png" href={`${baseUrl}/favicon.png`} />
-		<link rel="canonical" href={canonicalURL} />
-	</head>
-	<body>
-		<GoogleTMBody/>
-		<header>
-			<LanguagePicker place='header'/>
-			<a href={translatePath('/')}>
-				<div>
-					<Image src={hart_rond} alt="Mooyo logo" height={100} width={100} loading="eager"/>
-					<h1><span class="big-text">Mooyo -</span> {t('layout.header.subtitle')}</h1>
-				</div>
-			</a>
-		</header>
-		<Nav pathname={pathname}/>
-		<main>
-			<slot />
-		</main>
-		<Footer/>
-		<ScrollToTop />
-	</body>
+  <head>
+    <Head title={title} description={description} />
+  </head>
+  <body>
+    <GoogleTMBody />
+    <header>
+      <LanguagePicker place="header" />
+      <a href={translatePath("/")}>
+        <div>
+          <Image
+            src={hart_rond}
+            alt="Mooyo logo"
+            height={100}
+            width={100}
+            loading="eager"
+          />
+          <p class="title">
+            <span class="big-text">Mooyo -</span>
+            {t("layout.header.subtitle")}
+          </p>
+        </div>
+      </a>
+    </header>
+    <Nav pathname={pathname} />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    <ScrollToTop />
+  </body>
 </html>
 
 <style>
-	header {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		gap: 4rem;
-		color: var(--mooyo-text-red);
-		background-color: var(--mooyo-white);
-		padding: 3rem ;
-	}
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    color: var(--mooyo-text-red);
+    background-color: var(--mooyo-white);
+    padding: 3rem;
+  }
 
-	header div {
-		display: flex;
-		align-items: center;
-		gap: 5rem;
-	}
-	header .big-text{
-    	font-size: 48px;
-	}
+  header div {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
 
-	section {
-		padding: 2rem;
-	}
+  header .title {
+    font-size: 3rem;
+  }
+  header .big-text {
+    font-size: 4rem;
+  }
 
+  section {
+    padding: 2rem;
+  }
 
+  /* Responsive */
+  @media (max-width: 700px) {
+    header {
+      gap: 3rem;
+    }
+  }
 
-	/* Responsive */
-    @media (max-width: 700px ){
-        header {
-            gap: 3rem;
-        }
+  @media (max-width: 500px) {
+    header div {
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: center;
     }
 
-	@media (max-width: 500px){
-		header div {
-			flex-direction: column;
-			gap: 1rem;
-			justify-content: center;
-		}
-
-		header {
-			text-align: center;
-		}
-	}
+    header {
+      text-align: center;
+    }
+  }
 </style>
