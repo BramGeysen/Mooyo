@@ -16,7 +16,6 @@ export { getStaticPaths };
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
-console.log(new URL(Astro.url.pathname, Astro.site))
 ---
 
 <Layout title="Home">
