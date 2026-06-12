@@ -421,17 +421,11 @@ export const ui = {
     "Prices.label.max": "Max aantal deelnemers",
     "Prices.label.data": "Data",
     "Prices.label.price": "Prijs",
-    "Prices.adolescenten.title":
-      "Footprints",
-    "Prices.adolescenten.li1": "Een sessie van 60 min is 70 euro (incl BTW)",
-    "Prices.adolescenten.li2": "Een sessie van 90 min is 90 euro (incl BTW)",
-    "Prices.adolescenten.details":
+    "Prices.footprints.title": "Footprints",
+    "Prices.footprints.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
+    "Prices.footprints.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
+    "Prices.footprints.details":
       "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
-      "Adolescenten (korting voor adolescenten die zelf instaan voor de kosten)",
-    "Prices.adolescenten.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
-    "Prices.adolescenten.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
-    "Prices.adolescenten.details":
-      "Ook adolescenten zijn meer dan welkom. Zij dragen nieuwe talenten, gevoeligheden en verlangens in zich die niet altijd lijken te passen binnen de huidige maatschappij, maar wél essentieel zijn voor een samenleving in transformatie. Via mijn hartgedragen begeleiding ontdekken jongeren hoe ze in hun eigen kracht kunnen staan. Met heldere inzichten, zelfvertrouwen en nieuwe perspectieven leren ze hun energie te richten op wat klopt voor hen. Zo kunnen zij vanuit veerkracht en met plezier bijdragen aan een wereld die blijft groeien en veranderen.",
     "Prices.seeMore": "Zie meer...",
     "Prices.collab": "In samenwerking met Elke Busschots",
     "Prices.info": "Voor info en aanmelden, mail",
@@ -865,11 +859,11 @@ export const ui = {
     "Prices.label.max": "Max participants",
     "Prices.label.data": "Dates",
     "Prices.label.price": "Price",
-    "Prices.adolescenten.title":
+    "Prices.footprints.title":
       "Adolescents (discount for adolescents covering their own costs)",
-    "Prices.adolescenten.li1": "A 60-minute session costs 55 euros (incl. VAT)",
-    "Prices.adolescenten.li2": "A 90-minute session costs 75 euros (incl. VAT)",
-    "Prices.adolescenten.details":
+    "Prices.footprints.li1": "A 60-minute session costs 55 euros (incl. VAT)",
+    "Prices.footprints.li2": "A 90-minute session costs 75 euros (incl. VAT)",
+    "Prices.footprints.details":
       "Adolescents are also more than welcome. They carry new talents, sensitivities, and desires within them that may not always seem to fit within current society, but are essential for a society in transformation. Through my heart-centered guidance, young people discover how to stand in their own power. With clear insights, self-confidence, and new perspectives, they learn to direct their energy toward what is right for them. Thus, they can contribute with resilience and pleasure to a world that continues to grow and change.",
     "Prices.seeMore": "See more...",
     "Prices.collab": "In collaboration with Elke Busschots from",
