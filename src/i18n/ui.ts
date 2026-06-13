@@ -87,8 +87,6 @@ export const ui = {
       "Begeleiding waarin jij, je lichaam en je relaties centraal staan.",
     "aanbod.forwho.text":
       "In mijn begeleiding nodig ik je uit om niet alleen te praten over wat er speelt, maar het ook in je lichaam te voelen. Vaak vertelt je lichaam iets wat woorden nog niet kunnen vatten. Door samen stil te staan bij die signalen, ontstaat er ruimte voor echte, duurzame verandering. Ik kijk altijd naar jou in relatie tot je omgeving. We leven en ontwikkelen ons immers in verbinding met anderen. Daarom betrek ik, wanneer dat helpend is, de systemen waarvan jij deel uitmaakt. Gedrag en patronen ontstaan zelden in isolatie; ze zijn meestal onderdeel van een groter geheel. Daarnaast onderzoek ik met jou de interne relaties die je met jezelf hebt: de delen die je beschermen, de delen die je kwetsbaar maken, en de delen die soms botsen. Door deze innerlijke stemmen te leren kennen, ontstaat er meer begrip, mildheid en richting. Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en innerlijke dynamiek elkaar versterken en je helpen om op een authentieke manier te groeien.",
-    "aanbod.forwho.text2":
-      "Mooyo is er voor iedereen die voelt dat het tijd is om terug te keren naar zichzelf — en van daaruit het leven te omarmen.",
     // Aanbod section 2
     "methodieken.title":
       "Mijn begeleiding is gebaseerd op onderstaande (levens)filosofie, methodieken:",
@@ -292,7 +290,7 @@ export const ui = {
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
     "Prices.reconstructive.data":
-      "25 en 26 juli 2026 + najaar 2026 (data volgen nog)",
+      "25 en 26 juli 2026 + 17 en 18 oktober 2026 (10u-17u)",
     "Prices.reconstructive.price": "450€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
@@ -426,8 +424,6 @@ export const ui = {
     "aanbod.forwho.title": "For whom?",
     "aanbod.forwho.text":
       "I guide people who feel it is time to move again, who want to reconnect with themselves and fully embody their potential. People who want to live from their open heart and experience resilience and joy once more. At Mooyo, you find a place where you are seen and supported, whether you seek clarity, direction, growth, or healing. For those stuck in (persistent) patterns, I offer a safe space to explore what lies beneath and to return step by step to inner freedom and self-direction. As a highly conscious or gifted person, you will find recognition, depth, and guidance that aligns with your sensitivity and intensity.",
-    "aanbod.forwho.text2":
-      "Mooyo is there for everyone who feels it is time to return to themselves — and embrace life from there.",
 
     // Aanbod section 2
     "methodieken.title":

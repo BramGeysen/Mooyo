@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import Layout from "@layouts/Layout.astro";
 import zon from "../../../assets/zon.jpg";
 import { getLangFromUrl, getStaticPaths, useTranslations } from "@src/i18n/utils";
+import ContactSection from "@components/Contact-section.astro";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 export { getStaticPaths };
@@ -55,6 +56,7 @@ export { getStaticPaths };
       </div>
     </div>
   </section>
+  <ContactSection color="red"/>
 </Layout>
 
 
@@ -65,4 +67,5 @@ export { getStaticPaths };
     max-width: 70rem;
     column-gap: 2rem;
   }
+
 </style>
