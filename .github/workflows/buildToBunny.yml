@@ -24,7 +24,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Bunny.net
-        uses: R-J-dev/bunny-deploy@main
+        uses: R-J-dev/bunny-deploy@a702dd418dcae6cc1737a20a2322873bf7640ee0 # main
         with:
           access-key: ${{ secrets.BUNNY_API_KEY }}
           directory-to-upload: "./dist"

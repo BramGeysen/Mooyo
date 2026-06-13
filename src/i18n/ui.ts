@@ -33,19 +33,19 @@ export const ui = {
     // Layout
     "layout.header.subtitle": "hartgedragen begeleiding",
     "layout.contact":
-      "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.",
+      "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen, je gevoel verkennen en samen bekijken welke volgende stap goed voelt.",
 
     // Index
 
     "index.title": "Home",
     "index.distance.station":
-      "(op 3min wandelafstand van treinstation Leuven).",
+      "(op 3min wandelafstand van het treinstation van Leuven).",
     // Index section 1
-    "index.intro.text1": " Hart, Leven, Ziel, Energie",
+    "index.intro.text1": " Hart, Leven, Ziel, Geest",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
     "index.intro.text3":
-      "Mooyo is een uitnodiging om volledig aanwezig te zijn met alles wat je meedraagt, precies zoals je bent.",
+      " ",
     "index.intro.text4":
       "Ben je bereid om naar je hart te luisteren en te ontdekken hoe je elke situatie kunt benaderen vanuit de stevigheid van je hart?",
 
@@ -91,9 +91,12 @@ export const ui = {
     "aanbod.title": "Aanbod",
 
     // Aanbod section 1
-    "aanbod.forwho.title": "Voor wie?",
+    "aanbod.forwho.title": "Begeleiding waarin jij, je lichaam en je relaties centraal staan.",
     "aanbod.forwho.text":
-      "Ik begeleid mensen die voelen dat het tijd is om opnieuw in beweging te komen, die terug willen verbinden met zichzelf en hun potentieel volledig willen belichamen. Mensen die vanuit hun open hart willen leven en vandaaruit veerkracht en levensvreugde terug willen ervaren. Bij Mooyo vind je een plek waar je gezien en gedragen wordt, of je nu zoekt naar helderheid, richting, groei of heling. Voor wie vastzit in (hardnekkige) patronen bied ik een veilige ruimte om te onderzoeken wat eronder ligt en om stap voor stap terug te keren naar innerlijke vrijheid en zelfsturing. Als hoogbewuste of hoogbegaafde vind je hier herkenning, diepgang en begeleiding die aansluit bij jouw gevoeligheid en intensiteit.",
+      "In mijn begeleiding nodig ik je uit om niet alleen te praten over wat er speelt, maar het ook in je lichaam te voelen. Vaak vertelt je lichaam iets wat woorden nog niet kunnen vatten. Door samen stil te staan bij die signalen, ontstaat er ruimte voor echte, duurzame verandering.
+Ik kijk altijd naar jou in relatie tot je omgeving. We leven en ontwikkelen ons immers in verbinding met anderen. Daarom betrek ik, wanneer dat helpend is, de systemen waarvan jij deel uitmaakt. Gedrag en patronen ontstaan zelden in isolatie; ze zijn meestal onderdeel van een groter geheel.
+Daarnaast onderzoek ik met jou de interne relaties die je met jezelf hebt: de delen die je beschermen, de delen die je kwetsbaar maken, en de delen die soms botsen. Door deze innerlijke stemmen te leren kennen, ontstaat er meer begrip, mildheid en richting.
+Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en innerlijke dynamiek elkaar versterken en je helpen om op een authentieke manier te groeien.",
     "aanbod.forwho.text2":
       "Mooyo is er voor iedereen die voelt dat het tijd is om terug te keren naar zichzelf — en van daaruit het leven te omarmen.",
     // Aanbod section 2
@@ -104,7 +107,7 @@ export const ui = {
 
     // Aanbod section 5
     "openHartCirkels.title": "Open hartcirkels",
-    "openHartCirkels.text": "Voor meer informatie zie (verwachting eind juni):",
+    "openHartCirkels.text": "Voor meer informatie zie (verwachting eind septemeber):",
 
     // Aanbod section 6
     "aanbod.s6.text":
@@ -394,11 +397,11 @@ export const ui = {
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
       "Voor wie al wat innerlijk werk gedaan heeft en voelt dat er via het lichaam iets verder mag bewegen.",
-    "Prices.reconstructive.format": "2 dag",
+    "Prices.reconstructive.format": "2 dagen",
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data": "najaar 2026",
+    "Prices.reconstructive.data": "25 en 26 juli 2026 + najaar 2026 (data volgen nog)",
     "Prices.reconstructive.price": "450€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
@@ -427,12 +430,16 @@ export const ui = {
     "Prices.footprints.details":
       "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
     "Prices.seeMore": "Zie meer...",
-    "Prices.collab": "In samenwerking met Elke Busschots",
+    "Prices.collab": "In samenwerking met Elke Busschots, https://www.cominz.be",
     "Prices.info": "Voor info en aanmelden, mail",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
       "Een thuiskomen bij jezelf. Tijdens deze innerlijke tocht komen we laag na laag dichterbij jouw blauwdruk, zodat zichtbaar wordt wie je altijd al was.",
     "Prices.gold.for": "individu",
+    "Prices.gold.location": "Zuid Noorwegen in een rustige, natuurlijke omgeving",
+    "Prices.gold.max": "Kleine groep (max. 6)",
+    "Prices.gold.data": "Van 5-12 september 2026",
+    "Prices.gold.price": "1750€ excl btw"
     "Prices.gold.location": "Noorwegen in een rustige, natuurlijke omgeving",
     "Prices.gold.max": "Kleine groep (max. 6)",
     "Prices.gold.data": "Van 5-12 september 2026",
