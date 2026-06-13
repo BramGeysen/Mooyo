@@ -13,21 +13,18 @@ import Footer from "@components/Footer.astro";
 import Head from "@components/head/Head.astro";
 import ScrollToTop from "../components/ScrollToTop.astro";
 import GoogleTMBody from "@components/head/GoogleTMBody.astro";
-import { pathHasLocale } from "astro:i18n";
 
 interface Props {
   title: string;
   description?: string;
-  showLogo?: boolean
 }
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 const pathname = new URL(Astro.url).pathname;
-const { title, description = "Standaard omschrijving voor Mooyo", showLogo = true } =
+const { title, description = "Standaard omschrijving voor Mooyo" } =
   Astro.props;
-
 ---
 
 <!doctype html>
@@ -41,23 +38,17 @@ const { title, description = "Standaard omschrijving voor Mooyo", showLogo = tru
       <LanguagePicker place="header" />
       <a href={translatePath("/")}>
         <div>
-          {showLogo && (
-            <Image
-              src={hart_rond}
-              alt="Mooyo logo"
-              height={200}
-              width={200}
-              loading="eager"
-              class="img"
-            />
-          )}
-          <div class="title">
-            <p class="big-text">Mooyo</p>
-            <p class="sub-text">
-              {t("layout.header.subtitle")}
-            </p>
-
-          </div>
+          <Image
+            src={hart_rond}
+            alt="Mooyo logo"
+            height={100}
+            width={100}
+            loading="eager"
+          />
+          <p class="title">
+            <span class="big-text">Mooyo -</span>
+            {t("layout.header.subtitle")}
+          </p>
         </div>
       </a>
     </header>
@@ -78,7 +69,6 @@ const { title, description = "Standaard omschrijving voor Mooyo", showLogo = tru
     gap: 4rem;
     color: var(--mooyo-text-red);
     background-color: var(--mooyo-white);
-    padding: 3rem;
   }
 
   header div {
@@ -87,27 +77,11 @@ const { title, description = "Standaard omschrijving voor Mooyo", showLogo = tru
     gap: 5rem;
   }
 
-  header .img{
-    max-height: 100%;
-    width: auto;
-  }
-  
   header .title {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-  
-  header .big-text {
-    font-size: 4rem;
-  }
-  
-  header .sub-text{ 
     font-size: 3rem;
   }
-  
-  header p {
-    margin: 0;
+  header .big-text {
+    font-size: 4rem;
   }
 
   section {
