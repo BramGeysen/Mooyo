@@ -342,15 +342,15 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
     "Prices.burnout.connection.title": "Verbinding",
     "Prices.burnout.connection.text":
       "is het hoogste niveau: vanuit rust en emotionele helderheid kun je authentiek contact maken — met jezelf én met anderen. Dit is waar hartcoherentie uitmondt in echte aanwezigheid, empathie en samenwerking.",
-    "Prices.deeptimewalk.title": "Deep Time Walk - Teambuilding",
+    "Prices.deeptimewalk.title": "Deep Time Walk",
     "Prices.deeptimewalk.description":
       "Een DeepTimeWalk is een transformatieve, begeleide wandeling door 4,6 miljard jaar geschiedenis van de Aarde. Het is een uitnodiging om onze relatie met Planeet Aarde te bevragen, onze plek binnen haar ecosystemen te verkennen, en onze kijk op de wereld te veranderen.",
     "Prices.deeptimewalk.price.label": "Prijs",
-    "Prices.deeptimewalk.price.text": "Een halve dag voor 300 euro (excl BTW).",
+    "Prices.deeptimewalk.price.text": "Een halve dag voor 500 euro (excl BTW).",
     "Prices.deeptimewalk.experience.title": "Unieke beleving",
     "Prices.deeptimewalk.experience.text":
       "Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staan stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).",
-    "Prices.deeptimewalk.perspective.title": "Perspectiefverschuiving",
+    "Prices.deeptimewalk.perspective.title": "Perspectief verschuiving",
     "Prices.deeptimewalk.perspective.text":
       "Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet zien. Welke verandering merk jij?",
     "Prices.deeptimewalk.reflection.title": "Persoonlijke reflectie",
@@ -424,17 +424,11 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
     "Prices.label.max": "Max aantal deelnemers",
     "Prices.label.data": "Data",
     "Prices.label.price": "Prijs",
-    "Prices.adolescenten.title":
-      "Footprints",
-    "Prices.adolescenten.li1": "Een sessie van 60 min is 70 euro (incl BTW)",
-    "Prices.adolescenten.li2": "Een sessie van 90 min is 90 euro (incl BTW)",
-    "Prices.adolescenten.details":
+    "Prices.footprints.title": "Footprints",
+    "Prices.footprints.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
+    "Prices.footprints.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
+    "Prices.footprints.details":
       "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
-      "Adolescenten (korting voor adolescenten die zelf instaan voor de kosten)",
-    "Prices.adolescenten.li1": "Een sessie van 60 min is 70 euro (incl BTW)",
-    "Prices.adolescenten.li2": "Een sessie van 90 min is 90 euro (incl BTW)",
-    "Prices.adolescenten.details":
-      "Ook adolescenten zijn meer dan welkom. Zij dragen nieuwe talenten, gevoeligheden en verlangens in zich die niet altijd lijken te passen binnen de huidige maatschappij, maar wél essentieel zijn voor een samenleving in transformatie. Via mijn hartgedragen begeleiding ontdekken jongeren hoe ze in hun eigen kracht kunnen staan. Met heldere inzichten, zelfvertrouwen en nieuwe perspectieven leren ze hun energie te richten op wat klopt voor hen. Zo kunnen zij vanuit veerkracht en met plezier bijdragen aan een wereld die blijft groeien en veranderen.",
     "Prices.seeMore": "Zie meer...",
     "Prices.collab": "In samenwerking met Elke Busschots, https://www.cominz.be",
     "Prices.info": "Voor info en aanmelden, mail",
@@ -446,6 +440,10 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
     "Prices.gold.max": "Kleine groep (max. 6)",
     "Prices.gold.data": "Van 5-12 september 2026",
     "Prices.gold.price": "1750€ excl btw"
+    "Prices.gold.location": "Noorwegen in een rustige, natuurlijke omgeving",
+    "Prices.gold.max": "Kleine groep (max. 6)",
+    "Prices.gold.data": "Van 5-12 september 2026",
+    "Prices.gold.price":
       "Inclusief programma, begeleiding, maaltijden (Exclusief vervoer)",
     "Prices.gold.body":
       "Elke dag trekken we de natuur in. Ze spiegelt je zonder oordeel: waar je nog vasthoudt, waar je mag verzachten, waar je mag openen. De natuur laat zien wat je lichaam al wist, maar wat je hoofd misschien nog niet durfde te erkennen. Reconstructive maakt zichtbaar wat je onderweg tegenkomt: oude patronen, beschermingslagen, ingehouden emoties. Door ermee te werken in het lichaam komt er beweging, helderheid en richting. Je voelt hoe je dichter bij je blauwdruk komt dat stille, diepe weten van wie jij in essentie bent. De groep wordt een bedding. Je hoeft het niet alleen te doen, maar je maakt wel je eigen innerlijke reis.",
@@ -840,7 +838,7 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
       "For those who have already done some inner work and feel that something can move further through the body.",
-    "Prices.reconstructive.format": "1 day",
+    "Prices.reconstructive.format": "2 days",
     "Prices.reconstructive.for": "individual",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
@@ -848,9 +846,9 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
     "Prices.reconstructive.price": "450€ excl. VAT",
     "Prices.reconstructive.lunch": "Coffee, tea, and lunch included",
     "Prices.reconstructive.body1":
-      "You have already traveled a path inward. And yet you feel: there is something more. Something that doesn't release through the head, but through the body. Reconstructive is for you.",
+      "Sometimes you feel that something is still in the way. Something that doesn't release through the mind, but wants to be seen through the body.",
     "Prices.reconstructive.body2":
-      "It is a powerful body-oriented method where intuition, freedom, and clarity can flow more freely. Thinking is set aside for a moment. What remains is the body and what it has to tell you.",
+      "Often it is deep-rooted patterns, old stories, held-back emotions, and survival strategies that unconsciously prevent us from fully living our potential. By working with them in the body, movement, clarity, and direction emerge.",
     "Prices.reconstructive.body3":
       "In the two-day session, time slows down. You get space to sink deeper, beyond the surface. You meet two parts within yourself that often have more influence than you think: your child part and your adult part. When these two meet, something powerful arises: a movement you cannot think up, but you can feel.",
     "Prices.reconstructive.body4":
@@ -868,14 +866,13 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
     "Prices.label.max": "Max participants",
     "Prices.label.data": "Dates",
     "Prices.label.price": "Price",
-    "Prices.adolescenten.title":
-      "Adolescents (discount for adolescents covering their own costs)",
-    "Prices.adolescenten.li1": "A 60-minute session costs 55 euros (incl. VAT)",
-    "Prices.adolescenten.li2": "A 90-minute session costs 75 euros (incl. VAT)",
-    "Prices.adolescenten.details":
-      "Adolescents are also more than welcome. They carry new talents, sensitivities, and desires within them that may not always seem to fit within current society, but are essential for a society in transformation. Through my heart-centered guidance, young people discover how to stand in their own power. With clear insights, self-confidence, and new perspectives, they learn to direct their energy toward what is right for them. Thus, they can contribute with resilience and pleasure to a world that continues to grow and change.",
+    "Prices.footprints.title": "Footprints",
+    "Prices.footprints.li1": "A 60-minute session costs 55 euros (incl. VAT)",
+    "Prices.footprints.li2": "A 90-minute session costs 75 euros (incl. VAT)",
+    "Prices.footprints.details":
+      "The Footprints method is an individual guidance of 4 sessions that forms an essential key to a free life. If you recognize any of the following patterns in yourself, Footprints can bring change: pleasing, caring for, being constantly busy, controlling, trying even harder. Footprints is an encounter with your own inner world and opens the door to emotional maturity where your place in the system is honored, creating clarity. After the first session you already feel lighter; the following sessions deepen this feeling, making integration into daily life tangible and lasting.",
     "Prices.seeMore": "See more...",
-    "Prices.collab": "In collaboration with Elke Busschots from",
+    "Prices.collab": "In collaboration with Elke Busschots",
     "Prices.info": "For info and registration, email",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
