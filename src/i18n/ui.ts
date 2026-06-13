@@ -44,8 +44,7 @@ export const ui = {
     "index.intro.text1": " Hart, Leven, Ziel, Geest",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
-    "index.intro.text3":
-      " ",
+    "index.intro.text3": " ",
     "index.intro.text4":
       "Ben je bereid om naar je hart te luisteren en te ontdekken hoe je elke situatie kunt benaderen vanuit de stevigheid van je hart?",
 
@@ -91,12 +90,10 @@ export const ui = {
     "aanbod.title": "Aanbod",
 
     // Aanbod section 1
-    "aanbod.forwho.title": "Begeleiding waarin jij, je lichaam en je relaties centraal staan.",
+    "aanbod.forwho.title":
+      "Begeleiding waarin jij, je lichaam en je relaties centraal staan.",
     "aanbod.forwho.text":
-      "In mijn begeleiding nodig ik je uit om niet alleen te praten over wat er speelt, maar het ook in je lichaam te voelen. Vaak vertelt je lichaam iets wat woorden nog niet kunnen vatten. Door samen stil te staan bij die signalen, ontstaat er ruimte voor echte, duurzame verandering.
-Ik kijk altijd naar jou in relatie tot je omgeving. We leven en ontwikkelen ons immers in verbinding met anderen. Daarom betrek ik, wanneer dat helpend is, de systemen waarvan jij deel uitmaakt. Gedrag en patronen ontstaan zelden in isolatie; ze zijn meestal onderdeel van een groter geheel.
-Daarnaast onderzoek ik met jou de interne relaties die je met jezelf hebt: de delen die je beschermen, de delen die je kwetsbaar maken, en de delen die soms botsen. Door deze innerlijke stemmen te leren kennen, ontstaat er meer begrip, mildheid en richting.
-Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en innerlijke dynamiek elkaar versterken en je helpen om op een authentieke manier te groeien.",
+      "In mijn begeleiding nodig ik je uit om niet alleen te praten over wat er speelt, maar het ook in je lichaam te voelen. Vaak vertelt je lichaam iets wat woorden nog niet kunnen vatten. Door samen stil te staan bij die signalen, ontstaat er ruimte voor echte, duurzame verandering. Ik kijk altijd naar jou in relatie tot je omgeving. We leven en ontwikkelen ons immers in verbinding met anderen. Daarom betrek ik, wanneer dat helpend is, de systemen waarvan jij deel uitmaakt. Gedrag en patronen ontstaan zelden in isolatie; ze zijn meestal onderdeel van een groter geheel. Daarnaast onderzoek ik met jou de interne relaties die je met jezelf hebt: de delen die je beschermen, de delen die je kwetsbaar maken, en de delen die soms botsen. Door deze innerlijke stemmen te leren kennen, ontstaat er meer begrip, mildheid en richting. Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en innerlijke dynamiek elkaar versterken en je helpen om op een authentieke manier te groeien.",
     "aanbod.forwho.text2":
       "Mooyo is er voor iedereen die voelt dat het tijd is om terug te keren naar zichzelf — en van daaruit het leven te omarmen.",
     // Aanbod section 2
@@ -107,7 +104,8 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
 
     // Aanbod section 5
     "openHartCirkels.title": "Open hartcirkels",
-    "openHartCirkels.text": "Voor meer informatie zie (verwachting eind septemeber):",
+    "openHartCirkels.text":
+      "Voor meer informatie zie (verwachting eind septemeber):",
 
     // Aanbod section 6
     "aanbod.s6.text":
@@ -401,7 +399,8 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data": "25 en 26 juli 2026 + najaar 2026 (data volgen nog)",
+    "Prices.reconstructive.data":
+      "25 en 26 juli 2026 + najaar 2026 (data volgen nog)",
     "Prices.reconstructive.price": "450€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
@@ -430,21 +429,18 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
     "Prices.footprints.details":
       "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
     "Prices.seeMore": "Zie meer...",
-    "Prices.collab": "In samenwerking met Elke Busschots, https://www.cominz.be",
+    "Prices.collab":
+      "In samenwerking met Elke Busschots, https://www.cominz.be",
     "Prices.info": "Voor info en aanmelden, mail",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
       "Een thuiskomen bij jezelf. Tijdens deze innerlijke tocht komen we laag na laag dichterbij jouw blauwdruk, zodat zichtbaar wordt wie je altijd al was.",
     "Prices.gold.for": "individu",
-    "Prices.gold.location": "Zuid Noorwegen in een rustige, natuurlijke omgeving",
+    "Prices.gold.location":
+      "Zuid Noorwegen in een rustige, natuurlijke omgeving",
     "Prices.gold.max": "Kleine groep (max. 6)",
     "Prices.gold.data": "Van 5-12 september 2026",
-    "Prices.gold.price": "1750€ excl btw"
-    "Prices.gold.location": "Noorwegen in een rustige, natuurlijke omgeving",
-    "Prices.gold.max": "Kleine groep (max. 6)",
-    "Prices.gold.data": "Van 5-12 september 2026",
-    "Prices.gold.price":
-      "Inclusief programma, begeleiding, maaltijden (Exclusief vervoer)",
+    "Prices.gold.price": "1750€ excl btw",
     "Prices.gold.body":
       "Elke dag trekken we de natuur in. Ze spiegelt je zonder oordeel: waar je nog vasthoudt, waar je mag verzachten, waar je mag openen. De natuur laat zien wat je lichaam al wist, maar wat je hoofd misschien nog niet durfde te erkennen. Reconstructive maakt zichtbaar wat je onderweg tegenkomt: oude patronen, beschermingslagen, ingehouden emoties. Door ermee te werken in het lichaam komt er beweging, helderheid en richting. Je voelt hoe je dichter bij je blauwdruk komt dat stille, diepe weten van wie jij in essentie bent. De groep wordt een bedding. Je hoeft het niet alleen te doen, maar je maakt wel je eigen innerlijke reis.",
     "Prices.gold.results.title": "Wat levert het op",
