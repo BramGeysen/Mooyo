@@ -12,7 +12,6 @@ import {
 import Footer from "@components/Footer.astro";
 import Head from "@components/head/Head.astro";
 import ScrollToTop from "../components/ScrollToTop.astro";
-import GoogleTMHead from "@components/head/GoogleTMHead.astro";
 import GoogleTMBody from "@components/head/GoogleTMBody.astro";
 
 interface Props {
@@ -20,12 +19,10 @@ interface Props {
   description?: string;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 const pathname = new URL(Astro.url).pathname;
-const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
 const { title, description = "Standaard omschrijving voor Mooyo" } =
   Astro.props;
 ---
@@ -72,7 +69,6 @@ const { title, description = "Standaard omschrijving voor Mooyo" } =
     gap: 4rem;
     color: var(--mooyo-text-red);
     background-color: var(--mooyo-white);
-    padding: 3rem;
   }
 
   header div {

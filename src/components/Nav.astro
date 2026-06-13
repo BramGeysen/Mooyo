@@ -25,6 +25,10 @@ const isActive = (path: string) => {
     class={isActive(translatePath("")) ? "text-red bold" : ""}>HOME</a
   >
   <a
+    href={translatePath("/welcome")}
+    class={isActive(translatePath("/welcome")) ? "text-red bold" : ""}>WELKOM</a
+  >
+  <a
     href={translatePath("/filosofie")}
     class={isActive(translatePath("/filosofie")) ? "text-red bold" : ""}
     >{t("nav.filosofie")}</a

@@ -33,20 +33,18 @@ export const ui = {
     // Layout
     "layout.header.subtitle": "hartgedragen begeleiding",
     "layout.contact":
-      "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen verkennen en samen bekijken welke volgende stap goed voelt.",
+      "Je bent welkom voor een vrijblijvend gesprek waarin we jouw vragen, je gevoel verkennen en samen bekijken welke volgende stap goed voelt.",
 
     // Index
 
     "index.title": "Home",
     "index.distance.station":
-      "(op 3min wandelafstand van treinstation Leuven).",
+      "(op 3min wandelafstand van het treinstation van Leuven).",
     // Index section 1
-    "index.intro.text1": " Hart, Leven, Ziel, Energie",
+    "index.intro.text1": " Hart, Leven, Ziel, Geest",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
     "index.intro.text3":
-      "Mooyo is een uitnodiging om volledig aanwezig te zijn met alles wat je meedraagt, precies zoals je bent.",
-    "index.intro.text4":
       "Ben je bereid om naar je hart te luisteren en te ontdekken hoe je elke situatie kunt benaderen vanuit de stevigheid van je hart?",
 
     // Index section 2
@@ -80,117 +78,30 @@ export const ui = {
       "Mooyo nodigt uit om bij de oorsprong te beginnen: bij het stille midden waar jouw waarheid, jouw pijn én jouw potentieel samenkomen. Wanneer we naar die kern gaan, opent er iets. Niet door te duwen of te analyseren, maar door te voelen, te zakken, te erkennen. Zolang de kern niet wordt aangeraakt, blijft het voelen alsof je onderweg bent zonder richting. Het proces begint pas echt als je de kern aanraakt, niet als een nieuwe zoektocht buiten jezelf, maar als een thuiskomen in jezelf.",
     "index.s4.text2":
       "Ben je bereid om in beweging te komen en naar je hart te luisteren?",
-    // Index section 6
-    "index.s6.text1": "Eerst voelen, dan denken.",
-    "index.s6.text2": "Eerst waarheid, dan vorm.",
-    "index.s6.text3": "Eerst innerlijke afstemming, dan actie.",
-    "index.s6.text4":
-      "Mooyo is een uitnodiging om van binnenuit te leven, niet vanuit gewoonte of verwachting.",
 
     // Aanbod
     "aanbod.title": "Aanbod",
 
     // Aanbod section 1
-    "aanbod.forwho.title": "Voor wie?",
+    "aanbod.forwho.title":
+      "Begeleiding waarin jij, je lichaam en je relaties centraal staan.",
     "aanbod.forwho.text":
-      "Ik begeleid mensen die voelen dat het tijd is om opnieuw in beweging te komen, die terug willen verbinden met zichzelf en hun potentieel volledig willen belichamen. Mensen die vanuit hun open hart willen leven en vandaaruit veerkracht en levensvreugde terug willen ervaren. Bij Mooyo vind je een plek waar je gezien en gedragen wordt, of je nu zoekt naar helderheid, richting, groei of heling. Voor wie vastzit in (hardnekkige) patronen bied ik een veilige ruimte om te onderzoeken wat eronder ligt en om stap voor stap terug te keren naar innerlijke vrijheid en zelfsturing. Als hoogbewuste of hoogbegaafde vind je hier herkenning, diepgang en begeleiding die aansluit bij jouw gevoeligheid en intensiteit.",
-    "aanbod.forwho.text2":
-      "Mooyo is er voor iedereen die voelt dat het tijd is om terug te keren naar zichzelf — en van daaruit het leven te omarmen.",
+      "In mijn begeleiding nodig ik je uit om niet alleen te praten over wat er speelt, maar het ook in je lichaam te voelen. Vaak vertelt je lichaam iets wat woorden nog niet kunnen vatten. Door samen stil te staan bij die signalen, ontstaat er ruimte voor echte, duurzame verandering. Ik kijk altijd naar jou in relatie tot je omgeving. We leven en ontwikkelen ons immers in verbinding met anderen. Daarom betrek ik, wanneer dat helpend is, de systemen waarvan jij deel uitmaakt. Gedrag en patronen ontstaan zelden in isolatie; ze zijn meestal onderdeel van een groter geheel. Daarnaast onderzoek ik met jou de interne relaties die je met jezelf hebt: de delen die je beschermen, de delen die je kwetsbaar maken, en de delen die soms botsen. Door deze innerlijke stemmen te leren kennen, ontstaat er meer begrip, mildheid en richting. Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en innerlijke dynamiek elkaar versterken en je helpen om op een authentieke manier te groeien.",
     // Aanbod section 2
     "methodieken.title":
       "Mijn begeleiding is gebaseerd op onderstaande (levens)filosofie, methodieken:",
-    "methodieken.text":
-      "Alle benaderingen en methodieken laten je lichamelijk ervaren hoe verandering kan aanvoelen. Ook houden deze methodieken rekening met het feit dat mensen relationele wezens zijn. We kijken bijgevolg ook naar het systemen waar je deel van uitmaakt. Gedrag en problemen ontstaan in wisselwerking met anderen en is nooit alleen van het individueel. Ook de verschillende relaties die we met onszelf hebben krijgen een plek in de begeleiding.",
 
     // Aanbod section 5
     "openHartCirkels.title": "Open hartcirkels",
-    "openHartCirkels.text": "Voor meer informatie zie (verwachting eind juni):",
+    "openHartCirkels.text":
+      "Voor meer informatie zie (verwachting eind septemeber):",
 
     // Aanbod section 6
     "aanbod.s6.text":
       "Het kind brengt de levenskracht. De volwassene brengt de bedding. <br>Samen vormen ze een heel mens.",
 
-    // Aanbod section 7
-    "aanbod.s7.text":
-      "Wanneer het hart in waarheid spreekt, volgt het hoofd vanzelf.",
-
-    // Aanbod section 8
-    "aanbod.s8.text":
-      "Dat maakt je gedrag authentiek en je keuzes helder. <br>Je leeft niet langer vanuit oude patronen, maar vanuit innerlijke waarheid.",
-
     // Filosofie
     "filosofie.title": "Filosofie",
-
-    // Filosofie section 1
-    "filosofie.open-hart.title": "Hoe open je je hart?",
-    "filosofie.open-hart.text":
-      "Er zijn zes richtingaanwijzers die je op weg helpen om je jarenlange conditionering te doorbreken en het proces om te keren. <br>Dit vraagt om een uitzonderlijke innerlijke kracht. <br>Alleen de kracht van het hart kan dit proces zachtjes openen en je stap voor stap naar verandering leiden.",
-
-    // Filosofie section 2
-    "filosofie.open-hart.s1.col1.title":
-      "1. Het hart als bron van motivatie en eerlijkheid",
-    "filosofie.open-hart.s1.col1.text1": "De kracht van het hart omvat:",
-    "filosofie.open-hart.s1.col1.list1": "oprechte zelfcompassie",
-    "filosofie.open-hart.s1.col1.list2": "de moed om ongemak toe te laten",
-    "filosofie.open-hart.s1.col1.list3":
-      "een verlangen naar waarheid in plaats van herhaling",
-    "filosofie.open-hart.s1.col1.text2":
-      "Dat is wat nodig is om conditionering te verzachten.",
-    "filosofie.open-hart.s1.col1.text3":
-      "Het gaat niet om brute wilskracht, maar om een zachte, volgehouden eerlijkheid.",
-    "filosofie.open-hart.s1.col2.title":
-      "2. Conditionering stopt wanneer je het patroon bewust ziet",
-    "filosofie.open-hart.s1.col2.text1":
-      "Patronen blijven bestaan zolang ze automatisch verlopen.",
-    "filosofie.open-hart.s1.col2.text2":
-      "Ze beginnen te verschuiven wanneer je:",
-    "filosofie.open-hart.s1.col2.list1":
-      "het patroon opmerkt op het moment dat het gebeurt",
-    "filosofie.open-hart.s1.col2.list2":
-      "de lichamelijke sensaties erbij voelt",
-    "filosofie.open-hart.s1.col2.list3":
-      "niet meteen reageert zoals je altijd deed",
-    "filosofie.open-hart.s1.col2.text3":
-      "Dat moment van bewustzijn is al een breuk in de conditionering.",
-    "filosofie.open-hart.s1.col3.title":
-      "3. Omkeren gebeurt door kleine herhaalde keuzes",
-    "filosofie.open-hart.s1.col3.text1":
-      "Grote transformaties ontstaan zelden door één enkele grote daad",
-    "filosofie.open-hart.s1.col3.text2": "Ze ontstaan door:",
-    "filosofie.open-hart.s1.col3.list1":
-      "telkens opnieuw kiezen voor een andere reactie",
-    "filosofie.open-hart.s1.col3.list2": "mild blijven wanneer het niet lukt",
-    "filosofie.open-hart.s1.col3.list3":
-      'jezelf toestaan om te groeien in plaats van te "fixen"',
-    "filosofie.open-hart.s1.col3.text3":
-      "Het hart helpt omdat het je motiveert om door te gaan, zelfs wanneer het moeilijk is.",
-
-    //  Filosofie Section 3
-    "filosofie.open-hart.s2.col1.title": "4. Het lichaam speelt een sleutelrol",
-    "filosofie.open-hart.s2.col1.text1":
-      "Conditionering zit niet alleen in gedachten, maar ook in:",
-    "filosofie.open-hart.s2.col1.list1": "spierspanning",
-    "filosofie.open-hart.s2.col1.list2": "ademhaling",
-    "filosofie.open-hart.s2.col1.list3": "reflexmatige reacties",
-    "filosofie.open-hart.s2.col1.text2":
-      "Praktijken zoals ademwerk, meditatie, somatische oefeningen of mindful bewegen kunnen helpen om die automatische patronen te verzachten.",
-    "filosofie.open-hart.s2.col2.title":
-      "5. De kracht die nodig is, is niet hard maar volhardend",
-    "filosofie.open-hart.s2.col2.text1":
-      'Veel mensen denken dat ze "sterker" moeten worden.',
-    "filosofie.open-hart.s2.col2.text2": "In werkelijkheid gaat het om:",
-    "filosofie.open-hart.s2.col2.list1": "zachtheid",
-    "filosofie.open-hart.s2.col2.list2": "aanwezigheid",
-    "filosofie.open-hart.s2.col2.list3": "bereidheid om te voelen",
-    "filosofie.open-hart.s2.col2.list4": "trouw blijven aan je diepere waarden",
-    "filosofie.open-hart.s2.col2.text3":
-      "Dat is een andere soort kracht, maar wel een hele krachtige.",
-    "filosofie.open-hart.s2.col3.title": "6. Community",
-    "filosofie.open-hart.s2.col3.text1":
-      "Community speelt vaak een veel grotere rol in heling dan mensen beseffen.",
-    "filosofie.open-hart.s2.col3.text2":
-      "Genezing - of het nu emotioneel, psychologisch, spiritueel of zelfs lichamelijk is - gebeurt zelden volledig in isolatie.",
-    "filosofie.open-hart.s2.col3.text3": "Mensen helen in relatie tot anderen.",
 
     // Filosofie section 4
     "intro-pillars.text1":
@@ -266,26 +177,6 @@ export const ui = {
     "filosofie.essentie.text2":
       "Mooyo is geen eindpunt, maar een startpunt. Een deur die opengaat, zodat het proces dat volgt niet langer een zoektocht is, maar een ontvouwing.",
 
-    // Filosofie section 6
-    "quotes.text1":
-      "Kies niet langer uit angst, maar uit afstemming. <br>Wat zegt je angst: “Wat als…?” <br>Wat zegt je hart: “Wat klopt nu?”",
-    "quotes.text2":
-      "Spreek eerlijker en zachter. <br>Check je intentie: Wil je overtuigen? of Blijf je trouw aan wat je voelt?",
-    "quotes.text3":
-      "Kies voor waarheid boven comfort. <br>Soms is dat spannend, maar het brengt wel rust.",
-    "quotes.text4":
-      "Vertraag wanneer iets niet goed voelt. <br>Checkt eerst: Wat voel ik eigenlijk? Wat klopt voor mij?",
-    "quotes.text5":
-      "Kies eenvoudiger! <br>Het hoofd maakt dingen ingewikkeld. <br>Het hart voelt: ja, nee, of nog niet.",
-    "quotes.text6":
-      "Wees mild met jezelf. <br>Het hart zoekt helderheid, niet strijd.",
-    "quotes.text7":
-      "Kies voor wat je voedt, niet voor wat leegmaakt. <br>Zowel in relaties, werk, ritme, omgeving.",
-    "quotes.text8":
-      "Stel grenzen zonder hard te worden. <br>Kies voor verbinding in plaats van verdediging.",
-    "quotes.text9":
-      "Kies voor richting in plaats van controle. <br>Het hart wijst het pad, <br>het hoofd plant de stappen.",
-
     // About
     "about.title": "Over mij",
 
@@ -307,7 +198,7 @@ export const ui = {
     "about.s2.e1.text6":
       "Ik ben dankbaar voor alles wat geweest is; het heeft me gevormd en veel goeds gebracht. Ik kijk hoopvol uit naar de toekomst. Vanuit die dankbaarheid is Mooyo ontstaan — mijn inspiratie én mijn toewijding om anderen te begeleiden op hun eigen unieke reis.",
     "about.s2.e1.text7":
-      " Momenteel werk ik halftijd bij Adem vzw als Teamcoach en halftijds als zelfstandige.",
+      " Momenteel werk ik deeltijds bij Adem vzw als Teamcoach en halftijds als zelfstandige.",
     "about.s2.e2.title": "Waarom kiezen voor Mooyo?",
     "about.s2.e2.text1":
       "Mijn begeleidingsstijl wordt gekenmerkt door een diepe kwaliteit van aanwezigheid en een kalme rust. Dit stelt mij in staat om een veilige en ondersteunende omgeving te creëren waarin jij je volledig kunt openstellen en groeien.",
@@ -347,7 +238,7 @@ export const ui = {
     "Prices.deeptimewalk.experience.title": "Unieke beleving",
     "Prices.deeptimewalk.experience.text":
       "Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staan stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).",
-    "Prices.deeptimewalk.perspective.title": "Perspectiefverschuiving",
+    "Prices.deeptimewalk.perspective.title": "Perspectief verschuiving",
     "Prices.deeptimewalk.perspective.text":
       "Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet zien. Welke verandering merk jij?",
     "Prices.deeptimewalk.reflection.title": "Persoonlijke reflectie",
@@ -394,17 +285,18 @@ export const ui = {
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
       "Voor wie al wat innerlijk werk gedaan heeft en voelt dat er via het lichaam iets verder mag bewegen.",
-    "Prices.reconstructive.format": "1dag",
+    "Prices.reconstructive.format": "2 dagen",
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data": "najaar 2026",
+    "Prices.reconstructive.data":
+      "25 en 26 juli 2026 + 17 en 18 oktober 2026 (10u-17u)",
     "Prices.reconstructive.price": "450€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
-      "Je hebt al een weg naar binnen afgelegd. En toch voel je: er is nog iets. Iets wat niet via het hoofd loskomt, maar via het lichaam. Reconstructive is voor jou.",
+      "Soms voel je dat er nog iets in de weg zit. Iets wat niet via het hoofd loskomt, maar via het lichaam wil gezien worden.",
     "Prices.reconstructive.body2":
-      "Het is een krachtige lichaamsgerichte methode waarbij intuïtie, vrijheid en helderheid meer kunnen stromen. Het denken wordt even opzijgezet. Wat overblijft is het lichaam en wat het je te vertellen heeft.",
+      "Vaak zijn het diepgewortelde patronen, oude verhalen, ingehouden emoties en overlevingsstrategieën die ons onbewust ervan weerhouden om ons potentieel ten volle te leven. Door ermee te werken in het lichaam komt er beweging, helderheid en richting.",
     "Prices.reconstructive.body3":
       "In de tweedaagse vertraagt de tijd. Je krijgt ruimte om dieper te zakken, voorbij de oppervlakte. Je ontmoet twee delen in jezelf die vaak meer invloed hebben dan je denkt: je kinddeel en je volwassen deel. Wanneer deze twee elkaar ontmoeten, ontstaat er iets krachtigs: een beweging die je niet kunt bedenken, maar wel kunt voelen.",
     "Prices.reconstructive.body4":
@@ -421,24 +313,24 @@ export const ui = {
     "Prices.label.max": "Max aantal deelnemers",
     "Prices.label.data": "Data",
     "Prices.label.price": "Prijs",
-    "Prices.adolescenten.title":
-      "Adolescenten (korting voor adolescenten die zelf instaan voor de kosten)",
-    "Prices.adolescenten.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
-    "Prices.adolescenten.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
-    "Prices.adolescenten.details":
-      "Ook adolescenten zijn meer dan welkom. Zij dragen nieuwe talenten, gevoeligheden en verlangens in zich die niet altijd lijken te passen binnen de huidige maatschappij, maar wél essentieel zijn voor een samenleving in transformatie. Via mijn hartgedragen begeleiding ontdekken jongeren hoe ze in hun eigen kracht kunnen staan. Met heldere inzichten, zelfvertrouwen en nieuwe perspectieven leren ze hun energie te richten op wat klopt voor hen. Zo kunnen zij vanuit veerkracht en met plezier bijdragen aan een wereld die blijft groeien en veranderen.",
+    "Prices.footprints.title": "Footprints",
+    "Prices.footprints.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
+    "Prices.footprints.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
+    "Prices.footprints.details":
+      "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
     "Prices.seeMore": "Zie meer...",
-    "Prices.collab": "In samenwerking met Elke Busschots van",
+    "Prices.collab": "In samenwerking met Elke Busschots, ",
     "Prices.info": "Voor info en aanmelden, mail",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
       "Een thuiskomen bij jezelf. Tijdens deze innerlijke tocht komen we laag na laag dichterbij jouw blauwdruk, zodat zichtbaar wordt wie je altijd al was.",
+    "Prices.gold.format": "6 dagen",
     "Prices.gold.for": "individu",
-    "Prices.gold.location": "Noorwegen in een rustige, natuurlijke omgeving",
+    "Prices.gold.location":
+      "Zuid Noorwegen in een rustige, natuurlijke omgeving",
     "Prices.gold.max": "Kleine groep (max. 6)",
     "Prices.gold.data": "Van 5-12 september 2026",
-    "Prices.gold.price":
-      "Inclusief programma, begeleiding, maaltijden (Exclusief vervoer)",
+    "Prices.gold.price": "1750€ excl btw",
     "Prices.gold.body":
       "Elke dag trekken we de natuur in. Ze spiegelt je zonder oordeel: waar je nog vasthoudt, waar je mag verzachten, waar je mag openen. De natuur laat zien wat je lichaam al wist, maar wat je hoofd misschien nog niet durfde te erkennen. Reconstructive maakt zichtbaar wat je onderweg tegenkomt: oude patronen, beschermingslagen, ingehouden emoties. Door ermee te werken in het lichaam komt er beweging, helderheid en richting. Je voelt hoe je dichter bij je blauwdruk komt dat stille, diepe weten van wie jij in essentie bent. De groep wordt een bedding. Je hoeft het niet alleen te doen, maar je maakt wel je eigen innerlijke reis.",
     "Prices.gold.results.title": "Wat levert het op",
@@ -448,6 +340,7 @@ export const ui = {
     "Prices.gold.li4": "stevig contact met je kern",
     "Prices.gold.footer":
       "Voor wie een reset wil, oude lagen wil loslaten en zijn/haar blauwdruk wil herontdekken",
+    "Prices.moreInfo": "Voor meer informatie zie,",
   },
   en: {
     // Global
@@ -480,13 +373,11 @@ export const ui = {
       "(within 3 min walking distance from Leuven train station).",
 
     // Index section 1
-    "index.intro.text1": "Heart, life, soul, spirit.",
+    "index.intro.text1": "Heart, life, soul, spirit, energy.",
     "index.intro.text2":
       "In various African languages, Mooyo refers to both the physical heart and the inner essence or life energy.",
     "index.intro.text3":
       "Mooyo is an invitation to be fully present with everything you carry, exactly as you are.",
-    "index.intro.text4":
-      "Are you prepared to listen to your heart and discover how you can approach every situation from the steadiness of your heart?",
 
     // Index section 2
     "index.welcome.title": "Welcome",
@@ -533,14 +424,10 @@ export const ui = {
     "aanbod.forwho.title": "For whom?",
     "aanbod.forwho.text":
       "I guide people who feel it is time to move again, who want to reconnect with themselves and fully embody their potential. People who want to live from their open heart and experience resilience and joy once more. At Mooyo, you find a place where you are seen and supported, whether you seek clarity, direction, growth, or healing. For those stuck in (persistent) patterns, I offer a safe space to explore what lies beneath and to return step by step to inner freedom and self-direction. As a highly conscious or gifted person, you will find recognition, depth, and guidance that aligns with your sensitivity and intensity.",
-    "aanbod.forwho.text2":
-      "Mooyo is there for everyone who feels it is time to return to themselves — and embrace life from there.",
 
     // Aanbod section 2
     "methodieken.title":
       "My guidance is based on the following (life) philosophy and methodologies:",
-    "methodieken.text":
-      "All approaches and methodologies allow you to physically experience how change can feel. These methods also take into account that humans are relational beings. Consequently, we also look at the systems you are part of. Behavior and problems arise in interaction with others and are never solely individual. The different relationships we have with ourselves are also given a place in the guidance.",
 
     // Aanbod section 5
     "openHartCirkels.title": "Open heart circles",
@@ -550,87 +437,8 @@ export const ui = {
     "aanbod.s6.text":
       "The child brings the life force. The adult brings the foundation. <br>Together they form a whole human being.",
 
-    // Aanbod section 7
-    "aanbod.s7.text":
-      "When the heart speaks in truth, the head follows naturally.",
-
-    // Aanbod section 8
-    "aanbod.s8.text":
-      "That makes your behavior authentic and your choices clear. <br>You no longer live from old patterns, but from inner truth.",
-
     // Filosofie
     "filosofie.title": "Philosophy",
-
-    // Filosofie section 1
-    "filosofie.open-hart.title": "How do you open your heart?",
-    "filosofie.open-hart.text":
-      "There are six signposts that help you on your way to break through your years of conditioning and reverse the process. <br>This requires an exceptional inner strength. <br>Only the power of the heart can gently open this process and lead you step by step toward change.",
-
-    // Filosofie section 2
-    "filosofie.open-hart.s1.col1.title":
-      "1. The heart as a source of motivation and honesty",
-    "filosofie.open-hart.s1.col1.text1": "The power of the heart includes:",
-    "filosofie.open-hart.s1.col1.list1": "sincere self-compassion",
-    "filosofie.open-hart.s1.col1.list2": "the courage to allow discomfort",
-    "filosofie.open-hart.s1.col1.list3":
-      "a desire for truth instead of repetition",
-    "filosofie.open-hart.s1.col1.text2":
-      "That is what is needed to soften conditioning.",
-    "filosofie.open-hart.s1.col1.text3":
-      "It is not about brute willpower, but about a gentle, sustained honesty.",
-    "filosofie.open-hart.s1.col2.title":
-      "2. Conditioning stops when you consciously see the pattern",
-    "filosofie.open-hart.s1.col2.text1":
-      "Patterns persist as long as they run automatically.",
-    "filosofie.open-hart.s1.col2.text2": "They begin to shift when you:",
-    "filosofie.open-hart.s1.col2.list1":
-      "notice the pattern at the moment it happens",
-    "filosofie.open-hart.s1.col2.list2":
-      "feel the physical sensations associated with it",
-    "filosofie.open-hart.s1.col2.list3":
-      "do not immediately react as you always did",
-    "filosofie.open-hart.s1.col2.text3":
-      "That moment of awareness is already a break in the conditioning.",
-    "filosofie.open-hart.s1.col3.title":
-      "3. Reversing happens through small, repeated choices",
-    "filosofie.open-hart.s1.col3.text1":
-      "Major transformations rarely arise from one big act.",
-    "filosofie.open-hart.s1.col3.text2": "They arise from:",
-    "filosofie.open-hart.s1.col3.list1":
-      "choosing a different reaction time and again",
-    "filosofie.open-hart.s1.col3.list2":
-      "remaining gentle when it doesn't work out",
-    "filosofie.open-hart.s1.col3.list3":
-      'allowing yourself to grow instead of "fix"',
-    "filosofie.open-hart.s1.col3.text3":
-      "The heart helps because it motivates you to keep going, even when it is difficult.",
-
-    // Filosofie section 3
-    "filosofie.open-hart.s2.col1.title": "4. The body plays a key role",
-    "filosofie.open-hart.s2.col1.text1":
-      "Conditioning is not just in thoughts, but also in:",
-    "filosofie.open-hart.s2.col1.list1": "muscle tension",
-    "filosofie.open-hart.s2.col1.list2": "breathing",
-    "filosofie.open-hart.s2.col1.list3": "reflexive reactions",
-    "filosofie.open-hart.s2.col1.text2":
-      "Practices such as breathwork, meditation, somatic exercises, or mindful movement can help soften those automatic patterns.",
-    "filosofie.open-hart.s2.col2.title":
-      "5. The strength needed is not hard but persistent",
-    "filosofie.open-hart.s2.col2.text1":
-      'Many people think that they need to become "stronger"',
-    "filosofie.open-hart.s2.col2.text2": "In reality, it is about:",
-    "filosofie.open-hart.s2.col2.list1": "gentleness",
-    "filosofie.open-hart.s2.col2.list2": "presence",
-    "filosofie.open-hart.s2.col2.list3": "willingness to feel",
-    "filosofie.open-hart.s2.col2.list4": "staying true to your deeper values",
-    "filosofie.open-hart.s2.col2.text3":
-      "That is a different kind of strength, but a very powerful one.",
-    "filosofie.open-hart.s2.col3.title": "6. Community",
-    "filosofie.open-hart.s2.col3.text1":
-      "Community often plays a much larger role in healing than people realize.",
-    "filosofie.open-hart.s2.col3.text2":
-      "Healing — whether it is emotional, psychological, spiritual, or even physical — rarely happens completely in isolation.",
-    "filosofie.open-hart.s2.col3.text3": "People heal in relation to others.",
 
     // Filosofie section 4
     "intro-pillars.text1":
@@ -705,26 +513,6 @@ export const ui = {
       "<span class='bold'>Impactful guidance</span> — Once the core is touched, every next step becomes more meaningful.",
     "filosofie.essentie.text2":
       "Mooyo is not an end point, but a starting point. A door that opens, so that the process that follows is no longer a search, but an unfolding.",
-
-    // Filosofie section 6
-    "quotes.text1":
-      'No longer choose out of fear, but out of alignment. <br>What does your fear say: "What if...?" <br>What does your heart say: "What feels right now?"',
-    "quotes.text2":
-      "Speak more honestly and gently. <br>Check your intention: Do you want to convince? Or do you stay true to what you feel?",
-    "quotes.text3":
-      "Choose truth over comfort. <br>Sometimes that is exciting, but it does bring peace.",
-    "quotes.text4":
-      "Slow down when something does not feel right. <br>Check first: What am I actually feeling? What feels right for me?",
-    "quotes.text5":
-      "Choose simpler! <br>The mind makes things complicated. <br>The heart feels: yes, no, or not yet.",
-    "quotes.text6":
-      "Be gentle with yourself. <br>The heart seeks clarity, not conflict.",
-    "quotes.text7":
-      "Choose what nourishes you, not what drains you. <br>In relationships, work, rhythm, environment.",
-    "quotes.text8":
-      "Set boundaries without becoming hard. <br>Choose connection instead of defense.",
-    "quotes.text9":
-      "Choose direction instead of control. <br>The heart points the way, <br>the head plans the steps.",
 
     // About
     "about.title": "About me",
@@ -832,7 +620,7 @@ export const ui = {
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
       "For those who have already done some inner work and feel that something can move further through the body.",
-    "Prices.reconstructive.format": "1 day",
+    "Prices.reconstructive.format": "2 days",
     "Prices.reconstructive.for": "individual",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
@@ -840,9 +628,9 @@ export const ui = {
     "Prices.reconstructive.price": "450€ excl. VAT",
     "Prices.reconstructive.lunch": "Coffee, tea, and lunch included",
     "Prices.reconstructive.body1":
-      "You have already traveled a path inward. And yet you feel: there is something more. Something that doesn't release through the head, but through the body. Reconstructive is for you.",
+      "Sometimes you feel that something is still in the way. Something that doesn't release through the mind, but wants to be seen through the body.",
     "Prices.reconstructive.body2":
-      "It is a powerful body-oriented method where intuition, freedom, and clarity can flow more freely. Thinking is set aside for a moment. What remains is the body and what it has to tell you.",
+      "Often it is deep-rooted patterns, old stories, held-back emotions, and survival strategies that unconsciously prevent us from fully living our potential. By working with them in the body, movement, clarity, and direction emerge.",
     "Prices.reconstructive.body3":
       "In the two-day session, time slows down. You get space to sink deeper, beyond the surface. You meet two parts within yourself that often have more influence than you think: your child part and your adult part. When these two meet, something powerful arises: a movement you cannot think up, but you can feel.",
     "Prices.reconstructive.body4":
@@ -860,14 +648,13 @@ export const ui = {
     "Prices.label.max": "Max participants",
     "Prices.label.data": "Dates",
     "Prices.label.price": "Price",
-    "Prices.adolescenten.title":
-      "Adolescents (discount for adolescents covering their own costs)",
-    "Prices.adolescenten.li1": "A 60-minute session costs 55 euros (incl. VAT)",
-    "Prices.adolescenten.li2": "A 90-minute session costs 75 euros (incl. VAT)",
-    "Prices.adolescenten.details":
-      "Adolescents are also more than welcome. They carry new talents, sensitivities, and desires within them that may not always seem to fit within current society, but are essential for a society in transformation. Through my heart-centered guidance, young people discover how to stand in their own power. With clear insights, self-confidence, and new perspectives, they learn to direct their energy toward what is right for them. Thus, they can contribute with resilience and pleasure to a world that continues to grow and change.",
+    "Prices.footprints.title": "Footprints",
+    "Prices.footprints.li1": "A 60-minute session costs 55 euros (incl. VAT)",
+    "Prices.footprints.li2": "A 90-minute session costs 75 euros (incl. VAT)",
+    "Prices.footprints.details":
+      "The Footprints method is an individual guidance of 4 sessions that forms an essential key to a free life. If you recognize any of the following patterns in yourself, Footprints can bring change: pleasing, caring for, being constantly busy, controlling, trying even harder. Footprints is an encounter with your own inner world and opens the door to emotional maturity where your place in the system is honored, creating clarity. After the first session you already feel lighter; the following sessions deepen this feeling, making integration into daily life tangible and lasting.",
     "Prices.seeMore": "See more...",
-    "Prices.collab": "In collaboration with Elke Busschots from",
+    "Prices.collab": "In collaboration with Elke Busschots",
     "Prices.info": "For info and registration, email",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
