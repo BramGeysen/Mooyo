@@ -44,8 +44,7 @@ export const ui = {
     "index.intro.text1": " Hart, Leven, Ziel, Geest",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
-    "index.intro.text3": " ",
-    "index.intro.text4":
+    "index.intro.text3":
       "Ben je bereid om naar je hart te luisteren en te ontdekken hoe je elke situatie kunt benaderen vanuit de stevigheid van je hart?",
 
     // Index section 2
@@ -79,12 +78,6 @@ export const ui = {
       "Mooyo nodigt uit om bij de oorsprong te beginnen: bij het stille midden waar jouw waarheid, jouw pijn én jouw potentieel samenkomen. Wanneer we naar die kern gaan, opent er iets. Niet door te duwen of te analyseren, maar door te voelen, te zakken, te erkennen. Zolang de kern niet wordt aangeraakt, blijft het voelen alsof je onderweg bent zonder richting. Het proces begint pas echt als je de kern aanraakt, niet als een nieuwe zoektocht buiten jezelf, maar als een thuiskomen in jezelf.",
     "index.s4.text2":
       "Ben je bereid om in beweging te komen en naar je hart te luisteren?",
-    // Index section 6
-    "index.s6.text1": "Eerst voelen, dan denken.",
-    "index.s6.text2": "Eerst waarheid, dan vorm.",
-    "index.s6.text3": "Eerst innerlijke afstemming, dan actie.",
-    "index.s6.text4":
-      "Mooyo is een uitnodiging om van binnenuit te leven, niet vanuit gewoonte of verwachting.",
 
     // Aanbod
     "aanbod.title": "Aanbod",
@@ -99,8 +92,6 @@ export const ui = {
     // Aanbod section 2
     "methodieken.title":
       "Mijn begeleiding is gebaseerd op onderstaande (levens)filosofie, methodieken:",
-    "methodieken.text":
-      "Alle benaderingen en methodieken laten je lichamelijk ervaren hoe verandering kan aanvoelen. Ook houden deze methodieken rekening met het feit dat mensen relationele wezens zijn. We kijken bijgevolg ook naar het systemen waar je deel van uitmaakt. Gedrag en problemen ontstaan in wisselwerking met anderen en is nooit alleen van het individueel. Ook de verschillende relaties die we met onszelf hebben krijgen een plek in de begeleiding.",
 
     // Aanbod section 5
     "openHartCirkels.title": "Open hartcirkels",
@@ -111,87 +102,8 @@ export const ui = {
     "aanbod.s6.text":
       "Het kind brengt de levenskracht. De volwassene brengt de bedding. <br>Samen vormen ze een heel mens.",
 
-    // Aanbod section 7
-    "aanbod.s7.text":
-      "Wanneer het hart in waarheid spreekt, volgt het hoofd vanzelf.",
-
-    // Aanbod section 8
-    "aanbod.s8.text":
-      "Dat maakt je gedrag authentiek en je keuzes helder. <br>Je leeft niet langer vanuit oude patronen, maar vanuit innerlijke waarheid.",
-
     // Filosofie
     "filosofie.title": "Filosofie",
-
-    // Filosofie section 1
-    "filosofie.open-hart.title": "Hoe open je je hart?",
-    "filosofie.open-hart.text":
-      "Er zijn zes richtingaanwijzers die je op weg helpen om je jarenlange conditionering te doorbreken en het proces om te keren. <br>Dit vraagt om een uitzonderlijke innerlijke kracht. <br>Alleen de kracht van het hart kan dit proces zachtjes openen en je stap voor stap naar verandering leiden.",
-
-    // Filosofie section 2
-    "filosofie.open-hart.s1.col1.title":
-      "1. Het hart als bron van motivatie en eerlijkheid",
-    "filosofie.open-hart.s1.col1.text1": "De kracht van het hart omvat:",
-    "filosofie.open-hart.s1.col1.list1": "oprechte zelfcompassie",
-    "filosofie.open-hart.s1.col1.list2": "de moed om ongemak toe te laten",
-    "filosofie.open-hart.s1.col1.list3":
-      "een verlangen naar waarheid in plaats van herhaling",
-    "filosofie.open-hart.s1.col1.text2":
-      "Dat is wat nodig is om conditionering te verzachten.",
-    "filosofie.open-hart.s1.col1.text3":
-      "Het gaat niet om brute wilskracht, maar om een zachte, volgehouden eerlijkheid.",
-    "filosofie.open-hart.s1.col2.title":
-      "2. Conditionering stopt wanneer je het patroon bewust ziet",
-    "filosofie.open-hart.s1.col2.text1":
-      "Patronen blijven bestaan zolang ze automatisch verlopen.",
-    "filosofie.open-hart.s1.col2.text2":
-      "Ze beginnen te verschuiven wanneer je:",
-    "filosofie.open-hart.s1.col2.list1":
-      "het patroon opmerkt op het moment dat het gebeurt",
-    "filosofie.open-hart.s1.col2.list2":
-      "de lichamelijke sensaties erbij voelt",
-    "filosofie.open-hart.s1.col2.list3":
-      "niet meteen reageert zoals je altijd deed",
-    "filosofie.open-hart.s1.col2.text3":
-      "Dat moment van bewustzijn is al een breuk in de conditionering.",
-    "filosofie.open-hart.s1.col3.title":
-      "3. Omkeren gebeurt door kleine herhaalde keuzes",
-    "filosofie.open-hart.s1.col3.text1":
-      "Grote transformaties ontstaan zelden door één enkele grote daad",
-    "filosofie.open-hart.s1.col3.text2": "Ze ontstaan door:",
-    "filosofie.open-hart.s1.col3.list1":
-      "telkens opnieuw kiezen voor een andere reactie",
-    "filosofie.open-hart.s1.col3.list2": "mild blijven wanneer het niet lukt",
-    "filosofie.open-hart.s1.col3.list3":
-      'jezelf toestaan om te groeien in plaats van te "fixen"',
-    "filosofie.open-hart.s1.col3.text3":
-      "Het hart helpt omdat het je motiveert om door te gaan, zelfs wanneer het moeilijk is.",
-
-    //  Filosofie Section 3
-    "filosofie.open-hart.s2.col1.title": "4. Het lichaam speelt een sleutelrol",
-    "filosofie.open-hart.s2.col1.text1":
-      "Conditionering zit niet alleen in gedachten, maar ook in:",
-    "filosofie.open-hart.s2.col1.list1": "spierspanning",
-    "filosofie.open-hart.s2.col1.list2": "ademhaling",
-    "filosofie.open-hart.s2.col1.list3": "reflexmatige reacties",
-    "filosofie.open-hart.s2.col1.text2":
-      "Praktijken zoals ademwerk, meditatie, somatische oefeningen of mindful bewegen kunnen helpen om die automatische patronen te verzachten.",
-    "filosofie.open-hart.s2.col2.title":
-      "5. De kracht die nodig is, is niet hard maar volhardend",
-    "filosofie.open-hart.s2.col2.text1":
-      'Veel mensen denken dat ze "sterker" moeten worden.',
-    "filosofie.open-hart.s2.col2.text2": "In werkelijkheid gaat het om:",
-    "filosofie.open-hart.s2.col2.list1": "zachtheid",
-    "filosofie.open-hart.s2.col2.list2": "aanwezigheid",
-    "filosofie.open-hart.s2.col2.list3": "bereidheid om te voelen",
-    "filosofie.open-hart.s2.col2.list4": "trouw blijven aan je diepere waarden",
-    "filosofie.open-hart.s2.col2.text3":
-      "Dat is een andere soort kracht, maar wel een hele krachtige.",
-    "filosofie.open-hart.s2.col3.title": "6. Community",
-    "filosofie.open-hart.s2.col3.text1":
-      "Community speelt vaak een veel grotere rol in heling dan mensen beseffen.",
-    "filosofie.open-hart.s2.col3.text2":
-      "Genezing - of het nu emotioneel, psychologisch, spiritueel of zelfs lichamelijk is - gebeurt zelden volledig in isolatie.",
-    "filosofie.open-hart.s2.col3.text3": "Mensen helen in relatie tot anderen.",
 
     // Filosofie section 4
     "intro-pillars.text1":
@@ -266,26 +178,6 @@ export const ui = {
       "<span class='bold'>Begeleiding die pakt</span> — Wanneer de kern geraakt is, wordt elke volgende stap betekenisvoller.",
     "filosofie.essentie.text2":
       "Mooyo is geen eindpunt, maar een startpunt. Een deur die opengaat, zodat het proces dat volgt niet langer een zoektocht is, maar een ontvouwing.",
-
-    // Filosofie section 6
-    "quotes.text1":
-      "Kies niet langer uit angst, maar uit afstemming. <br>Wat zegt je angst: “Wat als…?” <br>Wat zegt je hart: “Wat klopt nu?”",
-    "quotes.text2":
-      "Spreek eerlijker en zachter. <br>Check je intentie: Wil je overtuigen? of Blijf je trouw aan wat je voelt?",
-    "quotes.text3":
-      "Kies voor waarheid boven comfort. <br>Soms is dat spannend, maar het brengt wel rust.",
-    "quotes.text4":
-      "Vertraag wanneer iets niet goed voelt. <br>Checkt eerst: Wat voel ik eigenlijk? Wat klopt voor mij?",
-    "quotes.text5":
-      "Kies eenvoudiger! <br>Het hoofd maakt dingen ingewikkeld. <br>Het hart voelt: ja, nee, of nog niet.",
-    "quotes.text6":
-      "Wees mild met jezelf. <br>Het hart zoekt helderheid, niet strijd.",
-    "quotes.text7":
-      "Kies voor wat je voedt, niet voor wat leegmaakt. <br>Zowel in relaties, werk, ritme, omgeving.",
-    "quotes.text8":
-      "Stel grenzen zonder hard te worden. <br>Kies voor verbinding in plaats van verdediging.",
-    "quotes.text9":
-      "Kies voor richting in plaats van controle. <br>Het hart wijst het pad, <br>het hoofd plant de stappen.",
 
     // About
     "about.title": "Over mij",
@@ -429,12 +321,12 @@ export const ui = {
     "Prices.footprints.details":
       "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
     "Prices.seeMore": "Zie meer...",
-    "Prices.collab":
-      "In samenwerking met Elke Busschots, https://www.cominz.be",
+    "Prices.collab": "In samenwerking met Elke Busschots, ",
     "Prices.info": "Voor info en aanmelden, mail",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
       "Een thuiskomen bij jezelf. Tijdens deze innerlijke tocht komen we laag na laag dichterbij jouw blauwdruk, zodat zichtbaar wordt wie je altijd al was.",
+    "Prices.gold.format": "6 dagen",
     "Prices.gold.for": "individu",
     "Prices.gold.location":
       "Zuid Noorwegen in een rustige, natuurlijke omgeving",
@@ -450,6 +342,7 @@ export const ui = {
     "Prices.gold.li4": "stevig contact met je kern",
     "Prices.gold.footer":
       "Voor wie een reset wil, oude lagen wil loslaten en zijn/haar blauwdruk wil herontdekken",
+    "Prices.moreInfo": "Voor meer informatie zie,",
   },
   en: {
     // Global
@@ -487,8 +380,6 @@ export const ui = {
       "In various African languages, Mooyo refers to both the physical heart and the inner essence or life energy.",
     "index.intro.text3":
       "Mooyo is an invitation to be fully present with everything you carry, exactly as you are.",
-    "index.intro.text4":
-      "Are you prepared to listen to your heart and discover how you can approach every situation from the steadiness of your heart?",
 
     // Index section 2
     "index.welcome.title": "Welcome",
@@ -541,8 +432,6 @@ export const ui = {
     // Aanbod section 2
     "methodieken.title":
       "My guidance is based on the following (life) philosophy and methodologies:",
-    "methodieken.text":
-      "All approaches and methodologies allow you to physically experience how change can feel. These methods also take into account that humans are relational beings. Consequently, we also look at the systems you are part of. Behavior and problems arise in interaction with others and are never solely individual. The different relationships we have with ourselves are also given a place in the guidance.",
 
     // Aanbod section 5
     "openHartCirkels.title": "Open heart circles",
@@ -552,87 +441,8 @@ export const ui = {
     "aanbod.s6.text":
       "The child brings the life force. The adult brings the foundation. <br>Together they form a whole human being.",
 
-    // Aanbod section 7
-    "aanbod.s7.text":
-      "When the heart speaks in truth, the head follows naturally.",
-
-    // Aanbod section 8
-    "aanbod.s8.text":
-      "That makes your behavior authentic and your choices clear. <br>You no longer live from old patterns, but from inner truth.",
-
     // Filosofie
     "filosofie.title": "Philosophy",
-
-    // Filosofie section 1
-    "filosofie.open-hart.title": "How do you open your heart?",
-    "filosofie.open-hart.text":
-      "There are six signposts that help you on your way to break through your years of conditioning and reverse the process. <br>This requires an exceptional inner strength. <br>Only the power of the heart can gently open this process and lead you step by step toward change.",
-
-    // Filosofie section 2
-    "filosofie.open-hart.s1.col1.title":
-      "1. The heart as a source of motivation and honesty",
-    "filosofie.open-hart.s1.col1.text1": "The power of the heart includes:",
-    "filosofie.open-hart.s1.col1.list1": "sincere self-compassion",
-    "filosofie.open-hart.s1.col1.list2": "the courage to allow discomfort",
-    "filosofie.open-hart.s1.col1.list3":
-      "a desire for truth instead of repetition",
-    "filosofie.open-hart.s1.col1.text2":
-      "That is what is needed to soften conditioning.",
-    "filosofie.open-hart.s1.col1.text3":
-      "It is not about brute willpower, but about a gentle, sustained honesty.",
-    "filosofie.open-hart.s1.col2.title":
-      "2. Conditioning stops when you consciously see the pattern",
-    "filosofie.open-hart.s1.col2.text1":
-      "Patterns persist as long as they run automatically.",
-    "filosofie.open-hart.s1.col2.text2": "They begin to shift when you:",
-    "filosofie.open-hart.s1.col2.list1":
-      "notice the pattern at the moment it happens",
-    "filosofie.open-hart.s1.col2.list2":
-      "feel the physical sensations associated with it",
-    "filosofie.open-hart.s1.col2.list3":
-      "do not immediately react as you always did",
-    "filosofie.open-hart.s1.col2.text3":
-      "That moment of awareness is already a break in the conditioning.",
-    "filosofie.open-hart.s1.col3.title":
-      "3. Reversing happens through small, repeated choices",
-    "filosofie.open-hart.s1.col3.text1":
-      "Major transformations rarely arise from one big act.",
-    "filosofie.open-hart.s1.col3.text2": "They arise from:",
-    "filosofie.open-hart.s1.col3.list1":
-      "choosing a different reaction time and again",
-    "filosofie.open-hart.s1.col3.list2":
-      "remaining gentle when it doesn't work out",
-    "filosofie.open-hart.s1.col3.list3":
-      'allowing yourself to grow instead of "fix"',
-    "filosofie.open-hart.s1.col3.text3":
-      "The heart helps because it motivates you to keep going, even when it is difficult.",
-
-    // Filosofie section 3
-    "filosofie.open-hart.s2.col1.title": "4. The body plays a key role",
-    "filosofie.open-hart.s2.col1.text1":
-      "Conditioning is not just in thoughts, but also in:",
-    "filosofie.open-hart.s2.col1.list1": "muscle tension",
-    "filosofie.open-hart.s2.col1.list2": "breathing",
-    "filosofie.open-hart.s2.col1.list3": "reflexive reactions",
-    "filosofie.open-hart.s2.col1.text2":
-      "Practices such as breathwork, meditation, somatic exercises, or mindful movement can help soften those automatic patterns.",
-    "filosofie.open-hart.s2.col2.title":
-      "5. The strength needed is not hard but persistent",
-    "filosofie.open-hart.s2.col2.text1":
-      'Many people think that they need to become "stronger"',
-    "filosofie.open-hart.s2.col2.text2": "In reality, it is about:",
-    "filosofie.open-hart.s2.col2.list1": "gentleness",
-    "filosofie.open-hart.s2.col2.list2": "presence",
-    "filosofie.open-hart.s2.col2.list3": "willingness to feel",
-    "filosofie.open-hart.s2.col2.list4": "staying true to your deeper values",
-    "filosofie.open-hart.s2.col2.text3":
-      "That is a different kind of strength, but a very powerful one.",
-    "filosofie.open-hart.s2.col3.title": "6. Community",
-    "filosofie.open-hart.s2.col3.text1":
-      "Community often plays a much larger role in healing than people realize.",
-    "filosofie.open-hart.s2.col3.text2":
-      "Healing — whether it is emotional, psychological, spiritual, or even physical — rarely happens completely in isolation.",
-    "filosofie.open-hart.s2.col3.text3": "People heal in relation to others.",
 
     // Filosofie section 4
     "intro-pillars.text1":
@@ -707,26 +517,6 @@ export const ui = {
       "<span class='bold'>Impactful guidance</span> — Once the core is touched, every next step becomes more meaningful.",
     "filosofie.essentie.text2":
       "Mooyo is not an end point, but a starting point. A door that opens, so that the process that follows is no longer a search, but an unfolding.",
-
-    // Filosofie section 6
-    "quotes.text1":
-      'No longer choose out of fear, but out of alignment. <br>What does your fear say: "What if...?" <br>What does your heart say: "What feels right now?"',
-    "quotes.text2":
-      "Speak more honestly and gently. <br>Check your intention: Do you want to convince? Or do you stay true to what you feel?",
-    "quotes.text3":
-      "Choose truth over comfort. <br>Sometimes that is exciting, but it does bring peace.",
-    "quotes.text4":
-      "Slow down when something does not feel right. <br>Check first: What am I actually feeling? What feels right for me?",
-    "quotes.text5":
-      "Choose simpler! <br>The mind makes things complicated. <br>The heart feels: yes, no, or not yet.",
-    "quotes.text6":
-      "Be gentle with yourself. <br>The heart seeks clarity, not conflict.",
-    "quotes.text7":
-      "Choose what nourishes you, not what drains you. <br>In relationships, work, rhythm, environment.",
-    "quotes.text8":
-      "Set boundaries without becoming hard. <br>Choose connection instead of defense.",
-    "quotes.text9":
-      "Choose direction instead of control. <br>The heart points the way, <br>the head plans the steps.",
 
     // About
     "about.title": "About me",
