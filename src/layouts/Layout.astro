@@ -13,18 +13,21 @@ import Footer from "@components/Footer.astro";
 import Head from "@components/head/Head.astro";
 import ScrollToTop from "../components/ScrollToTop.astro";
 import GoogleTMBody from "@components/head/GoogleTMBody.astro";
+import { pathHasLocale } from "astro:i18n";
 
 interface Props {
   title: string;
   description?: string;
+  showLogo?: boolean
 }
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 const pathname = new URL(Astro.url).pathname;
-const { title, description = "Standaard omschrijving voor Mooyo" } =
+const { title, description = "Standaard omschrijving voor Mooyo", showLogo = true } =
   Astro.props;
+
 ---
 
 <!doctype html>
@@ -38,17 +41,23 @@ const { title, description = "Standaard omschrijving voor Mooyo" } =
       <LanguagePicker place="header" />
       <a href={translatePath("/")}>
         <div>
-          <Image
-            src={hart_rond}
-            alt="Mooyo logo"
-            height={100}
-            width={100}
-            loading="eager"
-          />
-          <p class="title">
-            <span class="big-text">Mooyo -</span>
-            {t("layout.header.subtitle")}
-          </p>
+          {showLogo && (
+            <Image
+              src={hart_rond}
+              alt="Mooyo logo"
+              height={200}
+              width={200}
+              loading="eager"
+              class="img"
+            />
+          )}
+          <div class="title">
+            <p class="big-text">Mooyo</p>
+            <p class="sub-text">
+              {t("layout.header.subtitle")}
+            </p>
+
+          </div>
         </div>
       </a>
     </header>
@@ -78,11 +87,27 @@ const { title, description = "Standaard omschrijving voor Mooyo" } =
     gap: 5rem;
   }
 
-  header .title {
-    font-size: 3rem;
+  header .img{
+    max-height: 100%;
+    width: auto;
   }
+  
+  header .title {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  
   header .big-text {
     font-size: 4rem;
+  }
+  
+  header .sub-text{ 
+    font-size: 3rem;
+  }
+  
+  header p {
+    margin: 0;
   }
 
   section {
