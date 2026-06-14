@@ -1,15 +1,9 @@
 13/06/2026
-- Header/title → Mooyo \n hardgedragen begeleidng
-- indx/s4 and filosofie/intro-pillars → font-size between p1 and p2
-- Add "welkom" to nav bar
 - Aanbod/footprints → 'pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen' in infintiy list
 - Aanbod bij home → 3 titles veranderen in een kaarten met aparte text linkt naar aanbop pagina zie www.reconstructive.be (papa moet er nog over nadenken)
-- Aanbod/reconstructive data in sublist `-`
-- Filosofie/pillars → container verander naar col2 and splitsing onder de img
+- Facebook link toevoegen aan index
 
 Voor productie
-- Sitemap toevoegen aan de google search console
-- Add social media optimazation SMO SocialSharePreview.com
 - Beschrijving per pagina toevoegen
 - Keywoords per pagina
 - Bij kleiner schermen kleiner lettertype and minder margin

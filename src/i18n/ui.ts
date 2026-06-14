@@ -16,12 +16,14 @@ export const ui = {
 
     // Nav
     "nav.filosofie": "FILOSOFIE",
+    "nav.welcome": "WELKOM",
     "nav.aanbod": "AANBOD",
     "nav.hartcirkels": "HARTCIRKELS",
     "nav.about": "OVER MIJ",
 
     // Footer
     "footer.home": "home",
+    "footer.welcome": "welkom",
     "footer.filosofie": "filosofie",
     "footer.aanbod": "aanbod",
     "footer.hartcirkels": "hartcirkels",
@@ -289,8 +291,8 @@ export const ui = {
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data":
-      "25 en 26 juli 2026 + 17 en 18 oktober 2026 (10u-17u)",
+    "Prices.reconstructive.data.li1": "25-26 juli 2026 (10u-17u)",
+    "Prices.reconstructive.data.li2": "17-18 oktober 2026 (10u-17u)",
     "Prices.reconstructive.price": "450€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
@@ -316,8 +318,15 @@ export const ui = {
     "Prices.footprints.title": "Footprints",
     "Prices.footprints.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
     "Prices.footprints.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
-    "Prices.footprints.details":
-      "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
+    "Prices.footprints.details.text1":
+      "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen:",
+    "Prices.footprints.details.li1": "pleasen",
+    "Prices.footprints.details.li2": "zorgen voor",
+    "Prices.footprints.details.li3": "constact bezig zijn",
+    "Prices.footprints.details.li4": "controleren",
+    "Prices.footprints.details.li5": "nog harder je best doen",
+    "Prices.footprints.details.text2":
+      "Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
     "Prices.seeMore": "Zie meer...",
     "Prices.collab": "In samenwerking met Elke Busschots, ",
     "Prices.info": "Voor info en aanmelden, mail",
@@ -348,12 +357,14 @@ export const ui = {
 
     // Nav
     "nav.filosofie": "PHILOSOPHY",
+    "nav.welcome": "WELCOME",
     "nav.aanbod": "OFFERINGS",
     "nav.hartcirkels": "HEART CIRCLES",
     "nav.about": "ABOUT ME",
 
     // Footer
     "footer.home": "home",
+    "footer.welcome": "welcome",
     "footer.filosofie": "philosophy",
     "footer.aanbod": "offerings",
     "footer.hartcirkels": "heart circles",
@@ -651,8 +662,15 @@ export const ui = {
     "Prices.footprints.title": "Footprints",
     "Prices.footprints.li1": "A 60-minute session costs 55 euros (incl. VAT)",
     "Prices.footprints.li2": "A 90-minute session costs 75 euros (incl. VAT)",
-    "Prices.footprints.details":
-      "The Footprints method is an individual guidance of 4 sessions that forms an essential key to a free life. If you recognize any of the following patterns in yourself, Footprints can bring change: pleasing, caring for, being constantly busy, controlling, trying even harder. Footprints is an encounter with your own inner world and opens the door to emotional maturity where your place in the system is honored, creating clarity. After the first session you already feel lighter; the following sessions deepen this feeling, making integration into daily life tangible and lasting.",
+    "Prices.footprints.details.text1":
+      "The Footprints method is an individual guidance of 4 sessions that forms an essential key to a free life. If you recognize any of the following patterns in yourself, Footprints can bring change:",
+    "Prices.footprints.details.li1": "pleasing",
+    "Prices.footprints.details.li2": "caring for",
+    "Prices.footprints.details.li3": "being constantly busy",
+    "Prices.footprints.details.li4": "controlling",
+    "Prices.footprints.details.li5": "trying even harder",
+    "Prices.footprints.details.text2":
+      "      pleasing, caring for, being constantly busy, controlling, trying even harder. Footprints is an encounter with your own inner world and opens the door to emotional maturity where your place in the system is honored, creating clarity. After the first session you already feel lighter; the following sessions deepen this feeling, making integration into daily life tangible and lasting.",
     "Prices.seeMore": "See more...",
     "Prices.collab": "In collaboration with Elke Busschots",
     "Prices.info": "For info and registration, email",

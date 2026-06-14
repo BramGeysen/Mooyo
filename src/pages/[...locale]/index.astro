@@ -3,6 +3,8 @@ import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import hart_rond from "../../assets/rondevormen/hart_rond.png";
 import profiel from "../../assets/profiel-square.png";
+import linkedin from "../../assets/linkedin.svg?raw";
+import facebook from "../../assets/facebook.svg?raw";
 import {
   getLangFromUrl,
   useTranslations,
@@ -20,7 +22,7 @@ const translatePath = useTranslatedPath(lang);
 <Layout title="Home">
   <section class="intro back-gray text-align-center text-gray center">
     <div class="container">
-      <div class="img-container">
+      <div class="center">
         <Image
           src={hart_rond}
           class="img hart"
@@ -49,9 +51,7 @@ const translatePath = useTranslatedPath(lang);
   </section>
 
   <section class="profile back-white text-black">
-    <div class="img-container">
-      <Image src={profiel} class="img" alt="Profiel foto van Bram Geysen" />
-    </div>
+    <Image src={profiel} class="img" alt="Profiel foto van Bram Geysen" />
     <div class="text">
       <h2 class="text-red">Bram Geysen</h2>
       <p>
@@ -67,13 +67,24 @@ const translatePath = useTranslatedPath(lang);
           >[bramgeysen@gmail.com]</a
         >
       </p>
+      <p class="title">Socials</p>
+      <div>
+        <div class="socials-container text-gray">
+          <button title="linkedin" class="btn-reset icon">
+            <Fragment set:html={linkedin} />
+          </button>
+          <button title="facebook" class="btn-reset icon">
+            <Fragment set:html={facebook} />
+          </button>
+        </div>
+      </div>
       <p class="about-link">
         <a href={translatePath("/about")}>Lees hier meer over mij</a>
       </p>
     </div>
   </section>
 
-  <Aanbod color="red"/>
+  <Aanbod color="red" />
   <ContactSection color="gray" />
 </Layout>
 
@@ -81,16 +92,14 @@ const translatePath = useTranslatedPath(lang);
   section {
     padding: 2rem;
   }
-  .intro .container,
-  .intro .img-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .intro .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
   }
 
-  .s4{
+  .s4 {
     font-size: 2rem;
   }
   .intro .img-container .img {
@@ -100,29 +109,15 @@ const translatePath = useTranslatedPath(lang);
     max-height: 450px;
   }
 
-  .welcome .img {
-    max-width: 500px;
-    max-height: 500px;
-    width: 100%;
-    height: auto;
-  }
   .profile {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0;
   }
-
-  .img-container {
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-  }
   .profile .img {
     position: relative;
-    top: -10rem;
-    min-width: 600px;
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     object-position: bottom;
   }
@@ -141,6 +136,12 @@ const translatePath = useTranslatedPath(lang);
     padding: 0 0 0.3rem 0;
   }
 
+  .profile .socials-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
   .about-link {
     margin-top: 3rem;
   }
