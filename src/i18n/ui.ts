@@ -441,10 +441,10 @@ export const ui = {
     "aanbod.title": "Offerings",
 
     // Aanbod section 1
-    "aanbod.forwho.title": "For whom?",
+    "aanbod.forwho.title":
+      "Guidance where you, your body, and your relationships are central.",
     "aanbod.forwho.text":
-      "I guide people who feel it is time to move again, who want to reconnect with themselves and fully embody their potential. People who want to live from their open heart and experience resilience and joy once more. At Mooyo, you find a place where you are seen and supported, whether you seek clarity, direction, growth, or healing. For those stuck in (persistent) patterns, I offer a safe space to explore what lies beneath and to return step by step to inner freedom and self-direction. As a highly conscious or gifted person, you will find recognition, depth, and guidance that aligns with your sensitivity and intensity.",
-
+      "In my guidance, I invite you not only to talk about what is going on but also to feel it in your body. Often, your body tells you something that words cannot yet grasp. By pausing together at those signals, space is created for real, lasting change. I always look at you in relation to your environment. After all, we live and develop in connection with others. That is why I involve, when helpful, the systems you are part of. Behavior and patterns rarely arise in isolation; they are usually part of a larger whole. In addition, I explore with you the internal relationships you have with yourself: the parts that protect you, the parts that make you vulnerable, and the parts that sometimes clash. By getting to know these inner voices, more understanding, gentleness, and direction emerge. Together, we build a guidance process in which body, relationships, and inner dynamics reinforce each other and help you grow in an authentic way.",
     // Aanbod section 2
     "methodieken.title":
       "My guidance is based on the following (life) philosophy and methodologies:",
@@ -703,5 +703,14 @@ export const ui = {
     "Prices.gold.footer":
       "For those who want a reset, want to let go of old layers and rediscover their blueprint",
     "Prices.moreInfo": "For more information, see,",
+
+    // Aanbod card
+    "aanbodCard.individual.text":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+    "aanbodCard.workshops.text":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+    "aanbodCard.organizations.text":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+    "aanbodCard.seeMore": "read more →",
   },
 } as const;
