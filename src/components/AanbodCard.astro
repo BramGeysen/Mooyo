@@ -20,7 +20,7 @@ interface Props {
 const { title, text, link, img } = Astro.props;
 ---
 
-<a href={translatePath("/aanbod#aanbod")}>
+<a href={translatePath(`/aanbod#${link}`)}>
   <div class="container back-white">
     <div class="img-container">
       <Image class="img" src={hart_rond} width={400} height={400} alt="Hart" />

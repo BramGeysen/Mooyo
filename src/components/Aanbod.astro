@@ -16,7 +16,11 @@ const sectionClasses: string =
 <section class=`prices ${sectionClasses} regular-font` id="aanbod">
   <h2 class="papyrus-font">{t("Prices.title")}</h2>
   <!-- Section 1: Individuele begeleidingen -->
-  <DropDownContainer title={t("Prices.title.individual")} color={color}>
+  <DropDownContainer
+    title={t("Prices.title.individual")}
+    color={color}
+    id="begeleiding"
+  >
     <div class="flex">
       <!-- Card 1: E1 -->
       <div class="card expanding">
@@ -118,7 +122,11 @@ const sectionClasses: string =
   </DropDownContainer>
 
   <!-- Section 2: Workshops -->
-  <DropDownContainer title={t("Prices.title.workshops")} color={color}>
+  <DropDownContainer
+    title={t("Prices.title.workshops")}
+    color={color}
+    id="belevingen"
+  >
     <div class="flex">
       <!-- Workshop Card 1: Voorbij je construct -->
       <div class="card expanding text-align-justify">
@@ -390,7 +398,11 @@ const sectionClasses: string =
   </DropDownContainer>
 
   <!-- Section 3: Organisaties en Teams -->
-  <DropDownContainer title={t("Prices.title.organizations")} color={color}>
+  <DropDownContainer
+    title={t("Prices.title.organizations")}
+    color={color}
+    id="teams"
+  >
     <div class="flex">
       <!-- Begeleiding -->
       <div class="card expanding">

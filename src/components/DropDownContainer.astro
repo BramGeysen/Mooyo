@@ -3,16 +3,16 @@ import arrowDown from "../assets/icons/arrow-down.svg?raw";
 
 interface Props {
   title: string;
-  // background color of the parent
   color?: string;
+  id?: string;
 }
-const { color, title } = Astro.props;
+const { color, title, id } = Astro.props;
 
 const articleClasses =
   color == "red" ? "back-white text-black" : "back-black text-white";
 ---
 
-<article class=`dropdown-container ${articleClasses}`>
+<article class=`dropdown-container ${articleClasses}` id={id}>
   <div class="header">
     <h4>{title}</h4>
     <div class=`arrow-icon ${color == "red" ? "black" : "white"}`>
@@ -34,6 +34,17 @@ const articleClasses =
       header.addEventListener("click", () => {
         dropdown.classList.toggle("is-open");
       });
+    }
+  });
+
+  window.addEventListener("DOMContentLoaded", () => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash) {
+      const dropDownWithId = document.getElementById(hash);
+
+      if (dropDownWithId) {
+        dropDownWithId.classList.add("is-open");
+      }
     }
   });
 </script>
