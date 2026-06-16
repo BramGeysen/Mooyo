@@ -44,7 +44,7 @@ const t = useTranslations(lang);
         </div>
       </div>
       <div>
-        <h4 class="text-red">{t("pillars.bewustzijn.title2")}</h4>
+        <h3 class="text-red">{t("pillars.bewustzijn.title2")}</h3>
         <ul class="text-align-justify infinity-list regular-font">
           <li>{t("pillars.bewustzijn.list1")}</li>
           <li>{t("pillars.bewustzijn.list2")}</li>
@@ -69,8 +69,8 @@ const t = useTranslations(lang);
           </div>
         </div>
       </div>
-      <div class="first-element">
-        <h4 class="text-red">{t("pillars.adem.title2")}</h4>
+      <div class="text-container">
+        <h3 class="text-red">{t("pillars.adem.title2")}</h3>
         <ul class="text-align-justify infinity-list regular-font">
           <li>{t("pillars.adem.list1")}</li>
           <li>{t("pillars.adem.list2")}</li>
@@ -96,7 +96,7 @@ const t = useTranslations(lang);
         </div>
       </div>
       <div>
-        <h4 class="text-red">{t("pillars.hart.title2")}</h4>
+        <h3 class="text-red">{t("pillars.hart.title2")}</h3>
         <ul class="text-align-justify infinity-list regular-font">
           <li>{t("pillars.hart.list1")}</li>
           <li>{t("pillars.hart.list2")}</li>
@@ -121,7 +121,7 @@ const t = useTranslations(lang);
         </div>
       </div>
       <div>
-        <h4 class="text-red">{t("pillars.e4.title2")}</h4>
+        <h3 class="text-red">{t("pillars.e4.title2")}</h3>
         <ul class="text-align-justify infinity-list regular-font">
           <li>{t("pillars.e4.list1")}</li>
           <li>{t("pillars.e4.list2")}</li>
@@ -158,23 +158,22 @@ const t = useTranslations(lang);
     .col2 {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 4rem;
+      gap: 2rem;
       width: 100%;
       max-width: 1200px;
-      align-items: center;
-    }
-
-    .col2 .first-element {
-      grid-column: 1;
-      grid-row: 1;
+      /* align-items: center; */
     }
 
     .img-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
       position: relative;
       width: 100%;
       height: auto;
 
-      max-width: 400px;
+      max-width: 300px;
       overflow: hidden;
       cursor: pointer;
       margin: auto;
@@ -183,6 +182,7 @@ const t = useTranslations(lang);
     .img-container img {
       display: block;
       width: 100%;
+      max-width: 300px;
       height: auto;
     }
 
