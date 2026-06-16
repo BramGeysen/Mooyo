@@ -1,14 +1,15 @@
 ---
-import arrowDown from "../assets/arrow-down.svg?raw";
+import arrowDown from "../assets/icons/arrow-down.svg?raw";
 
 interface Props {
-  title: string
+  title: string;
   // background color of the parent
   color?: string;
 }
 const { color, title } = Astro.props;
 
-const articleClasses = color == "red" ? "back-white text-black" : "back-black text-white"
+const articleClasses =
+  color == "red" ? "back-white text-black" : "back-black text-white";
 ---
 
 <article class=`dropdown-container ${articleClasses}`>
