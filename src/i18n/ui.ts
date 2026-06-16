@@ -635,7 +635,8 @@ export const ui = {
     "Prices.reconstructive.for": "individual",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data": "fall 2026",
+    "Prices.reconstructive.data.li1": "July 25-26, 2026 (10 am - 5 pm)",
+    "Prices.reconstructive.data.li2": "October 17-18, 2026 (10 am - 5 pm)",
     "Prices.reconstructive.price": "450€ excl. VAT",
     "Prices.reconstructive.lunch": "Coffee, tea, and lunch included",
     "Prices.reconstructive.body1":
@@ -677,12 +678,12 @@ export const ui = {
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
       "A homecoming to yourself. During this inner journey, we come layer by layer closer to your blueprint, so that who you have always been becomes visible.",
+    "Prices.gold.format": "6 days",
     "Prices.gold.for": "individual",
-    "Prices.gold.location": "Norway in a quiet, natural environment",
+    "Prices.gold.location": "South Norway in a quiet, natural environment",
     "Prices.gold.max": "Small group (max. 6)",
     "Prices.gold.data": "From September 5-12, 2026",
-    "Prices.gold.price":
-      "Including program, guidance, meals (Excluding transport)",
+    "Prices.gold.price": "1750€ excl. VAT",
     "Prices.gold.body":
       "Every day we go into nature. It mirrors you without judgment: where you still hold on, where you may soften, where you may open. Nature shows what your body already knew, but what your head perhaps did not yet dare to acknowledge. Reconstructive makes visible what you encounter along the way: old patterns, protective layers, held-back emotions. By working with it in the body, movement, clarity, and direction emerge. You feel how you get closer to your blueprint – that quiet, deep knowing of who you are in essence. The group becomes a foundation. You don't have to do it alone, but you do make your own inner journey.",
     "Prices.gold.results.title": "What does it deliver",
@@ -692,5 +693,6 @@ export const ui = {
     "Prices.gold.li4": "Strong contact with your core",
     "Prices.gold.footer":
       "For those who want a reset, want to let go of old layers and rediscover their blueprint",
+    "Prices.moreInfo": "For more information, see,",
   },
 } as const;

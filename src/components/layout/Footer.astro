@@ -1,11 +1,11 @@
 ---
-import "../styles/global.css";
+import "@src/styles/global.css";
 import {
   getLangFromUrl,
   useTranslatedPath,
   useTranslations,
-} from "../i18n/utils";
-import LanguagePicker from "../components/LanguagePicker.astro";
+} from "@src/i18n/utils";
+import LanguagePicker from "@src/components/layout/LanguagePicker.astro";
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
 const t = useTranslations(lang);
