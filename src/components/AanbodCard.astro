@@ -28,7 +28,9 @@ const { title, text, link, img } = Astro.props;
     <div class="text-container">
       <h3 class="text-red text-align-center">{title}</h3>
       <p>{text}</p>
-      <button class="bold" title="klik voor meer"> lees meer →</button>
+      <button class="bold" title="klik voor meer"
+        >{t("aanbodCard.seeMore")}</button
+      >
     </div>
   </div>
 </a>
@@ -52,6 +54,7 @@ const { title, text, link, img } = Astro.props;
   }
 
   .img {
+    display: block;
     width: 100%;
     height: auto;
   }

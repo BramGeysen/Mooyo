@@ -89,31 +89,22 @@ const translatePath = useTranslatedPath(lang);
   <section class="aanbod-link back-red">
     <div class="container">
       <AanbodCard
-        title="Individuele begeleidingen"
-        text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id.
-      Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque
-      distinctio, mollitia ex sint. Est quod molestiae non exercitationem
-      assumenda beatae."
+        title={t("Prices.title.individual")}
+        text={t("aanbodCard.individual.text")}
         img="hart"
-        link="begeleiding"
+        link="individual"
       />
       <AanbodCard
-        title="Transformatieve beleving"
-        text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id.
-      Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque
-      distinctio, mollitia ex sint. Est quod molestiae non exercitationem
-      assumenda beatae."
+        title={t("Prices.title.workshops")}
+        text={t("aanbodCard.workshops.text")}
         img="hart"
-        link="belevingen"
+        link="workshops"
       />
       <AanbodCard
-        title="Organisaties en teams"
-        text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id.
-      Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque
-      distinctio, mollitia ex sint. Est quod molestiae non exercitationem
-      assumenda beatae."
+        title={t("Prices.title.organizations")}
+        text={t("aanbodCard.organizations.text")}
         img="hart"
-        link="teams"
+        link="organizations"
       />
     </div>
   </section>
@@ -203,6 +194,11 @@ const translatePath = useTranslatedPath(lang);
     }
   }
 
+  @media (max-width: 1100px) {
+    .aanbod-link .container {
+      grid-template-columns: 1fr;
+    }
+  }
   @media (max-width: 900px) {
     .intro .container,
     .welcome .container,

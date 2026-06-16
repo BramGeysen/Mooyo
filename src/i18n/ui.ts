@@ -350,6 +350,15 @@ export const ui = {
     "Prices.gold.footer":
       "Voor wie een reset wil, oude lagen wil loslaten en zijn/haar blauwdruk wil herontdekken",
     "Prices.moreInfo": "Voor meer informatie zie,",
+
+    // Aanbod card
+    "aanbodCard.individual.text":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+    "aanbodCard.workshops.text":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+    "aanbodCard.organizations.text":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+    "aanbodCard.seeMore": "lees meer →",
   },
   en: {
     // Global
