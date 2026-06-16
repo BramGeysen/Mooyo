@@ -571,15 +571,19 @@ const sectionClasses: string =
   }
 </style>
 <script>
-  const cards = document.querySelectorAll(".expanding");
+  function initAanbodCards() {
+    const cards = document.querySelectorAll(".expanding");
 
-  cards.forEach((card) => {
-    card.addEventListener("click", () => {
-      cards.forEach((anyCard) => {
-        anyCard.classList.remove("is-active");
+    cards.forEach((card) => {
+      card.addEventListener("click", () => {
+        cards.forEach((anyCard) => {
+          anyCard.classList.remove("is-active");
+        });
+
+        card.classList.add("is-active");
       });
-
-      card.classList.add("is-active");
     });
-  });
+  }
+
+  document.addEventListener("astro:page-load", initAanbodCards);
 </script>

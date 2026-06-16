@@ -32,9 +32,7 @@ import arrowUp from "@src/assets/icons/arrowUp.svg?raw";
     }
   }
 
-  initScrollToTop();
-
-  document.addEventListener("astro:after-swap", initScrollToTop);
+  document.addEventListener("astro:page-load", initScrollToTop);
 </script>
 
 <style>
