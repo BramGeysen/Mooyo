@@ -1,0 +1,134 @@
+---
+interface Props {
+  color: "red" | "gray";
+}
+const { color } = Astro.props;
+const btnClasses = color == "red" ? "gray-btn" : "red-btn";
+---
+
+<section color-variant={color} class="regular-font">
+  <h2 class="text-align-center papyrus-font">Stuur een berict</h2>
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <div class="input-container">
+      <label for="name">Naam:</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="input-container">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+    <div class="input-container">
+      <label for="service"
+        >Waar ben je in geïnteresseerd <span title="optional" class="optional"
+          >vrijblijvend</span
+        ></label
+      >
+      <select id="service" name="service">
+        <option value="web-design">Constructive</option>
+        <option value="marketing">Workshops</option>
+        <option value="other">Something Else</option>
+      </select>
+    </div>
+    <div class="input-container">
+      <label for="phone"
+        >gsm-numer: <span title="optional" class=`optional`>vrijblijvend</span
+        ></label
+      >
+      <input type="tel" id="phone" name="phone" />
+    </div>
+    <div class="input-container textarea span-2">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="8" required></textarea>
+    </div>
+    <button type="submit" class=`span-2 ${btnClasses}`>Send Message</button>
+  </form>
+</section>
+
+<style>
+  section {
+    padding: 2rem;
+  }
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 0.5rem;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  label {
+    position: relative;
+  }
+
+  input,
+  textarea,
+  select {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 0.75rem;
+    outline: none;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .textarea {
+    margin: 0.5rem 0;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: var(--mooyo-red);
+  }
+
+  button {
+    padding: 1rem;
+  }
+
+  .optional {
+    margin-left: 2px;
+    float: right;
+  }
+
+  .span-2 {
+    grid-column: span 2;
+  }
+
+  section[color-variant="red"] {
+    background-color: var(--mooyo-red);
+  }
+  section[color-variant="gray"] {
+    background-color: var(--mooyo-gray);
+  }
+  section[color-variant="red"] input,
+  section[color-variant="red"] textarea,
+  section[color-variant="red"] select {
+    background-color: var(--mooyo-gray);
+  }
+
+  section[color-variant="red"] h2,
+  section[color-variant="red"] .optional {
+    color: var(--mooyo-white);
+  }
+
+  section[color-variant="red"] .optional {
+    color: var(--mooyo-gray);
+  }
+
+  section[color-variant="gray"] h2 {
+    color: var(--mooyo-red);
+  }
+</style>
