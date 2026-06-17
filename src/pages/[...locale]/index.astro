@@ -3,8 +3,9 @@ import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import hart_rond from "../../assets/rondevormen/hart_rond.png";
 import profiel from "../../assets/profiel-square.png";
-import individual_img from "@src/assets/aanbodCard/belevingen.png";
-import zon from "@src/assets/zon.jpg";
+import img1 from "@src/assets/aanbodCard/aanbod_1.jpg";
+import img2 from "@src/assets/aanbodCard/aanbod_2.jpg";
+import img3 from "@src/assets/aanbodCard/aanbod_3.jpg";
 
 import linkedin from "../../assets/icons/linkedin.svg?raw";
 import facebook from "../../assets/icons/facebook.svg?raw";
@@ -25,7 +26,6 @@ const translatePath = useTranslatedPath(lang);
 ---
 
 <Layout title="Home">
-  <MailForm color="red" />
   <section class="intro back-gray text-align-center text-gray center">
     <div class="container">
       <div class="center">
@@ -95,24 +95,25 @@ const translatePath = useTranslatedPath(lang);
       <AanbodCard
         title={t("Prices.title.individual")}
         text={t("aanbodCard.individual.text")}
-        img={individual_img}
+        img={img1}
         link="individual"
       />
       <AanbodCard
         title={t("Prices.title.workshops")}
         text={t("aanbodCard.workshops.text")}
-        img={zon}
+        img={img2}
         link="workshops"
       />
       <AanbodCard
         title={t("Prices.title.organizations")}
         text={t("aanbodCard.organizations.text")}
-        img={zon}
+        img={img3}
         link="organizations"
       />
     </div>
   </section>
   <ContactSection color="gray" />
+  <MailForm color="red" />
 </Layout>
 
 <style>
