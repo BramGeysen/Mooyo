@@ -9,6 +9,7 @@ import {
   useTranslations,
 } from "@src/i18n/utils";
 import ContactSection from "@components/Contact-section.astro";
+import MailForm from "@components/MailForm.astro";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 export { getStaticPaths };
@@ -66,7 +67,7 @@ export { getStaticPaths };
       </div>
     </div>
   </section>
-  <ContactSection color="gray" />
+  <MailForm color="gray" />
 </Layout>
 
 <style>

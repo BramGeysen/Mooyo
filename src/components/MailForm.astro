@@ -8,7 +8,7 @@ const btnClasses = color == "red" ? "gray-btn" : "red-btn";
 
 <section color-variant={color} class="regular-font">
   <h2 class="text-align-center papyrus-font">Stuur een berict</h2>
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <form action="https://formsubmit.co/nielgeysen@gmail.com" method="POST">
     <div class="input-container">
       <label for="name">Naam:</label>
       <input type="text" id="name" name="name" required />
@@ -39,11 +39,26 @@ const btnClasses = color == "red" ? "gray-btn" : "red-btn";
     </div>
     <div class="input-container textarea span-2">
       <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="8" required></textarea>
+      <textarea id="message" name="message" rows="8" maxlength="750" required
+      ></textarea>
+      <div class="char-counter"><span id="char-count">0</span>/750</div>
     </div>
-    <button type="submit" class=`span-2 ${btnClasses}`>Send Message</button>
+    <button id="submit-btn" type="submit" class=`span-2 ${btnClasses}`
+      >Send Message</button
+    >
   </form>
 </section>
+
+<script>
+  const textarea = document.getElementById("message") as HTMLTextAreaElement;
+  const charCount = document.getElementById("char-count");
+
+  if (textarea && charCount) {
+    textarea.addEventListener("input", () => {
+      charCount.textContent = textarea.value.length.toString();
+    });
+  }
+</script>
 
 <style>
   section {
@@ -86,6 +101,8 @@ const btnClasses = color == "red" ? "gray-btn" : "red-btn";
 
   textarea {
     resize: vertical;
+    max-height: 600px;
+    min-height: 120px;
   }
 
   input:focus,
@@ -107,6 +124,17 @@ const btnClasses = color == "red" ? "gray-btn" : "red-btn";
     grid-column: span 2;
   }
 
+  .char-counter {
+    text-align: right;
+    font-size: 0.8rem;
+    margin-top: 4px;
+    color: #6b7280;
+  }
+
+  section[color-variant="red"] .char-counter {
+    color: var(--mooyo-gray);
+  }
+
   section[color-variant="red"] {
     background-color: var(--mooyo-red);
   }
@@ -124,8 +152,8 @@ const btnClasses = color == "red" ? "gray-btn" : "red-btn";
     color: var(--mooyo-white);
   }
 
-  section[color-variant="red"] .optional {
-    color: var(--mooyo-gray);
+  section[color-variant="gray"] .optional {
+    color: var(--mooyo-text-gray);
   }
 
   section[color-variant="gray"] h2 {

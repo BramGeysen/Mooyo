@@ -116,6 +116,10 @@ h4 {
   font-weight: 700;
 }
 
+.margin-0 {
+  margin: 0;
+}
+
 .col3 {
   display: grid;
   grid-template-columns: 350px 350px 350px;
