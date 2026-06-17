@@ -5,13 +5,13 @@ import adem_rond from "../../../assets/rondevormen/adem_rond.png";
 import bewustzijn_rond from "../../../assets/rondevormen/bewustzijn_rond.png";
 import hart_rond from "../../../assets/rondevormen/hart_rond.png";
 import lichaam_rond from "../../../assets/rondevormen/lichaam_rond.png";
+import ContactSection from "../../../components/Contact-section.astro";
 
 import {
   getLangFromUrl,
   useTranslations,
   getStaticPaths,
 } from "../../../i18n/utils";
-import ContactSection from "../../../components/Contact-section.astro";
 export { getStaticPaths };
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -27,124 +27,132 @@ const t = useTranslations(lang);
     </div>
   </section>
   <section class="pillars back-gray text-align-center center text-black">
-    <h2 class="text-red">{t("pillars.bewustzijn.title")}</h2>
-    <div class="col2">
-      <div>
-        <h3 class="text-red">{t("pillars.bewustzijn.subtitle1")}</h3>
-        <div class="img-container bold">
-          <Image
-            src={bewustzijn_rond}
-            alt="Tekening van bewustzijn"
-            height={400}
-            width={400}
-            loading="eager"
-          />
-          <div class="img-text">
-            <div class="left-shape"></div>
-            <div class="right-shape"></div>
-            <div class="spacer"></div>
-            <p>{t("pillars.bewustzijn.img.text1")}</p>
-            <p>{t("pillars.bewustzijn.img.text2")}</p>
+    <div class="container">
+      <h2 class="text-red margin-0">{t("pillars.bewustzijn.title")}</h2>
+      <div class="col2">
+        <div>
+          <h3 class="text-red">{t("pillars.bewustzijn.subtitle1")}</h3>
+          <div class="img-container bold">
+            <Image
+              src={bewustzijn_rond}
+              alt="Tekening van bewustzijn"
+              height={400}
+              width={400}
+              loading="eager"
+            />
+            <div class="img-text">
+              <div class="left-shape"></div>
+              <div class="right-shape"></div>
+              <div class="spacer"></div>
+              <p>{t("pillars.bewustzijn.img.text1")}</p>
+              <p>{t("pillars.bewustzijn.img.text2")}</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <h3 class="text-red">{t("pillars.bewustzijn.subtitle2")}</h3>
-        <ul class="text-align-justify infinity-list regular-font">
-          <li>{t("pillars.bewustzijn.list1")}</li>
-          <li>{t("pillars.bewustzijn.list2")}</li>
-          <li>{t("pillars.bewustzijn.list3")}</li>
-          <li>{t("pillars.bewustzijn.list4")}</li>
-        </ul>
+        <div>
+          <h3 class="text-red">{t("pillars.bewustzijn.subtitle2")}</h3>
+          <ul class="text-align-justify infinity-list regular-font">
+            <li>{t("pillars.bewustzijn.list1")}</li>
+            <li>{t("pillars.bewustzijn.list2")}</li>
+            <li>{t("pillars.bewustzijn.list3")}</li>
+            <li>{t("pillars.bewustzijn.list4")}</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <h2 class="text-red">{t("pillars.adem.title")}</h2>
-    <div class="col2">
-      <div>
-        <h3 class="text-red">{t("pillars.adem.subtitle1")}</h3>
-        <div class="img-container bold">
-          <Image
-            src={adem_rond}
-            alt="Tekening van adem"
-            height={400}
-            width={400}
-          />
-          <div class="img-text">
-            <div class="left-shape"></div>
-            <div class="right-shape"></div>
-            <div class="spacer"></div>
-            <p>{t("pillars.adem.img.text1")}</p>
-            <p>{t("pillars.adem.img.text2")}</p>
+    <div class="container">
+      <h2 class="text-red margin-0">{t("pillars.adem.title")}</h2>
+      <div class="col2">
+        <div>
+          <h3 class="text-red">{t("pillars.adem.subtitle1")}</h3>
+          <div class="img-container bold">
+            <Image
+              src={adem_rond}
+              alt="Tekening van adem"
+              height={400}
+              width={400}
+            />
+            <div class="img-text">
+              <div class="left-shape"></div>
+              <div class="right-shape"></div>
+              <div class="spacer"></div>
+              <p>{t("pillars.adem.img.text1")}</p>
+              <p>{t("pillars.adem.img.text2")}</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="text-container">
-        <h3 class="text-red">{t("pillars.adem.subtitle2")}</h3>
-        <ul class="text-align-justify infinity-list regular-font">
-          <li>{t("pillars.adem.list1")}</li>
-          <li>{t("pillars.adem.list2")}</li>
-          <li>{t("pillars.adem.list3")}</li>
-          <li>{t("pillars.adem.list4")}</li>
-        </ul>
+        <div class="text-container">
+          <h3 class="text-red">{t("pillars.adem.subtitle2")}</h3>
+          <ul class="text-align-justify infinity-list regular-font">
+            <li>{t("pillars.adem.list1")}</li>
+            <li>{t("pillars.adem.list2")}</li>
+            <li>{t("pillars.adem.list3")}</li>
+            <li>{t("pillars.adem.list4")}</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <h2 class="text-red">{t("pillars.hart.title")}</h2>
-    <div class="col2">
-      <div>
-        <h3 class="text-red">{t("pillars.hart.subtitle1")}</h3>
-        <div class="img-container bold">
-          <Image
-            src={hart_rond}
-            alt="Tekening van hart"
-            height={400}
-            width={400}
-          />
-          <div class="img-text">
-            <div class="left-shape"></div>
-            <div class="right-shape"></div>
-            <div class="spacer"></div>
-            <p>{t("pillars.hart.img.text1")}</p>
-            <p>{t("pillars.hart.img.text2")}</p>
+    <div class="container">
+      <h2 class="text-red margin-0">{t("pillars.hart.title")}</h2>
+      <div class="col2">
+        <div>
+          <h3 class="text-red">{t("pillars.hart.subtitle1")}</h3>
+          <div class="img-container bold">
+            <Image
+              src={hart_rond}
+              alt="Tekening van hart"
+              height={400}
+              width={400}
+            />
+            <div class="img-text">
+              <div class="left-shape"></div>
+              <div class="right-shape"></div>
+              <div class="spacer"></div>
+              <p>{t("pillars.hart.img.text1")}</p>
+              <p>{t("pillars.hart.img.text2")}</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <h3 class="text-red">{t("pillars.hart.subtitle2")}</h3>
-        <ul class="text-align-justify infinity-list regular-font">
-          <li>{t("pillars.hart.list1")}</li>
-          <li>{t("pillars.hart.list2")}</li>
-          <li>{t("pillars.hart.list3")}</li>
-        </ul>
+        <div>
+          <h3 class="text-red">{t("pillars.hart.subtitle2")}</h3>
+          <ul class="text-align-justify infinity-list regular-font">
+            <li>{t("pillars.hart.list1")}</li>
+            <li>{t("pillars.hart.list2")}</li>
+            <li>{t("pillars.hart.list3")}</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <h2 class="text-red">{t("pillars.bewust.title")}</h2>
-    <div class="col2">
-      <div>
-        <h3 class="text-red">{t("pillars.bewust.subtitle1")}</h3>
-        <div class="img-container bold">
-          <Image
-            src={lichaam_rond}
-            alt="Tekening van lichaam"
-            height={400}
-            width={400}
-          />
-          <div class="img-text">
-            <div class="left-shape"></div>
-            <div class="right-shape"></div>
-            <div class="spacer"></div>
-            <p>{t("pillars.bewust.img.text1")}</p>
-            <p>{t("pillars.bewust.img.text2")}</p>
+    <div class="container">
+      <h2 class="text-red margin-0">{t("pillars.bewust.title")}</h2>
+      <div class="col2">
+        <div>
+          <h3 class="text-red">{t("pillars.bewust.subtitle1")}</h3>
+          <div class="img-container bold">
+            <Image
+              src={lichaam_rond}
+              alt="Tekening van lichaam"
+              height={400}
+              width={400}
+            />
+            <div class="img-text">
+              <div class="left-shape"></div>
+              <div class="right-shape"></div>
+              <div class="spacer"></div>
+              <p>{t("pillars.bewust.img.text1")}</p>
+              <p>{t("pillars.bewust.img.text2")}</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <h3 class="text-red">{t("pillars.bewust.subtitle2")}</h3>
-        <ul class="text-align-justify infinity-list regular-font">
-          <li>{t("pillars.bewust.list1")}</li>
-          <li>{t("pillars.bewust.list2")}</li>
-          <li>{t("pillars.bewust.list3")}</li>
-          <li>{t("pillars.bewust.list4")}</li>
-        </ul>
+        <div>
+          <h3 class="text-red">{t("pillars.bewust.subtitle2")}</h3>
+          <ul class="text-align-justify infinity-list regular-font">
+            <li>{t("pillars.bewust.list1")}</li>
+            <li>{t("pillars.bewust.list2")}</li>
+            <li>{t("pillars.bewust.list3")}</li>
+            <li>{t("pillars.bewust.list4")}</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -178,9 +186,13 @@ const t = useTranslations(lang);
       gap: 2rem;
       width: 100%;
       max-width: 1200px;
-      border-bottom: 2px solid #a5655f57;
       padding: 5rem;
       padding-top: 0;
+    }
+
+    .pillars .container {
+      border-bottom: 2px solid #a5655f57;
+      margin: 2rem 0;
     }
 
     .pillars .col2:last-of-type {
