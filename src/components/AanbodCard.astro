@@ -6,6 +6,7 @@ import {
   useTranslations,
   useTranslatedPath,
 } from "@src/i18n/utils";
+import type { ImageMetadata } from "astro";
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
 const t = useTranslations(lang);
@@ -14,7 +15,7 @@ interface Props {
   title: string;
   text: string;
   link: string;
-  img: "hart";
+  img: ImageMetadata;
 }
 
 const { title, text, link, img } = Astro.props;
@@ -23,7 +24,7 @@ const { title, text, link, img } = Astro.props;
 <a href={translatePath(`/aanbod#${link}`)}>
   <div class="container back-white">
     <div class="img-container">
-      <Image class="img" src={hart_rond} width={400} height={400} alt="Hart" />
+      <Image class="img" src={img} width={400} height={400} alt="Hart" />
     </div>
     <div class="text-container">
       <h3 class="text-red text-align-center">{title}</h3>
@@ -39,11 +40,11 @@ const { title, text, link, img } = Astro.props;
   .container {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-
+    position: relative;
     overflow: hidden;
     border-radius: 1rem;
+    height: 100%;
   }
 
   .img-container {
@@ -60,11 +61,14 @@ const { title, text, link, img } = Astro.props;
   }
 
   .text-container {
+    display: flex;
+    flex-direction: column;
     padding: 2rem;
+    flex: 1;
   }
-
   button {
-    float: right;
+    margin-top: auto;
+    align-self: flex-end;
     padding: 1rem 5rem;
   }
 </style>

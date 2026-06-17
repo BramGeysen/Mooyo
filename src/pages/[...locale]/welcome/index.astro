@@ -17,7 +17,14 @@ export { getStaticPaths };
 <Layout title="Wees welkome">
   <section class="welcome back-gray text-black center">
     <div class="container">
-      <Image src={zon} alt="tekening" class="img" width={450} height={450} />
+      <Image
+        src={zon}
+        alt="tekening"
+        class="img"
+        width={450}
+        height={450}
+        loading="eager"
+      />
       <div>
         <h2 class="text-align-center text-red">{t("index.welcome.title")}</h2>
         <p set:html={t("index.welcome.text")} />

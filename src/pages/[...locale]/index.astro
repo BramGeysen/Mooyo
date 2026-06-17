@@ -3,11 +3,13 @@ import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import hart_rond from "../../assets/rondevormen/hart_rond.png";
 import profiel from "../../assets/profiel-square.png";
+import individual_img from "@src/assets/aanbodCard/belevingen.png";
+import zon from "@src/assets/zon.jpg";
+
 import linkedin from "../../assets/icons/linkedin.svg?raw";
 import facebook from "../../assets/icons/facebook.svg?raw";
 
 import ContactSection from "@components/Contact-section.astro";
-import Aanbod from "@components/Aanbod.astro";
 import {
   getStaticPaths,
   getLangFromUrl,
@@ -15,6 +17,7 @@ import {
   useTranslatedPath,
 } from "@src/i18n/utils";
 import AanbodCard from "@components/AanbodCard.astro";
+import MailForm from "@components/MailForm.astro";
 export { getStaticPaths };
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -22,6 +25,7 @@ const translatePath = useTranslatedPath(lang);
 ---
 
 <Layout title="Home">
+  <MailForm color="red" />
   <section class="intro back-gray text-align-center text-gray center">
     <div class="container">
       <div class="center">
@@ -91,19 +95,19 @@ const translatePath = useTranslatedPath(lang);
       <AanbodCard
         title={t("Prices.title.individual")}
         text={t("aanbodCard.individual.text")}
-        img="hart"
+        img={individual_img}
         link="individual"
       />
       <AanbodCard
         title={t("Prices.title.workshops")}
         text={t("aanbodCard.workshops.text")}
-        img="hart"
+        img={zon}
         link="workshops"
       />
       <AanbodCard
         title={t("Prices.title.organizations")}
         text={t("aanbodCard.organizations.text")}
-        img="hart"
+        img={zon}
         link="organizations"
       />
     </div>
@@ -162,7 +166,7 @@ const translatePath = useTranslatedPath(lang);
   .profile .socials-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
   }
   .about-link {

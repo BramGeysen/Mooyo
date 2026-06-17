@@ -177,6 +177,7 @@ button {
   border-radius: 1rem;
   border: none;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .red-btn {
@@ -189,8 +190,8 @@ button {
   color: var(--mooyo-black);
 }
 
-.red-btn:hover,
-.white-btn:hover {
+button:hover {
+  transform: translatey(-4px);
   opacity: 0.8;
 }
 
