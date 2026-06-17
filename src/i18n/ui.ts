@@ -112,12 +112,13 @@ export const ui = {
       "Mooyo brengt mensen dichter bij hun essentie zodat ze hartgedragen keuzes in hun leven kunnen maken.",
 
     // Filosofie section 5
-    "pillars.bewustzijn.title1": "Bewustzijn - Het geheel",
+    "pillars.bewustzijn.title": "Bewustzijn",
+    "pillars.bewustzijn.subtitle1": "Het geheel",
+    "pillars.bewustzijn.subtitle2": "De kracht van je wortels",
     "pillars.bewustzijn.img.text1":
       "Een cirkel met een opening en een zwevend punt erboven stelt het bewustzijn voor.",
     "pillars.bewustzijn.img.text2":
       "Betekenis: de mentale ruimte waar waarneming, interpretatie en betekenis ontstaan.",
-    "pillars.bewustzijn.title2": "De kracht van je wortels",
     "pillars.bewustzijn.list1":
       "Truth-telling: eerlijk kijken naar je verleden, je patronen.",
     "pillars.bewustzijn.list2":
@@ -126,12 +127,13 @@ export const ui = {
       "Elke conditionering heeft zowel een energetisch aspect als een bewustzijnsdeel.",
     "pillars.bewustzijn.list4":
       "Omdat conditioneringen vaak ontstaan vóór de taalontwikkeling, zijn ze emotioneel van aard en niet via het verstand te bereiken.",
-    "pillars.adem.title1": "Adem - Het nu",
+    "pillars.adem.title": "Adem",
+    "pillars.adem.subtitle1": "Het nu",
+    "pillars.adem.subtitle2": "De kracht van het moment",
     "pillars.adem.img.text1":
       "De twee golflijnen staan voor verbinding: de in- en uitademing. De streep stelt het middenrif voor en staat voor ondersteuning",
     "pillars.adem.img.text2":
       "Betekenis: Adem als brug tussen lichaam en geest, beïnvloedt emoties, zenuwstelsels en mentale helderheid.",
-    "pillars.adem.title2": "De kracht van het moment",
     "pillars.adem.list1":
       "Het leven aanvaarden zoals het nu is, niet zoals je het zou willen dat het is.",
     "pillars.adem.list2":
@@ -140,31 +142,33 @@ export const ui = {
       " Ademhaling is de poort tussen het bewuste en onbewuste: we kunnen de ademhaling bewust sturen en tegelijk werkt de ademhaling autonoom.",
     "pillars.adem.list4":
       "Ademhaling speelt een belangrijke rol in ons dagelijks leven en kan ingezet worden als regulatie bij stress, bij ongemak.",
-    "pillars.hart.title1": "Het Hart - De Toekomst",
+    "pillars.hart.title": "Het Hart",
+    "pillars.hart.subtitle1": "De Toekomst",
+    "pillars.hart.subtitle2": "De kracht van moed",
     "pillars.hart.img.text1":
       "De spiraal continu gevoed door warmte en menselijkheid.",
     "pillars.hart.img.text2":
       "Betekenis: De kracht van oprechte (zelf)compassie en het centrum van moed om ongemak toe te laten.",
-    "pillars.hart.title2": "De kracht van moed",
     "pillars.hart.list1":
       "Hartcoherentie is een manier om aan zelfregulering te doen en een uitnodiging om veerkracht op te bouwen. Eveneens is het een toegangspoort tot ons hoger zelf. ",
     "pillars.hart.list2":
       "De moed om onze plek (terug) in te nemen met alles wat daarbij hoort.",
     "pillars.hart.list3":
       "Herkennen van gewoonten, overtuigingssystemen met compassie en de moed ontwikkelen om dit te doorbreken.",
-    "pillars.e4.title1": "Lichaam - Het Verleden",
-    "pillars.e4.img.text1":
+    "pillars.bewust.title": "Lichaam",
+    "pillars.bewust.subtitle1": "Het Verleden",
+    "pillars.bewust.subtitle2": "De kracht van opgroeien",
+    "pillars.bewust.img.text1":
       "De segmenten zijn verschillend - een verwijzing naar herinneringen, littekens, geschiedenis.",
-    "pillars.e4.img.text2":
+    "pillars.bewust.img.text2":
       "Betekenis: Het lichaam als drager van alles wat is geweest",
-    "pillars.e4.title2": "De kracht van opgroeien",
-    "pillars.e4.list1":
+    "pillars.bewust.list1":
       "De ontmoeting tussen het kinddeel en het volwassendeel.",
-    "pillars.e4.list2":
+    "pillars.bewust.list2":
       "In veel mensen raakt het kinddeel bedekt door verwachtingen, rollen, verantwoordelijkheden, trauma’s. Het kind verdwijnt niet — het wordt stil.",
-    "pillars.e4.list3":
+    "pillars.bewust.list3":
       "Zonder het kind wordt de volwassene functioneel, afgesneden. Zonder de volwassene wordt het kind onveilig, ongegrond, onbeschermd.",
-    "pillars.e4.list4":
+    "pillars.bewust.list4":
       "Wanneer het kind en de volwassene elkaar vinden, ontstaat: <br> veiligheid zonder verstarring, speelsheid zonder chaos, kracht zonder hardheid, zachtheid zonder breekbaarheid",
 
     // Filosofie essentie
@@ -353,11 +357,11 @@ export const ui = {
 
     // Aanbod card
     "aanbodCard.individual.text":
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+      "Of je nu op zoek bent naar helderheid, richting, groei of heling: bij Mooyo vind je een plek waar je gezien en gedragen wordt. Ervaar dat het leven meer te bieden heeft wanneer je vanuit je hart durft te bewegen",
     "aanbodCard.workshops.text":
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+      "Maak ervaringen mee die je bewustzijn openen en je uitnodigen om vanuit een nieuw perspectief naar jezelf, je leven en naar de wereld te kijken. Tijdens deze momenten worden frisse inzichten, andere manieren van waarnemen en vernieuwende gevoelens aangereikt.",
     "aanbodCard.organizations.text":
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+      "Organisaties die bereid zijn om het hart mee te laten spreken kunnen rekenen op begeleiding die verder gaat dan methodes en modellen. Mooyo biedt ook een teambuidingsactiviteit aan.",
     "aanbodCard.seeMore": "lees meer →",
   },
   en: {
@@ -507,19 +511,19 @@ export const ui = {
       "The courage to take (back) our place with everything that belongs to it.",
     "pillars.hart.list3":
       "Recognizing habits and belief systems with compassion and developing the courage to break through them.",
-    "pillars.e4.title1": "Body - The Past",
-    "pillars.e4.img.text1":
+    "pillars.bewust.title1": "Body - The Past",
+    "pillars.bewust.img.text1":
       "The segments are different - a reference to memories, scars, history.",
-    "pillars.e4.img.text2":
+    "pillars.bewust.img.text2":
       "Meaning: The body as the bearer of all that has been.",
-    "pillars.e4.title2": "The Power of Growing Up",
-    "pillars.e4.list1":
+    "pillars.bewust.title2": "The Power of Growing Up",
+    "pillars.bewust.list1":
       "The meeting between the child part and the adult part.",
-    "pillars.e4.list2":
+    "pillars.bewust.list2":
       "In many people, the child part becomes covered by expectations, roles, responsibilities, traumas. The child doesn't disappear — it becomes quiet.",
-    "pillars.e4.list3":
+    "pillars.bewust.list3":
       "Without the child, the adult becomes functional, cut off. Without the adult, the child becomes unsafe, ungrounded, unprotected.",
-    "pillars.e4.list4":
+    "pillars.bewust.list4":
       "When the child and the adult find each other, there arises: <br> safety without rigidity, playfulness without chaos, strength without hardness, gentleness without fragility",
 
     // Filosofie essentie
