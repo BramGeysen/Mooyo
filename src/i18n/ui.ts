@@ -363,6 +363,22 @@ export const ui = {
     "aanbodCard.organizations.text":
       "Organisaties die bereid zijn om het hart mee te laten spreken kunnen rekenen op begeleiding die verder gaat dan methodes en modellen. Mooyo biedt ook een teambuidingsactiviteit aan.",
     "aanbodCard.seeMore": "lees meer →",
+
+    // MailForm
+    "mailForm.title": "Stuur een bericht",
+    "mailForm.name": "Naam",
+    "mailForm.email": "Email",
+    "mailForm.interest": "Waar ben je in geïnteresseerd",
+    "mailForm.optional": "vrijblijvend",
+    "mailForm.service.individual": "Individuele begeleiding",
+    "mailForm.service.workshops": "Workshops / Belevingen",
+    "mailForm.service.organizations": "Organisaties en Teams",
+    "mailForm.service.other": "Iets anders",
+    "mailForm.phone": "GSM-nummer",
+    "mailForm.message": "Bericht",
+    "mailForm.send": "Verstuur bericht",
+    "mailForm.success": "Bedankt! Je bericht is verzonden.",
+    "mailForm.error": "Er is iets misgegaan. Probeer het later opnieuw.",
   },
   en: {
     // Global
@@ -716,5 +732,21 @@ export const ui = {
     "aanbodCard.organizations.text":
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
     "aanbodCard.seeMore": "read more →",
+
+    // MailForm
+    "mailForm.title": "Send a message",
+    "mailForm.name": "Name",
+    "mailForm.email": "Email",
+    "mailForm.interest": "What are you interested in",
+    "mailForm.optional": "optional",
+    "mailForm.service.individual": "Individual guidance",
+    "mailForm.service.workshops": "Workshops / Experiences",
+    "mailForm.service.organizations": "Organizations and Teams",
+    "mailForm.service.other": "Something else",
+    "mailForm.phone": "Phone number",
+    "mailForm.message": "Message",
+    "mailForm.send": "Send message",
+    "mailForm.success": "Thank you! Your message has been sent.",
+    "mailForm.error": "Something went wrong. Please try again later.",
   },
 } as const;
