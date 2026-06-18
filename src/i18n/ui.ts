@@ -337,6 +337,7 @@ export const ui = {
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
       "Ga op een diepgaande reis door natuur en lichaam, en keer terug naar de essentie van wie jij werkelijk bent.",
+    "Prices.gold.format": "6 dagen",
     "Prices.gold.for": "individu",
     "Prices.gold.location":
       "Zuid Noorwegen in een rustige, natuurlijke omgeving",
