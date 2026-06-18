@@ -425,8 +425,8 @@ Zo bouwen we samen aan een begeleidingstraject waarin lichaam, relaties en inner
     "Prices.label.data": "Data",
     "Prices.label.price": "Prijs",
     "Prices.footprints.title": "Footprints",
-    "Prices.footprints.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
-    "Prices.footprints.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
+    "Prices.footprints.li1": "Een sessie van 60 min is 70 euro (incl BTW)",
+    "Prices.footprints.li2": "Een sessie van 90 min is 90 euro (incl BTW)",
     "Prices.footprints.details":
       "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
     "Prices.seeMore": "Zie meer...",
