@@ -3,14 +3,22 @@ import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import hart_rond from "../../assets/rondevormen/hart_rond.png";
 import profiel from "../../assets/profiel-square.png";
+import img1 from "@src/assets/aanbodCard/aanbod_1.jpg";
+import img2 from "@src/assets/aanbodCard/aanbod_2.jpg";
+import img3 from "@src/assets/aanbodCard/aanbod_3.jpg";
+
+import linkedin from "../../assets/icons/linkedin.svg?raw";
+import facebook from "../../assets/icons/facebook.svg?raw";
+
+import ContactSection from "@components/Contact-section.astro";
 import {
+  getStaticPaths,
   getLangFromUrl,
   useTranslations,
-  getStaticPaths,
   useTranslatedPath,
-} from "../../i18n/utils";
-import ContactSection from "@components/Contact-section.astro";
-import Aanbod from "@components/Aanbod.astro";
+} from "@src/i18n/utils";
+import AanbodCard from "@components/AanbodCard.astro";
+import MailForm from "@components/MailForm.astro";
 export { getStaticPaths };
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -20,7 +28,7 @@ const translatePath = useTranslatedPath(lang);
 <Layout title="Home">
   <section class="intro back-gray text-align-center text-gray center">
     <div class="container">
-      <div class="img-container">
+      <div class="center">
         <Image
           src={hart_rond}
           class="img hart"
@@ -49,9 +57,7 @@ const translatePath = useTranslatedPath(lang);
   </section>
 
   <section class="profile back-white text-black">
-    <div class="img-container">
-      <Image src={profiel} class="img" alt="Profiel foto van Bram Geysen" />
-    </div>
+    <Image src={profiel} class="img" alt="Profiel foto van Bram Geysen" />
     <div class="text">
       <h2 class="text-red">Bram Geysen</h2>
       <p>
@@ -67,13 +73,45 @@ const translatePath = useTranslatedPath(lang);
           >[bramgeysen@gmail.com]</a
         >
       </p>
+      <p class="title">Socials</p>
+      <div>
+        <div class="socials-container text-gray">
+          <button title="linkedin" class="btn-reset icon">
+            <Fragment set:html={linkedin} />
+          </button>
+          <button title="facebook" class="btn-reset icon">
+            <Fragment set:html={facebook} />
+          </button>
+        </div>
+      </div>
       <p class="about-link">
         <a href={translatePath("/about")}>Lees hier meer over mij</a>
       </p>
     </div>
   </section>
 
-  <Aanbod color="red"/>
+  <section class="aanbod-link back-red">
+    <div class="container">
+      <AanbodCard
+        title={t("Prices.title.individual")}
+        text={t("aanbodCard.individual.text")}
+        img={img1}
+        link="individual"
+      />
+      <AanbodCard
+        title={t("Prices.title.workshops")}
+        text={t("aanbodCard.workshops.text")}
+        img={img2}
+        link="workshops"
+      />
+      <AanbodCard
+        title={t("Prices.title.organizations")}
+        text={t("aanbodCard.organizations.text")}
+        img={img3}
+        link="organizations"
+      />
+    </div>
+  </section>
   <ContactSection color="gray" />
 </Layout>
 
@@ -81,16 +119,18 @@ const translatePath = useTranslatedPath(lang);
   section {
     padding: 2rem;
   }
-  .intro .container,
-  .intro .img-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .intro .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
   }
 
-  .s4{
+  .s4 {
+    font-size: 2rem;
+  }
+
+  .s4 {
     font-size: 2rem;
   }
   .intro .img-container .img {
@@ -100,29 +140,15 @@ const translatePath = useTranslatedPath(lang);
     max-height: 450px;
   }
 
-  .welcome .img {
-    max-width: 500px;
-    max-height: 500px;
-    width: 100%;
-    height: auto;
-  }
   .profile {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0;
   }
-
-  .img-container {
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-  }
   .profile .img {
     position: relative;
-    top: -10rem;
-    min-width: 600px;
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     object-position: bottom;
   }
@@ -141,11 +167,25 @@ const translatePath = useTranslatedPath(lang);
     padding: 0 0 0.3rem 0;
   }
 
+  .profile .socials-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 2rem;
+  }
   .about-link {
     margin-top: 3rem;
   }
   .content-end {
     text-align: end;
+  }
+
+  .aanbod-link .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    margin: auto;
+    max-width: 1700px;
   }
 
   /* Responsive */
@@ -162,6 +202,11 @@ const translatePath = useTranslatedPath(lang);
     }
   }
 
+  @media (max-width: 1100px) {
+    .aanbod-link .container {
+      grid-template-columns: 1fr;
+    }
+  }
   @media (max-width: 900px) {
     .intro .container,
     .welcome .container,

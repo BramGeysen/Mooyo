@@ -16,12 +16,14 @@ export const ui = {
 
     // Nav
     "nav.filosofie": "FILOSOFIE",
+    "nav.welcome": "WELKOM",
     "nav.aanbod": "AANBOD",
     "nav.hartcirkels": "HARTCIRKELS",
     "nav.about": "OVER MIJ",
 
     // Footer
     "footer.home": "home",
+    "footer.welcome": "welkom",
     "footer.filosofie": "filosofie",
     "footer.aanbod": "aanbod",
     "footer.hartcirkels": "hartcirkels",
@@ -105,17 +107,18 @@ export const ui = {
 
     // Filosofie section 4
     "intro-pillars.text1":
-      "Mooyo werkt met vier basispijlers die in voortdurende dialoog zijn met elkaar. Wanneer één pijler uit evenwicht raakt, beïnvloedt dat het geheel — en precies daarom is het zo belangrijk om op alle niveaus beweging te brengen zodat ze in balans zijn.",
+      "Mooyo werkt met vier basispijlers die in voortdurende dialoog zijn met elkaar. Wanneer één pijler uit evenwicht is, beïnvloedt dat het geheel. Daarom is het belangrijk om naar alle niveaus te kijken zodat er terug balans kan ontstaan.",
     "intro-pillars.text2":
       "Mooyo brengt mensen dichter bij hun essentie zodat ze hartgedragen keuzes in hun leven kunnen maken.",
 
     // Filosofie section 5
-    "pillars.bewustzijn.title1": "Bewustzijn - Het geheel",
+    "pillars.bewustzijn.title": "Bewustzijn",
+    "pillars.bewustzijn.subtitle1": "Het geheel",
+    "pillars.bewustzijn.subtitle2": "De kracht van je wortels",
     "pillars.bewustzijn.img.text1":
       "Een cirkel met een opening en een zwevend punt erboven stelt het bewustzijn voor.",
     "pillars.bewustzijn.img.text2":
       "Betekenis: de mentale ruimte waar waarneming, interpretatie en betekenis ontstaan.",
-    "pillars.bewustzijn.title2": "De kracht van je wortels",
     "pillars.bewustzijn.list1":
       "Truth-telling: eerlijk kijken naar je verleden, je patronen.",
     "pillars.bewustzijn.list2":
@@ -124,12 +127,13 @@ export const ui = {
       "Elke conditionering heeft zowel een energetisch aspect als een bewustzijnsdeel.",
     "pillars.bewustzijn.list4":
       "Omdat conditioneringen vaak ontstaan vóór de taalontwikkeling, zijn ze emotioneel van aard en niet via het verstand te bereiken.",
-    "pillars.adem.title1": "Adem - Het nu",
+    "pillars.adem.title": "Adem",
+    "pillars.adem.subtitle1": "Het nu",
+    "pillars.adem.subtitle2": "De kracht van het moment",
     "pillars.adem.img.text1":
       "De twee golflijnen staan voor verbinding: de in- en uitademing. De streep stelt het middenrif voor en staat voor ondersteuning",
     "pillars.adem.img.text2":
       "Betekenis: Adem als brug tussen lichaam en geest, beïnvloedt emoties, zenuwstelsels en mentale helderheid.",
-    "pillars.adem.title2": "De kracht van het moment",
     "pillars.adem.list1":
       "Het leven aanvaarden zoals het nu is, niet zoals je het zou willen dat het is.",
     "pillars.adem.list2":
@@ -138,31 +142,33 @@ export const ui = {
       " Ademhaling is de poort tussen het bewuste en onbewuste: we kunnen de ademhaling bewust sturen en tegelijk werkt de ademhaling autonoom.",
     "pillars.adem.list4":
       "Ademhaling speelt een belangrijke rol in ons dagelijks leven en kan ingezet worden als regulatie bij stress, bij ongemak.",
-    "pillars.hart.title1": "Het Hart - De Toekomst",
+    "pillars.hart.title": "Het Hart",
+    "pillars.hart.subtitle1": "De Toekomst",
+    "pillars.hart.subtitle2": "De kracht van moed",
     "pillars.hart.img.text1":
       "De spiraal continu gevoed door warmte en menselijkheid.",
     "pillars.hart.img.text2":
       "Betekenis: De kracht van oprechte (zelf)compassie en het centrum van moed om ongemak toe te laten.",
-    "pillars.hart.title2": "De kracht van moed",
     "pillars.hart.list1":
       "Hartcoherentie is een manier om aan zelfregulering te doen en een uitnodiging om veerkracht op te bouwen. Eveneens is het een toegangspoort tot ons hoger zelf. ",
     "pillars.hart.list2":
       "De moed om onze plek (terug) in te nemen met alles wat daarbij hoort.",
     "pillars.hart.list3":
       "Herkennen van gewoonten, overtuigingssystemen met compassie en de moed ontwikkelen om dit te doorbreken.",
-    "pillars.e4.title1": "Lichaam - Het Verleden",
-    "pillars.e4.img.text1":
+    "pillars.bewust.title": "Lichaam",
+    "pillars.bewust.subtitle1": "Het Verleden",
+    "pillars.bewust.subtitle2": "De kracht van opgroeien",
+    "pillars.bewust.img.text1":
       "De segmenten zijn verschillend - een verwijzing naar herinneringen, littekens, geschiedenis.",
-    "pillars.e4.img.text2":
+    "pillars.bewust.img.text2":
       "Betekenis: Het lichaam als drager van alles wat is geweest",
-    "pillars.e4.title2": "De kracht van opgroeien",
-    "pillars.e4.list1":
+    "pillars.bewust.list1":
       "De ontmoeting tussen het kinddeel en het volwassendeel.",
-    "pillars.e4.list2":
+    "pillars.bewust.list2":
       "In veel mensen raakt het kinddeel bedekt door verwachtingen, rollen, verantwoordelijkheden, trauma’s. Het kind verdwijnt niet — het wordt stil.",
-    "pillars.e4.list3":
+    "pillars.bewust.list3":
       "Zonder het kind wordt de volwassene functioneel, afgesneden. Zonder de volwassene wordt het kind onveilig, ongegrond, onbeschermd.",
-    "pillars.e4.list4":
+    "pillars.bewust.list4":
       "Wanneer het kind en de volwassene elkaar vinden, ontstaat: <br> veiligheid zonder verstarring, speelsheid zonder chaos, kracht zonder hardheid, zachtheid zonder breekbaarheid",
 
     // Filosofie essentie
@@ -232,7 +238,7 @@ export const ui = {
       "is het hoogste niveau: vanuit rust en emotionele helderheid kun je authentiek contact maken — met jezelf én met anderen. Dit is waar hartcoherentie uitmondt in echte aanwezigheid, empathie en samenwerking.",
     "Prices.deeptimewalk.title": "Deep Time Walk",
     "Prices.deeptimewalk.description":
-      "Een DeepTimeWalk is een transformatieve, begeleide wandeling door 4,6 miljard jaar geschiedenis van de Aarde. Het is een uitnodiging om onze relatie met Planeet Aarde te bevragen, onze plek binnen haar ecosystemen te verkennen, en onze kijk op de wereld te veranderen.",
+      "Een DeepTimeWalk is een transformatieve, begeleide wandeling door 4,6 miljard jaar geschiedenis van de Aarde. Het is een uitnodiging om onze relatie met Planeet Aarde te bevragen, onze plek binnen haar ecosystemen te verkennen, en onze kijk op de wereld en onszelf te veranderen.",
     "Prices.deeptimewalk.price.label": "Prijs",
     "Prices.deeptimewalk.price.text": "Een halve dag voor 500 euro (excl BTW).",
     "Prices.deeptimewalk.experience.title": "Unieke beleving",
@@ -240,7 +246,7 @@ export const ui = {
       "Een ervaring van de enorme uitgestrektheid van 4,6 miljard jaar op menselijke schaal, waarbij elke meter staat voor 1 miljoen jaar. We staan stil bij de grote aardse revoluties: van het ontstaan van onze maan tot de opkomst van foto-synthese, hoe complex leven zich vormde en tenslotte tot de recente verschijning van de moderne mens (in slechts de laatste 30 cm van de wandeling!).",
     "Prices.deeptimewalk.perspective.title": "Perspectief verschuiving",
     "Prices.deeptimewalk.perspective.text":
-      "Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet zien. Welke verandering merk jij?",
+      "Veel deelnemers beschrijven een verandering in hoe zij hun relatie met onze planeet ervaren. Welke verandering merk jij?",
     "Prices.deeptimewalk.reflection.title": "Persoonlijke reflectie",
     "Prices.deeptimewalk.body.title": "Lichaam",
     "Prices.deeptimewalk.body.text":
@@ -284,13 +290,13 @@ export const ui = {
     "Prices.construct.li4": "Nieuwsgierigheid als startpunt voor groei",
     "Prices.reconstructive.title": "Reconstructive",
     "Prices.reconstructive.text":
-      "Voor wie al wat innerlijk werk gedaan heeft en voelt dat er via het lichaam iets verder mag bewegen.",
+      "Ervaar de transformerende kracht van Reconstructive en kom dichter bij je intuïtie, je vrijheid en je kern.",
     "Prices.reconstructive.format": "2 dagen",
     "Prices.reconstructive.for": "individu",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data":
-      "25 en 26 juli 2026 + 17 en 18 oktober 2026 (10u-17u)",
+    "Prices.reconstructive.data.li1": "25-26 juli 2026 (10u-17u)",
+    "Prices.reconstructive.data.li2": "17-18 oktober 2026 (10u-17u)",
     "Prices.reconstructive.price": "450€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
@@ -316,14 +322,21 @@ export const ui = {
     "Prices.footprints.title": "Footprints",
     "Prices.footprints.li1": "Een sessie van 60 min is 55 euro (incl BTW)",
     "Prices.footprints.li2": "Een sessie van 90 min is 75 euro (incl BTW)",
-    "Prices.footprints.details":
-      "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen: pleasen, zorgen voor, constact bezig zijn, controleren, nog harder je best doen. Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
+    "Prices.footprints.details.text1":
+      "Footprints-methode is een individuele begeleiding van 4 sessies die een essentiële sleutel vormt naar een vrije leven. Wanneer je één van volgende patronen bij jezelf herkent kan Footprints hierop verandering brengen:",
+    "Prices.footprints.details.li1": "pleasen",
+    "Prices.footprints.details.li2": "zorgen voor",
+    "Prices.footprints.details.li3": "constact bezig zijn",
+    "Prices.footprints.details.li4": "controleren",
+    "Prices.footprints.details.li5": "nog harder je best doen",
+    "Prices.footprints.details.text2":
+      "Footprints is een ontmoeting met je eigen innerlijke wereld en opent de deur naar emotionele volwassenhied waarbij jouw plek in het systeem geëerd worden waardoor er helderheid ontstaat. Na de eertse sessie voel je je al lichter, de volgende sessies verdiepen dit gevoel waardoor integratie in het dagelijks leven voelbaar en blijvend wordt.",
     "Prices.seeMore": "Zie meer...",
     "Prices.collab": "In samenwerking met Elke Busschots, ",
     "Prices.info": "Voor info en aanmelden, mail",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
-      "Een thuiskomen bij jezelf. Tijdens deze innerlijke tocht komen we laag na laag dichterbij jouw blauwdruk, zodat zichtbaar wordt wie je altijd al was.",
+      "Ga op een diepgaande reis door natuur en lichaam, en keer terug naar de essentie van wie jij werkelijk bent.",
     "Prices.gold.format": "6 dagen",
     "Prices.gold.for": "individu",
     "Prices.gold.location":
@@ -341,6 +354,31 @@ export const ui = {
     "Prices.gold.footer":
       "Voor wie een reset wil, oude lagen wil loslaten en zijn/haar blauwdruk wil herontdekken",
     "Prices.moreInfo": "Voor meer informatie zie,",
+
+    // Aanbod card
+    "aanbodCard.individual.text":
+      "Of je nu op zoek bent naar helderheid, richting, groei of heling: bij Mooyo vind je een plek waar je gezien en gedragen wordt. Ervaar dat het leven meer te bieden heeft wanneer je vanuit je hart durft te bewegen",
+    "aanbodCard.workshops.text":
+      "Maak ervaringen mee die je bewustzijn openen en je uitnodigen om vanuit een nieuw perspectief naar jezelf, je leven en naar de wereld te kijken. Tijdens deze momenten worden frisse inzichten, andere manieren van waarnemen en vernieuwende gevoelens aangereikt.",
+    "aanbodCard.organizations.text":
+      "Organisaties die bereid zijn om het hart mee te laten spreken kunnen rekenen op begeleiding die verder gaat dan methodes en modellen. Mooyo biedt ook een teambuidingsactiviteit aan.",
+    "aanbodCard.seeMore": "lees meer →",
+
+    // MailForm
+    "mailForm.title": "Stuur een bericht",
+    "mailForm.name": "Naam",
+    "mailForm.email": "Email",
+    "mailForm.interest": "Waar ben je in geïnteresseerd",
+    "mailForm.optional": "vrijblijvend",
+    "mailForm.service.individual": "Individuele begeleiding",
+    "mailForm.service.workshops": "Workshops / Belevingen",
+    "mailForm.service.organizations": "Organisaties en Teams",
+    "mailForm.service.other": "Iets anders",
+    "mailForm.phone": "GSM-nummer",
+    "mailForm.message": "Bericht",
+    "mailForm.send": "Verstuur bericht",
+    "mailForm.success": "Bedankt! Je bericht is verzonden.",
+    "mailForm.error": "Er is iets misgegaan. Probeer het later opnieuw.",
   },
   en: {
     // Global
@@ -348,12 +386,14 @@ export const ui = {
 
     // Nav
     "nav.filosofie": "PHILOSOPHY",
+    "nav.welcome": "WELCOME",
     "nav.aanbod": "OFFERINGS",
     "nav.hartcirkels": "HEART CIRCLES",
     "nav.about": "ABOUT ME",
 
     // Footer
     "footer.home": "home",
+    "footer.welcome": "welcome",
     "footer.filosofie": "philosophy",
     "footer.aanbod": "offerings",
     "footer.hartcirkels": "heart circles",
@@ -421,10 +461,10 @@ export const ui = {
     "aanbod.title": "Offerings",
 
     // Aanbod section 1
-    "aanbod.forwho.title": "For whom?",
+    "aanbod.forwho.title":
+      "Guidance where you, your body, and your relationships are central.",
     "aanbod.forwho.text":
-      "I guide people who feel it is time to move again, who want to reconnect with themselves and fully embody their potential. People who want to live from their open heart and experience resilience and joy once more. At Mooyo, you find a place where you are seen and supported, whether you seek clarity, direction, growth, or healing. For those stuck in (persistent) patterns, I offer a safe space to explore what lies beneath and to return step by step to inner freedom and self-direction. As a highly conscious or gifted person, you will find recognition, depth, and guidance that aligns with your sensitivity and intensity.",
-
+      "In my guidance, I invite you not only to talk about what is going on but also to feel it in your body. Often, your body tells you something that words cannot yet grasp. By pausing together at those signals, space is created for real, lasting change. I always look at you in relation to your environment. After all, we live and develop in connection with others. That is why I involve, when helpful, the systems you are part of. Behavior and patterns rarely arise in isolation; they are usually part of a larger whole. In addition, I explore with you the internal relationships you have with yourself: the parts that protect you, the parts that make you vulnerable, and the parts that sometimes clash. By getting to know these inner voices, more understanding, gentleness, and direction emerge. Together, we build a guidance process in which body, relationships, and inner dynamics reinforce each other and help you grow in an authentic way.",
     // Aanbod section 2
     "methodieken.title":
       "My guidance is based on the following (life) philosophy and methodologies:",
@@ -487,19 +527,19 @@ export const ui = {
       "The courage to take (back) our place with everything that belongs to it.",
     "pillars.hart.list3":
       "Recognizing habits and belief systems with compassion and developing the courage to break through them.",
-    "pillars.e4.title1": "Body - The Past",
-    "pillars.e4.img.text1":
+    "pillars.bewust.title1": "Body - The Past",
+    "pillars.bewust.img.text1":
       "The segments are different - a reference to memories, scars, history.",
-    "pillars.e4.img.text2":
+    "pillars.bewust.img.text2":
       "Meaning: The body as the bearer of all that has been.",
-    "pillars.e4.title2": "The Power of Growing Up",
-    "pillars.e4.list1":
+    "pillars.bewust.title2": "The Power of Growing Up",
+    "pillars.bewust.list1":
       "The meeting between the child part and the adult part.",
-    "pillars.e4.list2":
+    "pillars.bewust.list2":
       "In many people, the child part becomes covered by expectations, roles, responsibilities, traumas. The child doesn't disappear — it becomes quiet.",
-    "pillars.e4.list3":
+    "pillars.bewust.list3":
       "Without the child, the adult becomes functional, cut off. Without the adult, the child becomes unsafe, ungrounded, unprotected.",
-    "pillars.e4.list4":
+    "pillars.bewust.list4":
       "When the child and the adult find each other, there arises: <br> safety without rigidity, playfulness without chaos, strength without hardness, gentleness without fragility",
 
     // Filosofie essentie
@@ -624,7 +664,8 @@ export const ui = {
     "Prices.reconstructive.for": "individual",
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
-    "Prices.reconstructive.data": "fall 2026",
+    "Prices.reconstructive.data.li1": "July 25-26, 2026 (10 am - 5 pm)",
+    "Prices.reconstructive.data.li2": "October 17-18, 2026 (10 am - 5 pm)",
     "Prices.reconstructive.price": "450€ excl. VAT",
     "Prices.reconstructive.lunch": "Coffee, tea, and lunch included",
     "Prices.reconstructive.body1":
@@ -651,20 +692,27 @@ export const ui = {
     "Prices.footprints.title": "Footprints",
     "Prices.footprints.li1": "A 60-minute session costs 55 euros (incl. VAT)",
     "Prices.footprints.li2": "A 90-minute session costs 75 euros (incl. VAT)",
-    "Prices.footprints.details":
-      "The Footprints method is an individual guidance of 4 sessions that forms an essential key to a free life. If you recognize any of the following patterns in yourself, Footprints can bring change: pleasing, caring for, being constantly busy, controlling, trying even harder. Footprints is an encounter with your own inner world and opens the door to emotional maturity where your place in the system is honored, creating clarity. After the first session you already feel lighter; the following sessions deepen this feeling, making integration into daily life tangible and lasting.",
+    "Prices.footprints.details.text1":
+      "The Footprints method is an individual guidance of 4 sessions that forms an essential key to a free life. If you recognize any of the following patterns in yourself, Footprints can bring change:",
+    "Prices.footprints.details.li1": "pleasing",
+    "Prices.footprints.details.li2": "caring for",
+    "Prices.footprints.details.li3": "being constantly busy",
+    "Prices.footprints.details.li4": "controlling",
+    "Prices.footprints.details.li5": "trying even harder",
+    "Prices.footprints.details.text2":
+      "      pleasing, caring for, being constantly busy, controlling, trying even harder. Footprints is an encounter with your own inner world and opens the door to emotional maturity where your place in the system is honored, creating clarity. After the first session you already feel lighter; the following sessions deepen this feeling, making integration into daily life tangible and lasting.",
     "Prices.seeMore": "See more...",
     "Prices.collab": "In collaboration with Elke Busschots",
     "Prices.info": "For info and registration, email",
     "Prices.gold.title": "Find your gold",
     "Prices.gold.text":
       "A homecoming to yourself. During this inner journey, we come layer by layer closer to your blueprint, so that who you have always been becomes visible.",
+    "Prices.gold.format": "6 days",
     "Prices.gold.for": "individual",
-    "Prices.gold.location": "Norway in a quiet, natural environment",
+    "Prices.gold.location": "South Norway in a quiet, natural environment",
     "Prices.gold.max": "Small group (max. 6)",
     "Prices.gold.data": "From September 5-12, 2026",
-    "Prices.gold.price":
-      "Including program, guidance, meals (Excluding transport)",
+    "Prices.gold.price": "1750€ excl. VAT",
     "Prices.gold.body":
       "Every day we go into nature. It mirrors you without judgment: where you still hold on, where you may soften, where you may open. Nature shows what your body already knew, but what your head perhaps did not yet dare to acknowledge. Reconstructive makes visible what you encounter along the way: old patterns, protective layers, held-back emotions. By working with it in the body, movement, clarity, and direction emerge. You feel how you get closer to your blueprint – that quiet, deep knowing of who you are in essence. The group becomes a foundation. You don't have to do it alone, but you do make your own inner journey.",
     "Prices.gold.results.title": "What does it deliver",
@@ -674,5 +722,31 @@ export const ui = {
     "Prices.gold.li4": "Strong contact with your core",
     "Prices.gold.footer":
       "For those who want a reset, want to let go of old layers and rediscover their blueprint",
+    "Prices.moreInfo": "For more information, see,",
+
+    // Aanbod card
+    "aanbodCard.individual.text":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+    "aanbodCard.workshops.text":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+    "aanbodCard.organizations.text":
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, id. Nobis facilis excepturi dolor repudiandae dolores aperiam ab, doloremque distinctio, mollitia ex sint. Est quod molestiae non exercitationem assumenda beatae.",
+    "aanbodCard.seeMore": "read more →",
+
+    // MailForm
+    "mailForm.title": "Send a message",
+    "mailForm.name": "Name",
+    "mailForm.email": "Email",
+    "mailForm.interest": "What are you interested in",
+    "mailForm.optional": "optional",
+    "mailForm.service.individual": "Individual guidance",
+    "mailForm.service.workshops": "Workshops / Experiences",
+    "mailForm.service.organizations": "Organizations and Teams",
+    "mailForm.service.other": "Something else",
+    "mailForm.phone": "Phone number",
+    "mailForm.message": "Message",
+    "mailForm.send": "Send message",
+    "mailForm.success": "Thank you! Your message has been sent.",
+    "mailForm.error": "Something went wrong. Please try again later.",
   },
 } as const;
