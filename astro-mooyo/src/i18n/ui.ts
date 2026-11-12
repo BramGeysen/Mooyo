@@ -47,9 +47,9 @@ export const ui = {
 
     "index.title": "Home",
     "index.distance.station":
-      "(op 3min wandelafstand van het treinstation van Leuven).",
+      "(op 5min wandelafstand van het treinstation van Leuven).",
     // Index section 1
-    "index.intro.text1": " Hart, Leven, Ziel, Geest",
+    "index.intro.text1": " Hart, Leven, Ziel ",
     "index.intro.text2":
       "In verschillende Afrikaanse talen verwijst Mooyo zowel naar het fysieke hart als naar de innerlijke essentie of levensenergie.",
     "index.intro.text3":
@@ -215,12 +215,12 @@ export const ui = {
     "about.s2.e1.text6":
       "Ik ben dankbaar voor alles wat geweest is; het heeft me gevormd en veel goeds gebracht. Ik kijk hoopvol uit naar de toekomst. Vanuit die dankbaarheid is Mooyo ontstaan — mijn inspiratie én mijn toewijding om anderen te begeleiden op hun eigen unieke reis.",
     "about.s2.e1.text7":
-      " Momenteel werk ik deeltijds bij Adem vzw als Teamcoach en halftijds als zelfstandige.",
+      " Momenteel werk ik deeltijds bij Adem vzw als Teamcoach en deeltijds als zelfstandige.",
     "about.s2.e2.title": "Waarom kiezen voor Mooyo?",
     "about.s2.e2.text1":
       "Mijn begeleidingsstijl wordt gekenmerkt door een diepe kwaliteit van aanwezigheid en een kalme rust. Dit stelt mij in staat om een veilige en ondersteunende omgeving te creëren waarin jij je volledig kunt openstellen en groeien.",
     "about.s2.e2.text2":
-      "Drie jaar geleden kwam ik in aanraking met het boeddhisme en meditatie. Sindsdien is het boeddhistisch gedachten goed en dagelijkse meditatie een vast onderdeel van mijn leven geworden. Het helpt me om met meer helderheid, rust en aanwezigheid in het leven te staan — kwaliteiten die ik ook meeneem in mijn werk met anderen.",
+      "In 2023 kwam ik in aanraking met het boeddhisme en meditatie. Sindsdien is het boeddhistisch gedachten goed en dagelijkse meditatie een vast onderdeel van mijn leven geworden. Het helpt me om met meer helderheid, rust en aanwezigheid in het leven te staan — kwaliteiten die ik ook meeneem in mijn werk met anderen.",
 
     // Posts
 
@@ -314,8 +314,8 @@ export const ui = {
     "Prices.reconstructive.location": "Leuven",
     "Prices.reconstructive.max": "8",
     "Prices.reconstructive.data.li1": "25-26 juli 2026 (10u-17u)",
-    "Prices.reconstructive.data.li2": "17-18 oktober 2026 (10u-17u)",
-    "Prices.reconstructive.price": "450€ excl btw",
+    "Prices.reconstructive.data.li2": "28-29 november 2026 (10u-17u)",
+    "Prices.reconstructive.price": "375€ excl btw",
     "Prices.reconstructive.lunch": "Koffie, thee en lunch inbegrepen",
     "Prices.reconstructive.body1":
       "Soms voel je dat er nog iets in de weg zit. Iets wat niet via het hoofd loskomt, maar via het lichaam wil gezien worden.",
@@ -360,7 +360,7 @@ export const ui = {
     "Prices.gold.location":
       "Zuid Noorwegen in een rustige, natuurlijke omgeving",
     "Prices.gold.max": "Kleine groep (max. 6)",
-    "Prices.gold.data": "Van 5-12 september 2026",
+    "Prices.gold.data": " mei en augustus 2027",
     "Prices.gold.price": "1750€ excl btw",
     "Prices.gold.body":
       "Elke dag trekken we de natuur in. Ze spiegelt je zonder oordeel: waar je nog vasthoudt, waar je mag verzachten, waar je mag openen. De natuur laat zien wat je lichaam al wist, maar wat je hoofd misschien nog niet durfde te erkennen. Reconstructive maakt zichtbaar wat je onderweg tegenkomt: oude patronen, beschermingslagen, ingehouden emoties. Door ermee te werken in het lichaam komt er beweging, helderheid en richting. Je voelt hoe je dichter bij je blauwdruk komt dat stille, diepe weten van wie jij in essentie bent. De groep wordt een bedding. Je hoeft het niet alleen te doen, maar je maakt wel je eigen innerlijke reis.",
@@ -375,9 +375,9 @@ export const ui = {
 
     // Aanbod card
     "aanbodCard.individual.text":
-      "Of je nu op zoek bent naar helderheid, richting, groei of heling: bij Mooyo vind je een plek waar je gezien en gedragen wordt. Ervaar dat het leven meer te bieden heeft wanneer je vanuit je hart durft te bewegen.",
+      "Of je nu op zoek bent naar helderheid, richting, groei of verandering: bij Mooyo vind je een veilige plek waar je gezien en gesteund wordt. Ervaar hoeveel rijker het leven wordt wanneer je keuzes maakt vanuit je hart.",
     "aanbodCard.workshops.text":
-      "Maak ervaringen mee die je bewustzijn openen en je uitnodigen om vanuit een nieuw perspectief naar jezelf, je leven en naar de wereld te kijken. Deze ervaringen brengen je frisse inzichten, boren nieuwe gevoelens aan en openen manieren van waarnemen die je perspectief vernieuwen.",
+      "Het gaat om ervaringen die je wakker schudden en je uitnodigen om anders naar jezelf, je leven en de wereld te kijken. Ze openen je ogen, raken aan diepe gevoelens en geven je een compleet nieuw perspectief.",
     "aanbodCard.organizations.text":
       "Organisaties die bereid zijn om het hart mee te laten spreken kunnen rekenen op begeleiding die verder gaat dan methodes en modellen. Mooyo biedt ook een teambuidingsactiviteit aan.",
     "aanbodCard.seeMore": "lees meer →",
